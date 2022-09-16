@@ -1,2 +1,6 @@
+body {
+  box-sizing: border-box;
+}
+
 @use "partials/header";
 @use "partials/footer";
