@@ -1,0 +1,76 @@
+$bluetea: 'Bluetea', sans-serif;
+
+body {
+    background-color: #ff80aa;
+    font-size: 15px;
+    font-family: $bluetea;
+   
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logo {
+    background: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 245px;
+    height: 245px;
+    margin: 10px;
+    
+    
+}
+
+p {
+    font-weight: bold;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloc2 {
+    background-color: #99ccff;
+    width: 245px;
+    height: 245px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.bloc3 {
+    background: url(img/bakcground_colors.jpg);
+    width: 245px;
+    height: 490px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.colonne1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+        
+   
+
