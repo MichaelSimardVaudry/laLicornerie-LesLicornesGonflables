@@ -2,6 +2,8 @@ body {
   background-color: #ff80aa;
   font-size: 15px;
   font-family: "Bluetea", sans-serif;
+  box-sizing: border-box;
+  border-collapse: collapse;
 }
 
 h1 {
@@ -20,10 +22,11 @@ h2 {
 
 .logo {
   background: url(img/logo.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  width: 245px;
-  height: 245px;
+  width: 300px;
+  height: 300px;
   margin: 10px;
 }
 
@@ -32,9 +35,6 @@ h2 {
   padding: 15px;
   position: relative;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 span {
@@ -43,20 +43,28 @@ span {
 
 .bloc2 {
   background-color: #99ccff;
-  width: 245px;
-  height: 245px;
+  width: 270px;
+  height: 270px;
   padding: 15px;
   font-size: 30px;
   text-transform: uppercase;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bloc3 {
   background: url(img/bakcground_colors.jpg);
-  width: 245px;
-  height: 490px;
+  background-size: cover;
+  width: 270px;
+  height: 600px;
   margin: 10px;
   text-align: center;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .colonne1 {
@@ -70,7 +78,7 @@ span {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (min-witdh: 650px) {
+@media screen and (min-width: 650px) {
   .colonne1 {
     flex-direction: row;
   }
