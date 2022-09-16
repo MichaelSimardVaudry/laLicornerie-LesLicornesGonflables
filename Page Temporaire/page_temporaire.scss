@@ -1,76 +1,76 @@
-$bluetea: 'Bluetea', sans-serif;
+$bluetea: "Bluetea", sans-serif;
 
 body {
-    background-color: #ff80aa;
-    font-size: 15px;
-    font-family: $bluetea;
-   
+  background-color: #ff80aa;
+  font-size: 15px;
+  font-family: $bluetea;
 }
 
 h1 {
-    position: relative;
-    text-align: center;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .logo {
-    background: url(img/logo.png);
-    background-repeat: no-repeat;
-    background-color: white;
-    width: 245px;
-    height: 245px;
-    margin: 10px;
-    
-    
+  background: url(img/logo.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 245px;
+  height: 245px;
+  margin: 10px;
 }
 
-p {
-    font-weight: bold;
-    padding: 15px;
-    position: relative;
-    text-align: center;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+.text {
+  font-weight: bold;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span {
+  font-weight: bolder;
 }
 
 .bloc2 {
-    background-color: #99ccff;
-    width: 245px;
-    height: 245px;
-    margin: 10px;
-    font-size: 30px;
+  background-color: #99ccff;
+  width: 245px;
+  height: 245px;
+  padding: 15px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 .bloc3 {
-    background: url(img/bakcground_colors.jpg);
-    width: 245px;
-    height: 490px;
-    margin: 10px;
-    text-align: center;
-    padding: 15px;
+  background: url(img/bakcground_colors.jpg);
+  width: 245px;
+  height: 490px;
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
 }
 .colonne1 {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-
-
-        
-   
-
+@media screen and (min-witdh: 650px) {
+  .colonne1 {
+    flex-direction: row;
+  }
+}
