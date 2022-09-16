@@ -1,5 +1,8 @@
-.header img {
-  scale: 20px;
+.navbar {
+  background-color: #fd95e3;
+}
+.navbar img {
+  width: 10vw;
 }
 
 body {

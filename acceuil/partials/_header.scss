@@ -1,5 +1,8 @@
-.header {
+@import "variable";
+
+.navbar {
   img {
-    scale: 20px;
+    width: 10vw;
   }
+  background-color: $coloHeader;
 }

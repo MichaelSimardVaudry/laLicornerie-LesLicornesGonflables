@@ -1,6 +1,6 @@
 @use "partials/header";
 @use "partials/footer";
-
+@import "partials/variable";
 body {
   box-sizing: border-box;
 }
