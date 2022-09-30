@@ -2,7 +2,22 @@
 
 .navbar {
   img {
-    width: 10vw;
+    width: 100px;
   }
   background-color: $coloHeader;
+  padding-left: 10%;
+  padding-right: 10%;
+  .navbar__recherche {
+    border-radius: 15px;
+    border-style: none;
+    text-align: center;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 1000px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
 }

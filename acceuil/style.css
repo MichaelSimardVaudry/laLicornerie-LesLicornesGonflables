@@ -1,10 +1,25 @@
 .navbar {
   background-color: #fd95e3;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .navbar img {
-  width: 10vw;
+  width: 100px;
+}
+.navbar .navbar__recherche {
+  border-radius: 15px;
+  border-style: none;
+  text-align: center;
+}
+.navbar .navbar-collapse {
+  justify-content: flex-end;
 }
 
+@media (max-width: 1000px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+}
 body {
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
