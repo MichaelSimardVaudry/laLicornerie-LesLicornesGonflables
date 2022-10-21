@@ -35,15 +35,15 @@
   }
 }
 .swiper {
-  width: 600px;
+  width: 400px;
   height: 300px;
 }
-.swiper img {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+
+main .main-hero {
+  text-align: center;
 }
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */
