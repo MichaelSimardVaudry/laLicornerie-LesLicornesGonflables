@@ -1,5 +1,6 @@
 const swiper = new Swiper(".hero-swiper", {
   centeredSlides: true,
+  spaceBetween: 30,
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
@@ -14,6 +15,7 @@ const swiper = new Swiper(".hero-swiper", {
 });
 const swiper2 = new Swiper(".categorie-swiper", {
   centeredSlides: true,
+  spaceBetween: 30,
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
@@ -21,5 +23,9 @@ const swiper2 = new Swiper(".categorie-swiper", {
   loop: true,
   pagination: {
     el: ".categorie-swiper-pagination",
+  },
+  navigation: {
+    nextEl: '.categorie-swiper-button-next',
+    prevEl: '.categorie-swiper-button-prev',
   },
 });
