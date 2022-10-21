@@ -62,6 +62,17 @@ main .main-vedette .card .card-img-top {
   padding: 10px;
   border-radius: 20px;
 }
+main .main-temoignage .card {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 20px;
+}
+main .main-temoignage .card .img-fluid {
+  border-radius: 20px;
+  height: 100%;
+}
 
 body {
   box-sizing: border-box;

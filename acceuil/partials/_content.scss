@@ -24,4 +24,17 @@ main {
       }
     }
   }
+  .main-temoignage {
+    .card {
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding: 10px;
+      border-radius: 20px;
+      .img-fluid {
+        border-radius: 20px;
+        height: 100%;
+      }
+    }
+  }
 }
