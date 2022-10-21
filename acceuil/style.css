@@ -34,6 +34,16 @@
     flex-wrap: nowrap;
   }
 }
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 body {
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
