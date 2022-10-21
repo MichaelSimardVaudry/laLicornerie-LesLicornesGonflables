@@ -4,6 +4,11 @@
   img {
     width: 100px;
   }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   background-color: $coloHeader;
   padding-left: 10%;
   padding-right: 10%;
@@ -12,7 +17,17 @@
     border-style: none;
     text-align: center;
   }
+  .my-button {
+    width: 2em;
+    height: 2em;
+    background: url("https://api.iconify.design/akar-icons/search.svg?color=white")
+      no-repeat center center / contain;
+    border-style: none;
+    text-align: center;
+    align-self: center;
+  }
   .navbar-collapse {
+    margin-left: 15px;
     justify-content: flex-end;
   }
 }
