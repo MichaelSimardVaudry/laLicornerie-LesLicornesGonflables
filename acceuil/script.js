@@ -22,14 +22,17 @@ const swiper = new Swiper(".hero-swiper", {
   },
 });
 const swiper2 = new Swiper(".categorie-swiper", {
-  centeredSlides: true,
-  spaceBetween: 10,
+  centeredSlides: false,
+  spaceBetween: 100,
+  // Optional parameters
   loop: true,
+
+  // If we need pagination
   pagination: {
     el: ".categorie-swiper-pagination",
   },
   navigation: {
-    nextEl: '.categorie-swiper-button-prev',
-    prevEl: '.categorie-swiper-button-prev',
+    nextEl: ".categorie-swiper-button-next",
+    prevEl: ".categorie-swiper-button-prev",
   },
 });

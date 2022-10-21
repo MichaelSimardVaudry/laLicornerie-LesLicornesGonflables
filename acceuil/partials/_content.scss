@@ -1,11 +1,27 @@
 main {
   text-align: center;
-}
-.cercle {
-  overflow: hidden;
-  border-radius: 50%;
-  height: 15vh;
-}
-.header-img {
-  height: 60vh;
+  section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .cercle {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 20vw;
+  }
+  .header-img {
+    height: 60vh;
+  }
+  .row {
+    margin-top: 50px;
+  }
+  .main-vedette {
+    .card {
+      border-radius: 20px;
+      .card-img-top {
+        padding: 10px;
+        border-radius: 20px;
+      }
+    }
+  }
 }

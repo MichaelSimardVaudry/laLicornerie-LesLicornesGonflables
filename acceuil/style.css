@@ -40,15 +40,27 @@
 main {
   text-align: center;
 }
-
-.cercle {
+main section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .cercle {
   overflow: hidden;
   border-radius: 50%;
-  height: 15vh;
+  width: 20vw;
 }
-
-.header-img {
+main .header-img {
   height: 60vh;
+}
+main .row {
+  margin-top: 50px;
+}
+main .main-vedette .card {
+  border-radius: 20px;
+}
+main .main-vedette .card .card-img-top {
+  padding: 10px;
+  border-radius: 20px;
 }
 
 body {
