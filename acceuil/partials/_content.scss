@@ -1,7 +1,11 @@
-.swiper {
-  width: 400px;
-  height: 300px;
-}
 main {
   text-align: center;
+}
+.cercle {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 15vh;
+}
+.header-img {
+  height: 60vh;
 }
