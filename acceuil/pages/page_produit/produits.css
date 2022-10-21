@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #fd95e3;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar img {
+  width: 100px;
+}
+.navbar .nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar__recherche {
+  border-radius: 15px;
+  border-style: none;
+  text-align: center;
+}
+.navbar .my-button {
+  width: 2em;
+  height: 2em;
+  background: url("https://api.iconify.design/akar-icons/search.svg?color=white") no-repeat center center/contain;
+  border-style: none;
+  text-align: center;
+  align-self: center;
+}
+.navbar .navbar-collapse {
+  margin-left: 15px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+}/*# sourceMappingURL=produits.css.map */
