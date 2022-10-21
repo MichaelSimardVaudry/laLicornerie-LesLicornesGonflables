@@ -30,6 +30,11 @@
     margin-left: 15px;
     justify-content: flex-end;
   }
+
+  .navbar-nav {
+    display: flex;
+    align-items: baseline;
+  }
 }
 @media (max-width: 1000px) {
   .navbar {
