@@ -37,17 +37,4 @@
   .navbar {
     flex-wrap: nowrap;
   }
-}
-.swiper {
-  width: 400px;
-  height: 300px;
-}
-
-main .main-hero {
-  text-align: center;
-}
-
-body {
-  box-sizing: border-box;
-  overflow-x: hidden;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=produits.css.map */
