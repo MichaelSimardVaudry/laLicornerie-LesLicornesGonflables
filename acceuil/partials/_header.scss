@@ -20,11 +20,9 @@
   .my-button {
     width: 2em;
     height: 2em;
-    background: url("https://api.iconify.design/akar-icons/search.svg?color=white")
-      no-repeat center center / contain;
+    background: url("https://api.iconify.design/akar-icons/search.svg?color=white") no-repeat center center / contain;
     border-style: none;
-    text-align: center;
-    align-self: center;
+    align-self: baseline;
   }
   .navbar-collapse {
     margin-left: 15px;

@@ -21,8 +21,7 @@
   height: 2em;
   background: url("https://api.iconify.design/akar-icons/search.svg?color=white") no-repeat center center/contain;
   border-style: none;
-  text-align: center;
-  align-self: center;
+  align-self: baseline;
 }
 .navbar .navbar-collapse {
   margin-left: 15px;
@@ -39,15 +38,15 @@
   }
 }
 .swiper {
-  width: 600px;
+  width: 400px;
   height: 300px;
 }
-.swiper img {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+
+main {
+  text-align: center;
 }
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */
