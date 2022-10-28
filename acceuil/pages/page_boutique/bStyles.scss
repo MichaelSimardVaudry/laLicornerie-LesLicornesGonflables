@@ -1,3 +1,7 @@
+@use "../../partials/header";
+@use "../../partials/footer";
+@use "../../partials/variable";
+
 html,body {
     display: flex;
     justify-content: center;
