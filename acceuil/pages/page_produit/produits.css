@@ -50,7 +50,7 @@ html, body {
   display: flex;
 }
 .container .left-column {
-  width: 65%;
+  width: 50%;
   position: relative;
 }
 .container .left-column img {
@@ -61,7 +61,7 @@ html, body {
   transition: all 0.3s ease;
 }
 .container .right-column {
-  width: 35%;
+  width: 50%;
   margin-top: 60px;
 }
 .container .product-description {
@@ -110,6 +110,9 @@ html, body {
 .container .cart-btn:hover {
   background-color: lightpink;
 }
+.container .quantity {
+  margin: 15px;
+}
 @media (max-width: 940px) {
   .container .container {
     flex-direction: column;
@@ -131,31 +134,4 @@ html, body {
     width: 220px;
     top: -85px;
   }
-}
-.container span {
-  cursor: pointer;
-}
-.container .number {
-  margin: 100px;
-}
-.container .minus, .container .plus {
-  width: 20px;
-  height: 20px;
-  background: #f2f2f2;
-  border-radius: 4px;
-  padding: 8px 5px 8px 5px;
-  border: 1px solid #ddd;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-}
-.container input {
-  height: 34px;
-  width: 100px;
-  text-align: center;
-  font-size: 26px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  display: inline-block;
-  vertical-align: middle;
 }/*# sourceMappingURL=produits.css.map */

@@ -28,12 +28,8 @@
 <body>
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              class="header__logo__img"
-              src="../../assets/logo.png"
-              alt="imgage licorne rainbow"
-          /></a>
+          <a class="navbar-brand" href="../../index.html">
+            <img class="header__logo__img" src="../../assets/logo.png" alt="imgage licorne rainbow"/></a>
           <div class="container">
             <button
               class="navbar-toggler"
@@ -78,7 +74,7 @@
       </header>
 
       <main class="container">
-        <!-- Left Column / Headphones Image -->
+        
         <div class="left-column">  
             <img src="../../../medias/boutique/1-sirop_classique.png">
         </div>    
@@ -95,10 +91,8 @@
           <!-- Product Pricing -->
           <div class="product-price">
 
-            <div class="number">
-                <span class="minus">+</span>
-                <input type="text" value="1"/>
-                <span class="plus">-</span> 
+            <div class="quantity">
+              <input type="number" min="1" max="9" step="1" value="1">
             </div>
 
             <span>C$16.95</span>
