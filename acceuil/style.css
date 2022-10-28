@@ -39,7 +39,13 @@
 }
 .footer {
   background-color: #fd95e3;
-  height: 10vh;
+  height: 20vh;
+}
+.footer .logo {
+  height: 20vh;
+}
+.footer .reseau {
+  height: 5vh;
 }
 
 main {
