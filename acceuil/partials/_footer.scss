@@ -2,5 +2,11 @@
 
 .footer {
     background-color: $coloHeader;
-    height: 10vh;
+    height: 20vh;
+    .logo {
+        height: 20vh;
+    }
+    .reseau {
+        height: 5vh;
+    }
 }

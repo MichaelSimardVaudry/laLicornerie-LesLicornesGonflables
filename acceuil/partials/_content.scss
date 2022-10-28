@@ -16,6 +16,9 @@ main {
     margin-top: 50px;
   }
   .main-vedette {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .card {
       border-radius: 20px;
       .card-img-top {
