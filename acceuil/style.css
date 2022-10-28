@@ -37,6 +37,11 @@
     flex-wrap: nowrap;
   }
 }
+.footer {
+  background-color: #fd95e3;
+  height: 10vh;
+}
+
 main {
   text-align: center;
 }

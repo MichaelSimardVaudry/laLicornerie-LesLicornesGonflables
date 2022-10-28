@@ -1,0 +1,489 @@
+/** Radio Image Button */
+.wp-block {
+    max-width: 992px;
+}
+.page-meta-box.form-table td{
+	padding: 5px;
+}
+
+.f13{
+	font-size: 13px !important; 
+	line-height: 16px
+}
+
+.radio-image-wrapper{
+	margin-right: 25px; 
+	float: left;
+}
+
+#vandana_lite_single_layout .form-table .radio-image-wrapper {
+    max-width: calc(20% - 10px);
+    margin-right: 10px !important;
+    min-width: 120px;
+}
+
+#vandana_lite_single_layout .form-table .radio-image-wrapper img {
+    max-width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.hide-radio{
+	position: relative;
+	margin-bottom: 6px;
+}
+
+.hide-radio img, .hide-radio label{
+	display: block;
+}
+
+.hide-radio input[type="radio"]{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	opacity: 0;
+}
+
+.hide-radio input[type=radio] + label {
+	border: 3px solid #F1F1F1;
+}
+
+.hide-radio input[type=radio]:checked + label {
+  border: 3px solid #CCC;
+}
+/** Radio Image Button Ends */
+
+/** User Social Profile */
+.user-social-sortable-icons li.ui-sortable-handle {
+    width: auto;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    display: table;
+    clear: both;
+    padding: 20px;
+    margin: 10px;
+    cursor: move;
+    position: relative;
+}
+
+.user-social-sortable-icons li.ui-sortable-handle:before {
+    content: "\f545";
+    font-family: dashicons;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #e5e5e5;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    margin: auto;
+    bottom: 0;
+}
+
+.user-social-sortable-icons li.ui-sortable-handle label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.user-social-sortable-icons li.ui-sortable-handle .description {
+    display: block;
+    margin-top: 5px;
+    cursor: auto;
+}
+/** User Social Profile Ends */
+
+.image-text-cancel{
+    border-bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: #bc4848;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: block;
+}
+
+.image-text-cancel .dashicons{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.image-text-cancel:hover,
+.image-text-cancel:focus{
+    color: #fff;
+    background: #9c3b3b;
+}
+
+.blp-faq-text-outer .faq-widget-wrap::before {
+    content: "Ξ";
+    right: 0;
+    position: absolute;
+    top: 22%;
+    margin: 0 15px 0 5px;
+    font-weight: 800;
+    opacity: 0.5;
+}
+
+.blp-faq-text-outer .faq-widget-wrap::before {
+    right: auto;
+    left: -13px;
+    top: 50%;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    background: #eee;
+    border-radius: 100%;
+    color: #333;
+    opacity: 1;
+    cursor: move;
+}
+
+.faq-widget-wrap{
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px rgba(0,0,0,0.2);
+  position: relative;
+  margin-top: 30px;
+}
+
+.pricing-list .blp-items-wrap {
+    display: block;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 25px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.pricing-list .blp-items-wrap::before {
+    content: "\f545";
+    font-family: dashicons;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    background: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    cursor: move;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.pricing-list .blp-items-wrap p {
+    margin: 0;
+}
+
+.pricing-list .blp-items-wrap input[type="text"] {
+    min-height: 35px;
+    border-color: rgba(0,0,0,0.15);
+}
+
+.pricing-list .blp-items-wrap .blp-del-item {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    font-size: 15px;
+    background: #cc444d;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.pricing-list .blp-items-wrap .blp-del-item:hover {
+    opacity: 1;
+}
+
+.blp_table_wrap .clearfix {
+    display: table;
+    clear: both;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.blp_table_wrap p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    width: calc(33.33% - 65px);
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+    background: #fafafa;
+}
+
+.blp_table_wrap p:first-child, 
+.blp_table_wrap p:nth-child(2) {
+    float: none;
+    width: 50%;
+}
+
+.blp_table_wrap p .input_label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.blp_table_wrap p .input_description {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    color: #777;
+    margin-top: 5px;
+}
+
+.blp_table_wrap p textarea, 
+.blp_table_wrap p input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #333;
+}
+
+.blp_table_wrap p textarea {
+    height: 120px;
+}
+
+/*============================
+WIDGET DEFAULT CSS
+============================*/
+.block-editor .wp-block-archives, 
+.block-editor .wp-block-categories__list, 
+.block-editor .wp-block-latest-comments, 
+.block-editor .wp-block-rss {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.block-editor .wp-block-categories ul, 
+.block-editor ul.wp-block-archives {
+    padding-left: 0;
+}
+
+.block-editor .wp-block-categories__list li, 
+.block-editor .wp-block-archives li, 
+.block-editor .wp-block-latest-comments li, 
+.block-editor .wp-block-rss li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 1em;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
+}
+
+.block-editor .wp-block-latest-comments li {
+    padding-left: 0;
+}
+
+.block-editor .wp-block-categories__list li:last-child, 
+.block-editor .wp-block-archives li:last-child,
+.block-editor .wp-block-latest-comments li:last-child, 
+.block-editor .wp-block-rss li:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.block-editor .wp-block-categories__list li::before, 
+.block-editor .wp-block-archives li::before, 
+.block-editor .wp-block-rss li::before{
+    content: "";
+    background: #333;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-radius: 100px;
+}
+
+.block-editor .wp-block-categories__list li a, 
+.block-editor .wp-block-archives li a, 
+.block-editor .wp-block-latest-comments li a, 
+.block-editor .wp-block-rss li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*=============================
+WIDGET SEARCH
+=============================*/
+.wp-block-search {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.wp-block-search .wp-block-search__input {
+    width: calc(100% - 50px);
+	border-radius: 0;
+	border-right: none;
+	height: 50px;
+    font-size: 0.7778em;
+    border-color: #666;
+    margin: 0;
+    flex-grow: inherit;
+}
+
+.wp-block-search .wp-block-search__button {
+    margin: 0;
+	width: 50px;
+    height: 50px;
+    margin: 0;
+	padding: 0;
+	text-align: center;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	background-color: #333;
+	background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23fff" d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"></path></svg>');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+	text-indent: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.wp-block-search .wp-block-search__button .wp-block-search__button-rich-text {
+    padding: 0;
+    white-space: nowrap !important;
+}
+
+/*====================================
+WIDGET RECENT COMMENTS & ENTRIES
+====================================*/
+.wp-editor .wp-block-latest-posts {
+    counter-reset: listCount;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wp-editor .wp-block-latest-posts li {
+    counter-increment: listCount;
+    position: relative;
+	padding-left: 55px;
+    font-size: 1.1112em;
+    margin-bottom: 15px;
+    min-height: 45px;
+}
+
+.wp-editor .wp-block-latest-posts li::before {
+    content: "0"counter(listCount);
+    color: #666;
+    font-size: 2em;
+    line-height: 1;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.wp-editor .wp-block-latest-posts li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.wp-editor .wp-block-latest-posts li a:hover {
+    color: #333;
+}
+
+/*============================
+WIDGET CALENDAR
+============================*/
+.wp-block-calendar table {
+    margin: 0;
+}
+
+.wp-block-calendar table caption {
+    background: rgba(0,0,0,0.05);
+    padding: 5px;
+    font-weight: 600;
+}
+
+.wp-block-calendar table tr th,
+.wp-block-calendar table tr td {
+    padding: 5px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5;
+    background: none;
+    border: none;
+}
+
+.wp-block-calendar table tr td {
+    font-weight: 400;
+}
+
+.wp-block-calendar table tbody tr:nth-child(2n + 1) td {
+    background: rgba(0,0,0,0.05);
+}
+
+.wp-block-calendar table tbody tr td#today {
+    background: rgba(0,0,0,0.1);
+}
+
+.wp-block-calendar table tr td a {
+    display: block;
+}
+
+.wp-block-calendar table tr td a:hover {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.wp-block-calendar table tfoot {
+    border-top: 1px solid #eee;
+}
+
+.wp-block-calendar table tfoot td#prev {
+    text-align: left;
+}
+
+.wp-block-calendar table tfoot td#next {
+    text-align: right;
+}
+
+/*=========================
+WIDGET TAG CLOUD
+=========================*/
+.wp-block-tag-cloud a {
+    display: inline-block;
+    color: #666;
+    margin: 1%;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.wp-block-tag-cloud a:hover {
+	color: #333;
+}
