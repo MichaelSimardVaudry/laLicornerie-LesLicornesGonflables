@@ -66,6 +66,11 @@ main .header-img {
 main .row {
   margin-top: 50px;
 }
+main .main-vedette {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 main .main-vedette .card {
   border-radius: 20px;
 }
