@@ -1,4 +1,55 @@
-html, body {
+.navbar {
+  background-color: #fd95e3;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar img {
+  width: 100px;
+}
+.navbar .nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar__recherche {
+  border-radius: 15px;
+  border-style: none;
+  text-align: center;
+}
+.navbar .my-button {
+  width: 2em;
+  height: 2em;
+  background: url("https://api.iconify.design/akar-icons/search.svg?color=white") no-repeat center center/contain;
+  border-style: none;
+  align-self: baseline;
+}
+.navbar .navbar-collapse {
+  margin-left: 15px;
+  justify-content: flex-end;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: baseline;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+}
+.footer {
+  background-color: #fd95e3;
+  height: 20vh;
+}
+.footer .logo {
+  height: 20vh;
+}
+.footer .reseau {
+  height: 5vh;
+}
+
+html,
+body {
   display: flex;
   justify-content: center;
   background-color: #fd95e3;
@@ -7,7 +58,7 @@ html, body {
 .info-bar {
   width: 100%;
   height: 50px;
-  border: 3px solid #6A6A6A;
+  border: 3px solid #6a6a6a;
   text-align: center;
   padding: 2.5px;
 }
@@ -21,7 +72,7 @@ html, body {
 .lesProduits .produit {
   position: relative;
   padding: 10px;
-  background-color: #6A6A6A;
+  background-color: #6a6a6a;
   text-align: center;
 }
 .lesProduits .produit .imgProduit {
