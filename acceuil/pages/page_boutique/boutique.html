@@ -52,23 +52,32 @@
     </nav>
   </header>
   <main>
-    <div class='info-bar'>
-      <input type="range" min="0" max="150" step="2">
-
+    <div class="infoBar">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    <iconify-icon icon="ci:line-xl"></iconify-icon>
+    
+    <label>
+      Age:
       <select name='Age:'>
         <option value="4">0 à 4 ans</option>
         <option value="8">5 à 8 ans</option>
         <option value="9">9 à 18 ans</option>
         <option value="adulte">Adultes</option>
       </select>
-
+    </label>
+    
+    <label>
+      Tier par:
       <select name='Trier par:'>
         <option value="default">Par défault</option>
         <option value="nouveautes">Nouveautés</option>
         <option value="croissant">Prix croissant</option>
         <option value="decroissant">Prix décroissant</option>
       </select>
-    </div>
+    </label>
+     <p>Value: <span id="demo"></span></p>
+  </div>
+    
     <div class='lesProduits'>
 
       <div class='produit'>
