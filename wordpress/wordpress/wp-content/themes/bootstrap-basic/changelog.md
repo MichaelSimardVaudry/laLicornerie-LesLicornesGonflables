@@ -1,0 +1,59 @@
+# Theme change log.
+Started since v1.1
+
+### v1.2.1
+2022-01-24
+
+* Add more condition to check calendar widget block.
+* Removed fixed Bootstrap CSS.
+* Add check function exists in inc/BootstrapBasicWp5.php.
+
+### v1.2.0
+2022-01-14
+
+* Use common search elements from searchform.php template. The search form in these files were changed: **404.php**, **inc/widgets/BootstrapBasicSearchWidget.php**
+* Add legacy search widget to use on sidebar.
+* Add CSS to override widget block **calendar** to its original style.
+* Wrap calendar table with responsive table class.
+* Tested with WordPress 5.9-RC2-52567
+
+### v1.1.7
+2021-12-14
+
+* Prevent PHP 8.1 non-string argument errors.
+* Update `Tested up to` to `major.minor` version only as suggested by theme check plugin.
+
+### v1.1.5
+2021-08-18
+
+* Fix errors in PHP 8.0.
+* Minor bugs fix.
+* Now supported PHP 8.0.
+* Fix missing `wp_body_open()` function.
+
+### v1.1.3
+2019-03-14
+
+* Fix comment-reply does not enqueue.
+
+### v1.1.2
+2019-03-14
+
+* Un-depreacated wp_title
+* Update Bootstrap, Modernizr
+
+### v1.1.1
+2018-12-14
+
+* Update to [Bootstrap 3.4.0](https://blog.getbootstrap.com/2018/12/13/bootstrap-3-4-0/).
+* Update Modernizr.
+* Removed old, outdated, unnecessary document.
+
+### v1.1
+2018-12-08
+
+This release is for WordPress 5.0+. It is still support older version of WordPress.
+* Make better Gutenberg support.
+* Add more help text.
+* Add translators help message. `/* translators: xxx */`
+* Add translation template file (.POT).
