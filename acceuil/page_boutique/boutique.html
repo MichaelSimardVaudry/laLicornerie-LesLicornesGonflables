@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="bStyles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <a class="navbar-brand" href="../../index.html">
+        <img class="header__logo__img" src="../../assets/logo.png" alt="imgage licorne rainbow" /></a>
+      <div class="container">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+          aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="page-1.html" class="nav-link">Boutique</a>
+            </li>
+            <li class="nav-item">
+              <a href="page-2.html" class="nav-link">Évènements</a>
+            </li>
+            <li class="nav-item">
+              <a href="page-2.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="page-2.html" class="nav-link">Nouvelles</a>
+            </li>
+            <li class="nav-item">
+              <form>
+                <input type="text" name="text" class="navbar__recherche" placeholder="Recherche" />
+                <button class="my-button" aria-label="Smile"></button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="infoBar">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    <iconify-icon icon="ci:line-xl"></iconify-icon>
+    
+    <label>
+      Age:
+      <select name='Age:'>
+        <option value="4">0 à 4 ans</option>
+        <option value="8">5 à 8 ans</option>
+        <option value="9">9 à 18 ans</option>
+        <option value="adulte">Adultes</option>
+      </select>
+    </label>
+    
+    <label>
+      Tier par:
+      <select name='Trier par:'>
+        <option value="default">Par défault</option>
+        <option value="nouveautes">Nouveautés</option>
+        <option value="croissant">Prix croissant</option>
+        <option value="decroissant">Prix décroissant</option>
+      </select>
+    </label>
+     <p>Value: <span id="demo"></span></p>
+  </div>
+    
+    <div class='lesProduits'>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+      <div class='produit'>
+        <img class='imgProduit'
+          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
+        <p>Item numero 1</p>
+        <p>Prix</p>
+      </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

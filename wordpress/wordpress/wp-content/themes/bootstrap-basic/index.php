@@ -12,11 +12,11 @@ get_header();
  */
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?>
-<?php get_sidebar('left'); ?> 
-				<div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
-					<main id="main" class="site-main" role="main">
-						<?php if (have_posts()) { ?> 
-						<?php 
+<?php get_sidebar('left'); ?>
+<div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
+    <main id="main" class="site-main" role="main">
+        <?php if (have_posts()) { ?>
+        <?php 
 						// start the loop
 						while (have_posts()) {
 							the_post();
@@ -30,11 +30,11 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						}// end while
 						
 						bootstrapBasicPagination();
-						?> 
-						<?php } else { ?> 
-						<?php get_template_part('no-results', 'index'); ?>
-						<?php } // endif; ?> 
-					</main>
-				</div>
-<?php get_sidebar('right'); ?> 
-<?php get_footer(); ?> 
+						?>
+        <?php } else { ?>
+        <?php get_template_part('no-results', 'index'); ?>
+        <?php } // endif; ?>
+    </main>
+</div>
+<?php get_sidebar('right'); ?>
+<?php get_footer(); ?>
