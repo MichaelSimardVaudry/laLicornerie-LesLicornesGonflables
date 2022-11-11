@@ -41,45 +41,27 @@
     <div class="container page-container">
         <?php do_action('before'); ?>
         <header role="banner">
-            <div class="row row-with-vspace site-branding">
-                <div class="col-md-6 site-title">
-                    <h1 class="site-title-heading">
-                        <a href="<?php echo esc_url(home_url('/')); ?>"
-                            title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                            rel="home"><?php bloginfo('name'); ?></a>
-                    </h1>
-                    <div class="site-description">
-                        <small>
-                            <?php bloginfo('description'); ?>
-                        </small>
-                    </div>
-                </div>
-                <div class="col-md-6 page-header-top-right">
-                    <div class="sr-only">
-                        <a href="#content"
-                            title="<?php esc_attr_e('Skip to content', 'bootstrap-basic'); ?>"><?php _e('Skip to content', 'bootstrap-basic'); ?></a>
-                    </div>
-                    <?php if (is_active_sidebar('header-right')) { ?>
-                    <div class="pull-right">
-                        <?php dynamic_sidebar('header-right'); ?>
-                    </div>
-                    <div class="clearfix"></div>
-                    <?php } // endif; ?>
-                </div>
-            </div>
-            <!--.site-branding-->
-
             <nav class="navbar navbar-light navbar-expand-lg">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-primary-collapse">
-                        <span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                <div class="row row-with-vspace site-branding">
+                    <div class="col-md-6 site-title">
+                        <h1 class="site-title-heading">
+                            <a href="<?php echo esc_url(home_url('/')); ?>"
+                                title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
+                                rel="home"><?php bloginfo('name'); ?></a>
+                        </h1>
+                    </div>
                 </div>
                 <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-primary-collapse">
+                            <span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
 
                     <div class="collapse navbar-collapse navbar-primary-collapse">
                         <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
