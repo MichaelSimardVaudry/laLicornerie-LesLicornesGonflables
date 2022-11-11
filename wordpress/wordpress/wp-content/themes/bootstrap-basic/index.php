@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Boissons
+ * Template Post Type: post, page, boissons
  * The main template file
  * 
  * @package bootstrap-basic
