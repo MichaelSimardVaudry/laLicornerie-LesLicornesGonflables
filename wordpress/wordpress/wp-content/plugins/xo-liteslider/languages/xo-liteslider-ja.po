@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XO Slider\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: edit.js:82
+msgid "Select a slider"
+msgstr "スライダーを選択"
+
+#: edit.js:91 edit.js:104
+msgid "Slider"
+msgstr "スライダー"
+
+#: edit.js:95
+msgid "No sliders found."
+msgstr "スライダーが見つかりませんでした。"
+
+#: edit.js:109
+msgid "- Select -"
+msgstr "- 選択 -"
+
+#: edit.js:122
+msgid "Use Slider"
+msgstr "スライダーを使用"
+
+#: index.js:11
+msgid "XO Slider"
+msgstr "XO Slider"
+
+#: index.js:12
+msgid "Display the slider."
+msgstr "スライダーを表示します。"

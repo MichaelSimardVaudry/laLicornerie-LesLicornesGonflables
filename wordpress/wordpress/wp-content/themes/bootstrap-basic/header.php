@@ -41,16 +41,10 @@
     <div class="container page-container">
         <?php do_action('before'); ?>
         <header role="banner">
-            <nav class="navbar navbar-light navbar-expand-lg">
-                <div class="row row-with-vspace site-branding">
-                    <div class="col-md-6 site-title">
-                        <h1 class="site-title-heading">
-                            <a href="<?php echo esc_url(home_url('/')); ?>"
-                                title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                                rel="home"><?php bloginfo('name'); ?></a>
-                        </h1>
-                    </div>
-                </div>
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a class="navbar-brand" href="index.php"><img class="header__logo__img"
+                        src="wp-content/themes/bootstrap-basic/img/logo.png" alt="imgage licorne rainbow" />
+                </a>
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse"

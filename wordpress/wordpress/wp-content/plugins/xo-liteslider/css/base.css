@@ -1,0 +1,70 @@
+/*
+Normalize
+*/
+.xo-slider .slide-content a {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+  text-decoration: none;
+}
+
+.xo-slider .slide-content a:active,
+.xo-slider .slide-content a:hover {
+  outline-width: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+  text-decoration: none;
+}
+
+.xo-slider img.slide-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*
+Prevention of flickering. Not required if the Swiper CSS is loaded in the header.
+*/
+.xo-slider .swiper-container {
+  overflow: hidden;
+}
+
+.xo-slider .swiper-wrapper {
+  display: flex;
+}
+
+.xo-slider .swiper-slide {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Content */
+
+@keyframes xoSlideFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.xo-slider .slide-content {
+  display: none;
+  opacity: 1;
+}
+
+.xo-slider .swiper-initialized .slide-content {
+  display: block;
+  animation: 0.4s xoSlideFadeIn;
+}
+
+/* Thumbnails */
+
+.xo-slider .gallery-thumbs {
+  height: 0;
+}

@@ -1,0 +1,68 @@
+/*
+XO Slider: Parallax template.
+*/
+
+.xo-slider-template-parallax .swiper-button-next.swiper-button-white,
+.xo-slider-template-parallax .swiper-button-prev.swiper-button-white {
+  --swiper-navigation-color: #ffffff;
+}
+
+.xo-slider-template-parallax .swiper-pagination-white {
+  --swiper-pagination-color: #ffffff;
+}
+
+.xo-slider-template-parallax .swiper-container {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  min-height: 240px;
+}
+
+.xo-slider-template-parallax .swiper-slide {
+  font-size: 18px;
+  color: #eee;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px 60px;
+}
+
+.xo-slider-template-parallax .parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.xo-slider-template-parallax .slide-content-title {
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.xo-slider-template-parallax .slide-content-subtitle {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.xo-slider-template-parallax .slide-content-text {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.xo-slider-template-parallax .slide-content-button a {
+  display: inline-block;
+  margin: 24px 16px 16px 0;
+  padding: 8px 16px;
+  font-weight: 600;
+  border: solid 2px #eee;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  color: #eee;
+}
+.xo-slider-template-parallax .slide-content-button a:hover {
+  color: #eee;
+  opacity: 0.8;
+}

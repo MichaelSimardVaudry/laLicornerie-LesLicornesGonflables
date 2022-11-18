@@ -263,4 +263,3 @@ $BootstrapBasicAutoRegisterWidgets = new BootstrapBasicAutoRegisterWidgets();
 $BootstrapBasicAutoRegisterWidgets->registerAll();
 unset($BootstrapBasicAutoRegisterWidgets);
 require get_template_directory() . '/inc/template-widgets-hook.php';
-

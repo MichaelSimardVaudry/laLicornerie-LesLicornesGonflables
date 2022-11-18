@@ -1,0 +1,25 @@
+/*
+XO Slider: Simple template.
+*/
+
+.xo-slider-template-simple .swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+/* Content */
+
+.xo-slider-template-simple .swiper-wrapper {
+  position: relative;
+}
+
+.xo-slider-template-simple .swiper-slide .slide-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
