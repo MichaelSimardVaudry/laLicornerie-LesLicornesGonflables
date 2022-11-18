@@ -200,6 +200,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
         wp_enqueue_script('bootstrap-script');
         wp_enqueue_script('main-script', get_template_directory_uri() . '/js/main.js', array('jquery'), $themeVersion, true);
         wp_enqueue_style('bootstrap-basic-style', get_stylesheet_uri(), array(), $themeVersion);
+        wp_enqueue_style('licorne-basic-style', get_template_directory_uri() . '/style.css', array(), microtime(1));
 
         // move jquery to bottom ( https://wordpress.stackexchange.com/a/225936/41315 )
         $wp_scripts->add_data('jquery', 'group', 1);
