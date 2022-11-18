@@ -177,41 +177,6 @@ get_header(); // Affiche header.php
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="assets/logo.png" class="logo">
-                </div>
-                <div class="col-2">
-                    <ul>
-                        <li>
-                            <a href="#" class="btn ">Adresse</a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn ">Courriel</a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn">telephone</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-2">
-                    <ul>
-                        <li>
-                            <img class="reseau" src="assets/facebook.png">
-                        </li>
-                        <li>
-                            <img class="reseau" src="assets/instagram.png">
-                        </li>
-                        <li>
-                            <img class="reseau" src="assets/youtube.png">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 </main>
 <?
