@@ -41,7 +41,7 @@
     <div class="container page-container">
         <?php do_action('before'); ?>
         <header role="banner">
-            <nav class="navbar navbar-dark navbar-expand-lg">
+            <nav class="navbar">
                 <a class="navbar-brand" href="index.php"><img class="header__logo__img"
                         src="wp-content/themes/bootstrap-basic/img/logo.png" alt="imgage licorne rainbow" />
                 </a>
