@@ -22,13 +22,13 @@ get_header(); // Affiche header.php
                     <div class="hero-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img class="header-img" src="../medias/boutique/13-kevin_2.jpg" alt="logo" />
+                                <img class="header-img" src="../../medias/boutique/13-kevin_2.jpg" alt="logo" />
                             </div>
                             <div class="swiper-slide">
-                                <img class="header-img" src="../medias/boutique/13-kevin.jpg" alt="logo" />
+                                <img class="header-img" src="../../medias/boutique/13-kevin.jpg" alt="logo" />
                             </div>
                             <div class="swiper-slide">
-                                <img class="header-img" src="../medias/boutique/13-kevin_3.jpg" alt="logo" />
+                                <img class="header-img" src="../../medias/boutique/13-kevin_3.jpg" alt="logo" />
                             </div>
                         </div>
                         <div class="hero-swiper-pagination"></div>
@@ -48,13 +48,13 @@ get_header(); // Affiche header.php
                     <div class="categorie-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img class="cercle" src="../medias/boutique/1-sirop_emeraude.png" alt="logo" />
+                                <img class="cercle" src="../../medias/boutique/1-sirop_emeraude.png" alt="logo" />
                             </div>
                             <div class="swiper-slide">
-                                <img class="cercle" src="../medias/boutique/11-mirroir.jpg" alt="logo" />
+                                <img class="cercle" src="../../medias/boutique/11-mirroir.jpg" alt="logo" />
                             </div>
                             <div class="swiper-slide">
-                                <img class="cercle" src="../medias/boutique/4-collier_licorne.jpg" alt="logo" />
+                                <img class="cercle" src="../../medias/boutique/4-collier_licorne.jpg" alt="logo" />
                             </div>
                         </div>
                         <div class="categorie-swiper-pagination"></div>
@@ -73,7 +73,7 @@ get_header(); // Affiche header.php
             <div class="row">
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../medias/boutique/7-unicorn_poop.jpg" class="card-img-top" alt="poop">
+                        <img src="../../medias/boutique/7-unicorn_poop.jpg" class="card-img-top" alt="poop">
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
@@ -83,7 +83,7 @@ get_header(); // Affiche header.php
                 </div>
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../medias/boutique/9-Emma_licorne_sorbet.jpg" class="card-img-top" alt="poop">
+                        <img src="../../medias/boutique/9-Emma_licorne_sorbet.jpg" class="card-img-top" alt="poop">
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
@@ -93,7 +93,7 @@ get_header(); // Affiche header.php
                 </div>
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../medias/boutique/2-laurie_licorne.jpg" class="card-img-top" alt="poop">
+                        <img src="../../medias/boutique/2-laurie_licorne.jpg" class="card-img-top" alt="poop">
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
@@ -106,7 +106,7 @@ get_header(); // Affiche header.php
             <div class="row">
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../medias/boutique/12-thermos.jpg" class="card-img-top" alt="poop">
+                        <img src="../../medias/boutique/12-thermos.jpg" class="card-img-top" alt="poop">
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
@@ -116,7 +116,7 @@ get_header(); // Affiche header.php
                 </div>
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../medias/boutique/1-sirop_licorne.jpg" class="card-img-top" alt="poop">
+                        <img src="../../medias/boutique/1-sirop_licorne.jpg" class="card-img-top" alt="poop">
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
@@ -126,7 +126,7 @@ get_header(); // Affiche header.php
                 </div>
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../medias/boutique/15-meowchi.jpg" class="card-img-top" alt="poop">
+                        <img src="../../medias/boutique/15-meowchi.jpg" class="card-img-top" alt="poop">
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
@@ -143,7 +143,7 @@ get_header(); // Affiche header.php
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <div class="col-5">
-                            <img src="assets/image_fake_humain.png" class="img-fluid">
+                            <img src="../../medias/image_fake_humain.png" class="img-fluid">
                         </div>
                         <div class="col-7">
                             <h5 class="card-title">Brendon Chad</h5>
@@ -154,7 +154,7 @@ get_header(); // Affiche header.php
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <div class="col-5">
-                            <img src="assets/image_fake_humain.png" class="img-fluid">
+                            <img src="../../medias/image_fake_humain.png" class="img-fluid">
                         </div>
                         <div class="col-7">
                             <h5 class="card-title">Brendon Chad</h5>
@@ -165,7 +165,7 @@ get_header(); // Affiche header.php
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <div class="col-5">
-                            <img src="assets/image_fake_humain.png" class="img-fluid">
+                            <img src="../../medias/image_fake_humain.png" class="img-fluid">
                         </div>
                         <div class="col-7">
                             <h5 class="card-title">Brendon Chad</h5>
