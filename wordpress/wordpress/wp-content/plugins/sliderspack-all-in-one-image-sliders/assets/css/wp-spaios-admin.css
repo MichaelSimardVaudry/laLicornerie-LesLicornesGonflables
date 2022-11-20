@@ -1,0 +1,84 @@
+/* General CSS */
+.wp-spaios-cnt-wrap,
+.wp-spaios-cnt-wrap *,
+.wp-spaios-gallery-imgs-prev *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box; outline:none;}
+.wp-spaios-clearfix:before,
+.wp-spaios-clearfix:after{content: "";display: table;}
+.wp-spaios-clearfix::after{clear: both;}
+.wp-spaios-hide{display:none;}
+.wp-spaios-no-padding{padding:0 !important;}
+.wp-spaios-title-sett{margin: 10px 0; padding: 10px 0; font-size: 16px; background: #cccccc; border-left: 2px solid #000000; padding-left: 10px; color: #000000;}
+select.wp-spaios-select{max-width:220px; width: 100%;}
+.wp-spaios-pro-feature {opacity: 0.5; -webkit-transition: 300ms ease-in-out; transition: 300ms ease-in-out;}
+.wp-spaios-pro-feature:hover {opacity: 0.8;}
+.wp-spaios-shortcode-preview{background-color: #e7e7e7; font-weight: 600; padding: 2px 5px; display: inline-block; margin:0 0 2px 0;}
+.wp-spaios-success{background-color: #ace0ac; border: 1px solid #348c34; color: #348c34; font-weight: bold; margin: 0 0 10px; padding: 6px 10px; text-align:left;}
+.wp-spaios-error{background-color: #F2DEDC; border: 1px solid #AC2633; color: #AC2633; font-weight: bold; margin: 0 0 10px; padding: 6px 10px; text-align:left;}
+table.wp-spaios-tbl td label{margin-right:15px;}
+/* Gallery Images CSS */
+.wp-spaios-general-sett-tbl .wp-spaios-imgs-preview{max-width: 150px;}
+.wp-spaios-general-sett-tbl .wp-spaios-imgs-preview img{ padding: 5px; margin: 5px 0; max-width: 150px; border: 1px solid #ccc;}
+.wp-spaios-gallery-imgs-prev .wp-spaios-img {max-width: 100%;}
+.wp-spaios-gallery-imgs-prev {border: 2px dashed #ccc; margin: 10px 0 5px; padding: 5px; overflow:auto; max-height:450px;}
+.wp-spaios-img-wrp {border: 1px solid #ccc; cursor: move; display: inline-block; height: 135px; margin: 5px 2px; vertical-align: top; width: 135px; padding: 3px; position:relative;}
+.wp-spaios-img-wrp:hover .wp-spaios-img-tools{display: inline-block !important;}
+.wp-spaios-img-tools{position: absolute; right:0;bottom:0; left:0;}
+.wp-spaios-tool-icon{background-repeat: no-repeat; cursor: pointer; display: inline-block; margin: 0px; min-height: 20px; min-width: 20px; height:auto; width:auto; text-decoration: none;  color:#fff; background:rgba(0,0,0,0.6); padding:3px 5px;}
+.wp-spaios-gallery-placeholder{background-color: #fcf67b; border: 2px dotted #d1c606; display: inline-block; height: 135px; margin: 5px 3px; padding: 3px; position: relative; vertical-align: top; width: 135px;}
+.wp-spaios-gallery-placeholder:before{content:'Drop Here'; line-height:0; display:block; text-align:center; position:absolute; top: 50%; left: 0; right: 0; font-weight: bold;}
+.wp-spaios-img-placeholder{color: #666; margin: 5px 0 !important; text-align: center;}
+.wp-spaios-tbl .button{margin: 0 5px 0 0; background: #555;color: #fff;border-color: #666;}
+.wp-spaios-tbl .button:hover,
+.wp-spaios-tbl .button:focus{background: #0085ba;;color: #fff;border-color: #0073aa;}
+.wp-spaios-tbl .button i,
+.wp-spaios-popup-body .button i{color: #fff; margin: 3px 0 0 0;}
+.wp-spaios-tbl .button-primary i,
+.wp-spaios-popup-body .button-primary i{color:#fff;}
+
+/* Edit Image Popup CSS */
+.wp-spaios-popup-overlay{display:none; background: #0b0b0b none repeat scroll 0 0; height: 100%; left: 0; opacity: 0.8; overflow: hidden; position: fixed; top: 0; width: 100%; z-index: 9995;}
+.wp-spaios-img-data-wrp{height: 100%; left: 0; outline: 0 none !important; position: fixed; top: 0; width: 100%; z-index: 9996; overflow:auto;}
+.wp-spaios-img-data-cnt{box-sizing: border-box; height: 100%; left: 0; padding: 0 8px; position: absolute; text-align: center; top: 0; width: 100%;}
+.wp-spaios-img-cnt-block{background: #fff none repeat scroll 0 0; margin: 40px auto; max-width: 650px; position: relative; text-align: left; top:5%; min-height:65px;}
+.wp-spaios-popup-close-wrp{display:inline-block; position: absolute; right: -10px; top: -10px; cursor:pointer;}
+.wp-spaios-popup-body{padding:20px;}
+.wp-spaios-no-overflow{overflow:hidden;}
+.wp-spaios-popup-body .form-table th{width:125px;}
+.wp-spaios-popup-title{background-color: #0073aa; color: #fff; font-size: 20px; padding: 10px 20px; line-height:normal;}
+.wp-spaios-img-cnt-block img{max-width:150px; max-height:150px;}
+.wp-spaios-popup-img-preview{border: 1px solid #ccc; line-height:0; display: inline-block; max-height: 150px; max-width: 150px; vertical-align: top; padding: 3px; position:relative;}
+.wp-spaios-img-loader{padding: 20px 0; text-align: center;}
+.wp-spaios-popup-body .wp-spaios-spinner{float:none !important;}
+.wp-spaios-img-loader .spinner{float:none; margin-top:-3px; visibility:visible;}
+.wp-spaios-pro-sub-sett-title{ border-bottom: 1px solid #ddd; padding: 0 0 6px; }
+
+/* About Page CSS */
+.wp-spaios-about-wrap {max-width:100% !important;}
+.wp-spaios-about-wrap .wp-badge {background-position: center 15px; background-size: auto 100px; background-color:transparent; box-shadow:none; border:1px solid #ccc; color:#32373C; background-image: url("../images/sliderspack-icon.png");}
+.wp-spaios-about-wrap .wp-spaios-about-module-wrap{text-align:center;}
+.wp-spaios-about-wrap .wp-spaios-about-module{margin:0 0 20px 0;}
+.wp-spaios-about-module .wp-spaios-about-module-inr{background: #fff none repeat scroll 0 0; border:3px solid #ccc; padding: 20px; text-align: center; min-height: 150px;}
+.wp-spaios-about-module .wp-spaios-about-module-title span{border-bottom: 2px solid #666; color: #32373c; display: inline-block; font-size: 18px; font-weight: 600; padding: 0 0 8px 0; line-height:normal;}
+.wp-spaios-about-module .wp-spaios-about-module-desc{font-size:12px; margin-top: 15px;}
+
+.wp-spaios-icolumns-wrap{font-size:0.001px;}
+.wp-spaios-icolumn,
+.wp-spaios-icolumns{padding-left: 15px; padding-right: 15px; display:inline-block; width:100%; vertical-align:top;}
+.wp-spaios-column,
+.wp-spaios-columns{position: relative; padding-left: 0.9375em; padding-right: 0.9375em; float: left; width:100%;}
+
+/* Media CSS */
+@media only screen and (min-width: 40.0625em) {
+	.wp-spaios-medium-1{width: 8.33333%;}
+	.wp-spaios-medium-2{width: 16.66667%;}
+	.wp-spaios-medium-3{width: 25%;}
+	.wp-spaios-medium-4{width: 33.33333%;}
+	.wp-spaios-medium-5{width: 41.66667%;}
+	.wp-spaios-medium-6{width: 50%;}
+	.wp-spaios-medium-7{width: 58.33333%;}
+	.wp-spaios-medium-8{width: 66.66667%;}
+	.wp-spaios-medium-9{width: 75%;}
+	.wp-spaios-medium-10{width: 83.33333%;}
+	.wp-spaios-medium-11{width: 91.66667%;}
+	.wp-spaios-medium-12{width: 100%;}
+}

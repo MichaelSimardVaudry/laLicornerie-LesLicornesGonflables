@@ -1,0 +1,100 @@
+/* General CSS */
+.wp-spaios-row-clearfix:before,
+.wp-spaios-row-clearfix:after{content: "";display: table;}
+.wp-spaios-row-clearfix,
+.wp-spaios-row-clearfix::after{clear: both;}
+.wp-spaios-slider-wrap *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+.wp-spaios-slider-wrap{position:relative;}
+.wp-spaios-slider{visibility: hidden;}
+.wp-spaios-content-wrp{padding: 15px; text-align: center; line-height: normal;}
+.wp-spaios-slider-wrap .wp-spaios-cat{text-decoration: underline;}
+.wp-spaios-slider-wrap .wp-spaios-title{margin-top: 15px; font-size: 22px;}
+.wp-spaios-slider-wrap .wp-spaios-content{margin-top: 15px;}
+.wp-spaios-slider-wrap .wp-spaios-readmore-btn{display: inline-block; background-color: #000000; color: #ffffff; padding: 5px 20px; margin-top: 15px; font-size: 15px;}
+.wp-spaios-slider-wrap img{width: auto !important; border-radius: 0; max-width:100%;}
+.fancybox-container{z-index: 99999;}
+
+.wp-spaios-slider-wrap .flex-slide,
+.wp-spaios-slider-wrap .swiper-slide,
+.wp-spaios-slider-wrap .Wallop-item,
+.wp-spaios-slider-wrap .unslider-wrap li{text-align:center;}
+
+/* Bx Slider CSS */
+.wp-spaios-bxslider .bx-caption{text-align: center;}
+.wp-spaios-slider-wrap .bx-wrapper{-moz-box-shadow: 0 0 0px #ccc; -webkit-box-shadow: 0 0 0px #ccc; box-shadow: 0 0 0px #ccc; border: 0px solid #fff; background: transparent; margin: 0 auto;}
+
+/* Flex Slider CSS */
+.wp-spaios-slider-wrap .flex-caption{position: relative; width: 100%; background: #737373; color: #ffffff; text-shadow: none; font-size: 15px; padding: 15px; text-align: center;}
+.wp-spaios-slider-wrap .flex-direction-nav a{line-height: normal; opacity: 1;}
+
+/* OWL Carousel Slider CSS */
+.owl-carousel.owl-loaded{visibility: visible;}
+.wp-spaios-slider .owl-nav,
+.wp-spaios-slider .owl-dots{text-align: center; margin-top: 10px;}
+.wp-spaios-slider .owl-nav .owl-prev,
+.wp-spaios-slider .owl-nav .owl-next{display: inline-block; background-color: #d6d6d6; color: #000000; padding: 4px 8px; font-size: 14px; cursor: pointer; border-radius: 3px; margin: 0 5px;}
+.wp-spaios-slider .owl-dots .owl-dot{display: inline-block;}
+.wp-spaios-slider .owl-dots .owl-dot span{width: 10px; height: 10px; margin: 5px 7px; background: #D6D6D6; display: block; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 30px;}
+.wp-spaios-slider .owl-dots .owl-dot.active span,
+.wp-spaios-slider .owl-dots .owl-dot:hover span{background: #869791;}
+.wp-spaios-slider.owl-carousel .wp-spaios-caption{background-color: #737373; color: #ffffff; padding: 10px 15px; font-size: 14px; text-align: center;}
+.wp-spaios-slider.owl-carousel.owl-rtl .wp-spaios-caption{text-align: right;}
+.wp-spaios-slider-wrap .wp-spaios-owl-slide img{ display:inline-block;}
+.wp-spaios-slider-wrap .wp-spaios-owl-slide{text-align:center;}
+/* Nivo Slider CSS */
+.wp-spaios-slider.nivo-slider{position:relative; background:#fff url(../images/loading.gif) no-repeat 50% 50%; margin-bottom:10px; visibility: visible;}
+.wp-spaios-slider.nivo-slider img{position:absolute; top:0px; left:0px; display:none; margin: auto;}
+.wp-spaios-slider.nivo-slider a{border:0; display:block;}
+.wp-spaios-slider-wrap .nivo-controlNav{text-align: center; padding: 5px 0 0 0;}
+.wp-spaios-slider-wrap .nivo-controlNav a{display:inline-block; width:22px; height:22px; background:url(../images/bullets.png) no-repeat; text-indent:-9999px; border:0; margin: 0 2px;}
+.wp-spaios-slider-wrap .nivo-controlNav a.active{background-position:0 -22px;}
+.wp-spaios-slider.nivo-slider .nivo-directionNav a{display:block; width:30px; height:30px; background:url(../images/arrows.png) no-repeat; text-indent:-9999px; border:0; opacity: 0; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;}
+.wp-spaios-slider.nivo-slider:hover .nivo-directionNav a{ opacity: 1; }
+.wp-spaios-slider.nivo-slider a.nivo-nextNav{background-position:-30px 0; right:15px;}
+.wp-spaios-slider.nivo-slider a.nivo-prevNav{left:15px;}
+.wp-spaios-slider.nivo-slider .nivo-caption{position: relative; left: unset; bottom: unset; text-align: center; background: #dddd; color: #000;}
+.wp-spaios-slider.nivo-slider .nivo-caption a{color:#fff; border-bottom:1px dotted #fff; text-decoration: none;}
+.wp-spaios-slider.nivo-slider.wp-spaios-post .nivo-caption{background: #fff; border: 10px solid #ddd; padding: 10px;}
+.wp-spaios-slider.nivo-slider.wp-spaios-post a{color: #333333;}
+.wp-spaios-slider.nivo-slider.wp-spaios-post .wp-spaios-readmore-btn{color: #ffffff;}
+
+/* 3D Slider CSS */
+.swiper-container{padding-bottom: 20px;}
+.swiper-container-initialized{visibility: visible;}
+.swiper-container .wp-spaios-content-wrp{background-color: #f1f1f1;}
+.swiper-container img{width: 100%; object-fit: cover; object-position: center;}
+.swiper-caption{background-color: #737373; text-align: center; color: #ffffff; font-size: 15px; padding: 10px 15px;}
+.swiper-button-next, .swiper-button-prev{color: #000000;}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{left: 5px;}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{right: 5px;}
+.swiper-pagination-bullet{width: 9px; height: 9px; background: #b5b5b5; opacity: 1;}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{background: #000000;}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom: -5px;}
+
+/* Polaroids Gallery Slider CSS */
+.photostack-transition{visibility: visible;}
+.photostack figcaption{margin-top: 10px;}
+
+/* Wallop Slider CSS */
+.wp-spaios-wallop-slider{visibility: visible;}
+.wp-spaios-slider-wrap .wallop-caption{position: relative; width: 100%; background: #737373; color: #ffffff; text-shadow: none; font-size: 14px; padding: 15px; text-align: center;}
+.wp-spaios-wallop-slider .wp-spaios-content-wrp{background-color: #ffffff;}
+.wp-spaios-slider-wrap .Wallop-button{position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); cursor: pointer; z-index: 99; text-indent: -99999px; width: 30px; height: 40px; padding: 10px; display: inline-block; margin: 0px;}
+.wp-spaios-slider-wrap .Wallop-buttonNext{right: 0; background: rgba(0,0,0,0.6) url(../images/arrow-right.png) center center no-repeat; background-size: 15px 26px;}
+.wp-spaios-slider-wrap .Wallop-buttonPrevious{left: 0; background: rgba(0,0,0,0.6) url(../images/arrow-left.png) center center no-repeat; background-size: 15px 26px;}
+.Wallop-pagination{list-style: none; text-align: center; bottom: -2px; left: 0; right: 0;}
+.Wallop-pagination .Wallop-dot{position: relative; display: inline-block; width: 10px; height: 10px; margin: 0 4px; background: transparent; border-radius: 5px; overflow: hidden; text-indent: -999em; border: 1px solid #000; cursor: pointer;}
+.Wallop-pagination .Wallop-dot.Wallop-dot--current{background: #000; cursor: default;}
+
+/* Un Slider CSS */
+.wp-spaios-un-slider.unslider-horizontal,
+.wp-spaios-un-slider.unslider-vertical{visibility: visible;}
+.wp-spaios-un-slider .unslider-wrap li{position: relative;}
+.wp-spaios-un-slider .wp-spaios-content-wrp{position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-53%); background-color: rgba(255,255,255,0.7); margin: 0 30px; }
+.wp-spaios-un-slider .wp-spaios-content-wrp a{color: #333333;}
+.wp-spaios-un-slider .wp-spaios-content-wrp .wp-spaios-readmore-btn{color: #ffffff; text-decoration: none;}
+.wp-spaios-slider-wrap .un-caption{position: absolute; bottom: 0; width: 100%; background: #737373; color: #ffffff; text-shadow: none; font-size: 14px; padding: 15px; text-align: center;}
+.wp-spaios-slider-wrap .unslider-vertical img{height: 100%; width: 100% !important; object-fit: cover; object-position: center center;}
+.wp-spaios-slider-wrap .unslider-arrow{position: absolute; top: 47%; -webkit-transform: translateY(-53%); transform: translateY(-53%); cursor: pointer; z-index: 99; text-indent: -99999px; width: 30px; height: 40px; padding: 10px; display: inline-block; margin: 0px;}
+.wp-spaios-slider-wrap .unslider-arrow.next{right: 0; background: rgba(0,0,0,0.6) url(../images/arrow-right.png) center center no-repeat; background-size: 15px 26px;}
+.wp-spaios-slider-wrap .unslider-arrow.prev{left: 0; background: rgba(0,0,0,0.6) url(../images/arrow-left.png) center center no-repeat; background-size: 15px 26px;}

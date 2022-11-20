@@ -1,0 +1,1509 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SlidersPack - All In One Image/Post Slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-15 11:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: sliderspack-all-in-one-image-sliders"
+
+#: includes/admin/metabox/slider-parameters-metabox.php:209
+msgid " Display image caption."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:118
+msgid " Enable slider pagination."
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:51
+msgid " Note: Slide To Shown will not work with fade mode. "
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:96
+msgid " Set margin between each slide. Ex: 5."
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:105
+msgid " Set Starting slide index (zero-based). Ex: 3."
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:87
+msgid ""
+" Set width of each slide. This setting is required for all horizontal "
+"carousels!"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:207
+msgid "3D Slider"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:115
+msgid "3D Slider Effect Parameters"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:31
+msgid "3D Slider Parameters"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:181
+msgid ""
+"<strong>Note: </strong>it will not work with `SlidesJs`, `Nivo Slider` "
+"slider."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:166
+msgid "<strong>Note: </strong>It will not work with `Wallop Slider`."
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:149
+msgid "<strong>Note:</strong>  Ticker will work with \"autoplay=false\"."
+msgstr ""
+
+#: includes/admin/metabox/unslider-metabox.php:54
+msgid "<strong>Note:</strong> It will not work with fade effect."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:196
+msgid ""
+"<strong>Note:</strong> It will work only when slide to show = 1 and slide "
+"per row = 1. "
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:72
+msgid ""
+"<strong>Note:</strong> Show thumbnail will not work with Slide To Scroll > 1."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:125
+msgid ""
+"<strong>Note:</strong> This will look good when auto width & center mode "
+"will be \"true\"."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:89
+msgid ""
+"<strong>Note:</strong> This will not display proper in Gallery Slider Design "
+"no.: 1, 3, 18 & Post Slider Design no.: 2, 3, 5, 8, 9, 11, 18, 19"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:105
+#: includes/admin/metabox/swiperslider-metabox.php:176
+msgid "<strong>Note:</strong> This will work when loop is false."
+msgstr ""
+
+#: sliderspack-all-in-one-image-sliders.php:153
+msgid ""
+"<strong>Thank you for activating SlidersPack - All In One Image/Post "
+"Slider</strong>.<br /> It looks like you had Pro version <strong>(<em>"
+"SlidersPack Pro - All In One Image/Post Slider</em>)</strong> of this plugin "
+"activated. To avoid conflicts the extra version has been deactivated and we "
+"recommend you delete it."
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:23
+msgid "About"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:126
+msgid "ACF Field"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:35
+#: includes/admin/metabox/post-sett-metabox.php:121
+msgid "ACF Gallery"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:54
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:25
+msgid "Add New Slider"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:124
+msgid "Add overlay on left & right image."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:24
+msgid "Add slider"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:54
+msgid "Add to Gallery"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:161
+msgid ""
+"Allow height of the slider to animate smoothly when direction is horizontal. "
+"Note:- Please use Height blank if Auto height is True"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:152
+#: includes/admin/metabox/owlslider-metabox.php:152
+msgid "Allow height of the slider to animate smoothly."
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup-data.php:42
+msgid "Alternative Text"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:51
+msgid "Animation Type"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:82
+msgid "Arrow"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:96
+msgid "Arrow Theme"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:458
+msgid "Attachment Found."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:143
+#: includes/admin/metabox/unslider-metabox.php:44
+#: includes/admin/metabox/owlslider-metabox.php:143
+#: includes/admin/metabox/swiperslider-metabox.php:152
+#: includes/admin/metabox/bxslider-metabox.php:110
+msgid "Auto height"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:83
+msgid "Auto Width"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:129
+msgid "Auto Width Mode"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:138
+msgid "Autoplay"
+msgstr ""
+
+#: includes/admin/metabox/slidesjs-metabox.php:53
+msgid "Autoplay Pause on Hover"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:152
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:95
+#: includes/admin/metabox/swiperslider-metabox.php:166
+msgid "Autoplay Stop On Last"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:218
+msgid "Blank"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:82
+msgid "Bottom"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:267
+msgid "boxRain"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:269
+msgid "boxRainGrow"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:270
+msgid "boxRainGrowReverse"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:268
+msgid "boxRainReverse"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:266
+msgid "boxRandom"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:35
+msgid "BX Slider Parameters"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:202
+msgid "bxSlider"
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup-data.php:49
+#: includes/admin/metabox/slider-parameters-metabox.php:200
+msgid "Caption"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:115
+msgid "Center Mode"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:81
+#: includes/admin/metabox/swiperslider-metabox.php:95
+msgid "Centermode"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:51
+msgid "Choose Gallery Images"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:79
+msgid ""
+"Choose your desired images for gallery. Hold Ctrl key to select multiple "
+"images at a time."
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:46
+msgid "Circular"
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup.php:18
+msgid "Close (Esc)"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:74
+msgid "Common Parameters For All Slider"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:147
+msgid "Could be \"slide\", \"fade\""
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:48
+msgid "Create Sliders"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:68
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:67
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:101
+msgid "Dark"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:112
+msgid "Default"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:49
+msgid "Demo for Sliders"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:120
+msgid "Depth (Left - Right images scale value )"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:194
+msgid "Display image Title."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:139
+msgid "Display post content word limit."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:99
+msgid "Display read more button."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:104
+msgid "Display Read More Text"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:118
+msgid "Display slider author name."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:57
+msgid "Display slider category name."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:129
+msgid "Display slider date."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:85
+msgid "Display slider post content."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:71
+msgid "Display slider post title."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:195
+msgid "Display slider thumbnail images."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:88
+msgid "Display slides with auto/variable width."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:76
+#: includes/admin/metabox/swiperslider-metabox.php:135
+msgid "Distance between slides in px."
+msgstr ""
+
+#: includes/class-wp-spaios-script.php:160
+#: includes/admin/settings/wp-spaios-img-popup-data.php:20
+#: includes/admin/metabox/post-sett-metabox.php:67
+msgid "Edit Image"
+msgstr ""
+
+#: includes/class-wp-spaios-script.php:159
+#: includes/admin/metabox/post-sett-metabox.php:66
+msgid "Edit Image in Popup"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:26
+msgid "Edit Slider"
+msgstr ""
+
+#: includes/admin/metabox/wallopslider-metabox.php:26
+#: includes/admin/metabox/unslider-metabox.php:28
+#: includes/admin/metabox/slidesjs-metabox.php:39
+#: includes/admin/metabox/swiperslider-metabox.php:140
+#: includes/admin/metabox/nivoslider-metabox.php:32
+msgid "Effect"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:147
+msgid "Enable Autoplay for Slider."
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:138
+msgid "Enable autowidth mode for slider"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:124
+msgid "Enable center mode for slider"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:267
+msgid "Enable Fancy Box"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:157
+msgid "Enable Free Drag Mode"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:166
+msgid "Enable free drag mode for slider"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:44
+msgid "Enable Gallery images, WordPress default posts."
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:22
+msgid "Enable Image Title on Fancy Box."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:91
+msgid "Enable slider Arrows."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:180
+msgid "Enable slider loop mode."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:71
+msgid "Enable slider thumbnail images."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:104
+#: includes/admin/metabox/swiperslider-metabox.php:175
+msgid ""
+"Enable this parameter and autoplay will be stopped when it reaches last slide"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:130
+msgid "Enter ACF Field to disply acf slider from the ACF. Ex: acf_images"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:102
+msgid ""
+"Enter category id to display categories wise.You can pass multiple ids with "
+"comma seperated."
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup-data.php:45
+msgid "Enter image alternative text."
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup-data.php:52
+msgid "Enter image caption."
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup-data.php:59
+msgid "Enter image link. e.g http://wponlinesupport.com"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:232
+msgid ""
+"Enter image size as WordPress standard. Ex: thumbnail, medium, large, full."
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:108
+msgid "Enter read more button text."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:252
+msgid "Enter slider height. Ex: 400"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:43
+msgid "Enter slider post limit."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:124
+msgid "Enter the depth value to scale the left and right images"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:133
+msgid "Enter the number value to overlap the image position"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:142
+msgid "Enter the rotate value for image."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:152
+msgid "Enter the value for image stretch."
+msgstr ""
+
+#: includes/admin/premium.php:15
+msgid "Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:85
+msgid "Existing Sliders"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:285 includes/wp-spaios-functions.php:299
+#: includes/wp-spaios-functions.php:314 includes/wp-spaios-functions.php:316
+#: includes/admin/metabox/slidesjs-metabox.php:46
+#: includes/admin/metabox/fancybox-metabox.php:32
+#: includes/admin/metabox/fancybox-metabox.php:44
+#: includes/admin/metabox/swiperslider-metabox.php:145
+msgid "Fade"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:262
+msgid "fade"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:70
+#: includes/admin/metabox/flexslider-metabox.php:150
+#: includes/admin/metabox/flexslider-metabox.php:164
+#: includes/admin/metabox/flexslider-metabox.php:178
+#: includes/admin/metabox/unslider-metabox.php:51
+#: includes/admin/metabox/slidesjs-metabox.php:60
+#: includes/admin/metabox/fancybox-metabox.php:21
+#: includes/admin/metabox/wp-post-metabox.php:55
+#: includes/admin/metabox/wp-post-metabox.php:69
+#: includes/admin/metabox/wp-post-metabox.php:83
+#: includes/admin/metabox/wp-post-metabox.php:97
+#: includes/admin/metabox/wp-post-metabox.php:117
+#: includes/admin/metabox/wp-post-metabox.php:128
+#: includes/admin/metabox/3dslider-metabox.php:88
+#: includes/admin/metabox/3dslider-metabox.php:102
+#: includes/admin/metabox/owlslider-metabox.php:122
+#: includes/admin/metabox/owlslider-metabox.php:136
+#: includes/admin/metabox/owlslider-metabox.php:150
+#: includes/admin/metabox/owlslider-metabox.php:164
+#: includes/admin/metabox/owlslider-metabox.php:178
+#: includes/admin/metabox/swiperslider-metabox.php:77
+#: includes/admin/metabox/swiperslider-metabox.php:87
+#: includes/admin/metabox/swiperslider-metabox.php:102
+#: includes/admin/metabox/swiperslider-metabox.php:123
+#: includes/admin/metabox/swiperslider-metabox.php:159
+#: includes/admin/metabox/swiperslider-metabox.php:173
+#: includes/admin/metabox/swiperslider-metabox.php:194
+#: includes/admin/metabox/swiperslider-metabox.php:234
+#: includes/admin/metabox/nivoslider-metabox.php:72
+#: includes/admin/metabox/nivoslider-metabox.php:86
+#: includes/admin/metabox/slider-parameters-metabox.php:89
+#: includes/admin/metabox/slider-parameters-metabox.php:116
+#: includes/admin/metabox/slider-parameters-metabox.php:145
+#: includes/admin/metabox/slider-parameters-metabox.php:178
+#: includes/admin/metabox/slider-parameters-metabox.php:193
+#: includes/admin/metabox/slider-parameters-metabox.php:207
+#: includes/admin/metabox/slider-parameters-metabox.php:241
+#: includes/admin/metabox/slider-parameters-metabox.php:265
+#: includes/admin/metabox/bxslider-metabox.php:117
+#: includes/admin/metabox/bxslider-metabox.php:131
+#: includes/admin/metabox/bxslider-metabox.php:146
+#: includes/admin/metabox/bxslider-metabox.php:161
+msgid "False"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:258
+msgid "Fancy Box Enable"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:33
+msgid "Flex Slider Parameters"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:203
+msgid "FlexSlider 2"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:318
+msgid "Fold"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:261
+msgid "fold"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:73
+#: includes/admin/metabox/swiperslider-metabox.php:230
+msgid "FreeMode"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:39
+msgid "Gallery Image"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:54
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:118
+msgid "Gallery Type"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:283 includes/wp-spaios-functions.php:331
+#: includes/admin/metabox/flexslider-metabox.php:42
+msgid "Horizontal"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.essentialplugin.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.essentialplugin.com/wordpress-plugin/sliderspack-one-image-post-"
+"slider/"
+msgstr ""
+
+#: includes/admin/metabox/shortcode-metabox.php:19
+msgid ""
+"If adding the shortcode to your theme files, add the following template code."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:90
+#: includes/admin/metabox/swiperslider-metabox.php:104
+msgid ""
+"If true, then active slide will be centered, not always on the left side."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:237
+msgid "Image Fit"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:76
+msgid "Image Gallery draft updated."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:71
+msgid "Image Gallery published."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:70
+#, php-format
+msgid "Image Gallery restored to revision from %s"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:72
+msgid "Image Gallery saved."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:74
+#, php-format
+msgid "Image Gallery scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:73
+msgid "Image Gallery submitted."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:66 includes/wp-spaios-post-types.php:69
+msgid "Image Gallery updated."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:129
+msgid "Image overlap position"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:228
+msgid "Image Size"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:98
+msgid "Include Category"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:180
+msgid "Include RTL for RTL website"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:119
+msgid "Left & Right Image Overlay"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:97
+msgid "Left - Right Padding"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:100
+msgid "Light"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:39
+msgid "Limit"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:214
+msgid "Link Target"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:171
+msgid "Loop"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:75
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:92
+msgid "Margin between each slide. eg. 5"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:129
+msgid "Margin between each slide. Ex: 5."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:98
+#: includes/admin/metabox/bxslider-metabox.php:65
+msgid "Maximum Number of Slides to Shown"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:89
+#: includes/admin/metabox/bxslider-metabox.php:56
+msgid "Minimum Number of Slides to Shown"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:38
+#: includes/admin/metabox/bxslider-metabox.php:40
+msgid "Mode"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:27
+msgid "New Slider"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:206
+msgid "Nivo Slider"
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:27
+msgid "Nivo Slider Parameters"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:75
+msgid "No Gallery Images"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:30
+msgid "No Slider Found"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:31
+msgid "No Slider Found in Trash"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:56
+msgid "Number of slides per view in iPad."
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:74
+msgid "Number of slides per view in Mobile."
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:65
+msgid "Number of slides per view in Tablet."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:58
+#: includes/admin/metabox/swiperslider-metabox.php:59
+msgid "Number of slides per view. When window width is >= 320px."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:49
+#: includes/admin/metabox/swiperslider-metabox.php:50
+msgid "Number of slides per view. When window width is >= 480px."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:40
+#: includes/admin/metabox/swiperslider-metabox.php:41
+msgid "Number of slides per view. When window width is >= 640px."
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:27
+msgid "Open/close Animation Effects"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:109
+msgid "Option"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:38
+msgid "OWL Carousel Slider Parameters"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:204
+msgid "Owl Slider/Carousel 2"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:101
+msgid "padding from left and right for slider. eg. 30"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:109
+msgid "Pagination"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:123
+msgid "Pagination Style"
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:79
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:171
+msgid "Pause on Mouse Hover"
+msgstr ""
+
+#: includes/admin/metabox/slidesjs-metabox.php:62
+msgid "Pause slider on mouse hover"
+msgstr ""
+
+#: includes/admin/settings/wp-spaios-img-popup.php:23
+msgid "Please Wait"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:135
+msgid "Post Content Word Limit"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:90
+msgid "Post Type"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:263
+msgid "random"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:157
+#: includes/admin/metabox/nivoslider-metabox.php:65
+#: includes/admin/metabox/bxslider-metabox.php:124
+msgid "Random Start"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:136
+#: includes/admin/metabox/wp-post-metabox.php:23
+#: includes/admin/metabox/wp-post-metabox.php:90
+msgid "Read More"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:55
+msgid "Remove Gallery Images"
+msgstr ""
+
+#: includes/class-wp-spaios-script.php:161
+#: includes/admin/metabox/post-sett-metabox.php:68
+msgid "Remove Image"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:317
+#: includes/admin/metabox/fancybox-metabox.php:49
+msgid "Rotate"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:138
+msgid "Rotate Image"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:171
+msgid "RTL"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:315
+#: includes/admin/metabox/swiperslider-metabox.php:113
+msgid "Scale"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:209
+msgid "Scattered Polaroids Gallery"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:29
+msgid "Search Slider"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:35
+msgid "Select animation for fancybox."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:61
+msgid "Select animation for flexSlider"
+msgstr ""
+
+#: includes/admin/metabox/slider-type-metabox.php:40
+msgid "Select Design"
+msgstr ""
+
+#: includes/admin/metabox/slider-type-metabox.php:44
+msgid ""
+"Select design - 20 type of designs. Select any one out of 20 that you like "
+"and want to use on your WordPress website :)"
+msgstr ""
+
+#: includes/admin/metabox/wallopslider-metabox.php:36
+msgid "Select Effect"
+msgstr ""
+
+#: includes/admin/metabox/unslider-metabox.php:39
+msgid "Select Effect for UnSlider"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:55
+msgid "Select Images"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:223
+msgid "Select link target for read more button, title and image."
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:50
+msgid "Select mode for bxSlider"
+msgstr ""
+
+#: includes/admin/metabox/slidesjs-metabox.php:48
+msgid "Select slide effect. Can be either slide or fade"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:51
+msgid "Select Slide Transition Effects."
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:58
+#: includes/admin/metabox/slider-type-metabox.php:25
+msgid "Select Slider"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:103
+msgid "Select slider arrow theme."
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:42
+msgid "Select slider effect."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:45
+msgid "Select slider mode."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:132
+msgid "Select slider pagination style."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:84
+msgid "Select slider thumbnail position."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:207
+msgid "Select thumbnail position ie top or bottom."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:221
+msgid "Self"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:119
+msgid "Set auto height for slider."
+msgstr ""
+
+#: includes/admin/metabox/unslider-metabox.php:53
+msgid "Set auto height true or false."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:225
+msgid "Set distance between thumbnail in px. Ex: 5"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:242
+msgid "Set image resized to fit its container."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:102
+#: includes/admin/metabox/bxslider-metabox.php:69
+msgid ""
+"Set maximum number of slides to shown. Minimum number of slides to shown "
+"will work for Desktop."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:93
+#: includes/admin/metabox/bxslider-metabox.php:60
+msgid ""
+"Set minimum number of slides to shown. Minimum number of slides to shown "
+"will work for Mobile."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:67
+#: includes/admin/metabox/swiperslider-metabox.php:68
+msgid ""
+"Set numbers of slides to define and enable group sliding. Useful to use with "
+"slidesPerView > 1"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:216
+msgid "Set slide per view."
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:83
+msgid ""
+"Set slide to scroll at a time. Useful to use with \"Number of Slides to be "
+"Shown\" > 1"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:78
+msgid "Set slide to scroll at a time. Useful to use with Slide To Show > 1"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:111
+msgid "Set slide to scroll at a time. Useful to use with Slide To Show > 1."
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:51
+msgid "Set slider width. Ex: 400."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:156
+#: includes/admin/metabox/slider-parameters-metabox.php:165
+msgid "Set Speed for Duration of transition between slides (in ms)."
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:60
+msgid "Set Starting slide index (zero-based). Ex: 3."
+msgstr ""
+
+#: includes/admin/metabox/slidesjs-metabox.php:34
+msgid "Set the first slide in the slideshow. eg. 5"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:120
+msgid "Set width of each slide."
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:355
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:113
+msgid "Show Author"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:48
+msgid "Show Category Name"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:124
+msgid "Show Date"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:17
+msgid "Show Image Title"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:76
+msgid "Show Post Content"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:62
+msgid "Show Post Title"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:66
+#: includes/admin/metabox/swiperslider-metabox.php:190
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:255
+msgid "sliceDown"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:256
+msgid "sliceDownLeft"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:257
+msgid "sliceUp"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:259
+msgid "sliceUpDown"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:260
+msgid "sliceUpDownLeft"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:258
+msgid "sliceUpLeft"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:298 includes/wp-spaios-functions.php:312
+#: includes/admin/metabox/slidesjs-metabox.php:43
+#: includes/admin/metabox/fancybox-metabox.php:45
+#: includes/admin/metabox/swiperslider-metabox.php:144
+msgid "Slide"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:125
+#: includes/admin/metabox/owlslider-metabox.php:88
+#: includes/admin/metabox/bxslider-metabox.php:92
+msgid "Slide margin"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:107
+#: includes/admin/metabox/3dslider-metabox.php:63
+#: includes/admin/metabox/owlslider-metabox.php:79
+#: includes/admin/metabox/swiperslider-metabox.php:64
+#: includes/admin/metabox/bxslider-metabox.php:74
+msgid "Slide To Scroll"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:36
+#: includes/admin/metabox/owlslider-metabox.php:43
+#: includes/admin/metabox/swiperslider-metabox.php:37
+msgid "Slide To Show"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:54
+#: includes/admin/metabox/swiperslider-metabox.php:55
+msgid "Slide To Show (320px)"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:45
+#: includes/admin/metabox/swiperslider-metabox.php:46
+msgid "Slide To Show (480px)"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:52
+msgid "Slide To Show in iPad"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:70
+msgid "Slide To Show in Mobile"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:61
+msgid "Slide To Show in Tablet"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:40
+msgid "Slide Transition Effects"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:116
+#: includes/admin/metabox/bxslider-metabox.php:83
+msgid "Slide Width"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:265
+msgid "slideInLeft"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:264
+msgid "slideInRight"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:354
+msgid "Slider"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:248
+msgid "Slider Height"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:61
+msgid "Slider Parameters"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:353
+#: includes/admin/metabox/post-sett-metabox.php:30
+msgid "Slider Type"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:180
+msgid "Slider will pause when mouse hovers"
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:88
+msgid "Slider will pause when mouse hovers over slider."
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:22 includes/wp-spaios-post-types.php:23
+#: includes/wp-spaios-post-types.php:32
+msgid "SlidersPack"
+msgstr ""
+
+#: includes/admin/metabox/slider-type-metabox.php:35
+msgid ""
+"SlidersPack - 10 type of sliders. Select any one out of 10 that you like and "
+"want to use on your WordPress website :)"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"SlidersPack - All In One Image Slider plus FancyBox for WordPress. Also work "
+"with WordPress Posts. Work with Gutenberg shortcode block. Slider added - "
+"Flex Slider 2, bxSlider, Owl Carousel 2, Swiper Slider, 3D Slider, Wallop "
+"Slider, unSlider, Nivo Slider, Responsive Slides and Polaroids Gallery."
+msgstr ""
+
+#. Name of the plugin
+msgid "SlidersPack - All In One Image/Post Slider"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:73
+msgid ""
+"SlidersPack - You can create your own unique, SEO-optimized sliders/carousel."
+" Also SlidersPack work with WordPress Posts."
+msgstr ""
+
+#: includes/admin/premium.php:15
+msgid "SlidersPack with "
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:72
+msgid "SlidersPack – All In One Image Sliders"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:205
+msgid "SlidesJS - Responsive slideshow"
+msgstr ""
+
+#: includes/admin/metabox/slidesjs-metabox.php:25
+msgid "SlidesJS Slider Parameters"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:442
+#: includes/admin/class-wp-spaios-admin.php:480
+msgid "Sorry, Something happened wrong."
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:72
+#: includes/admin/metabox/swiperslider-metabox.php:131
+msgid "Space Between Slides"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:221
+msgid "Space Between Thumbnail"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:161
+msgid "Speed"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:134
+#: includes/admin/metabox/slidesjs-metabox.php:30
+#: includes/admin/metabox/owlslider-metabox.php:106
+#: includes/admin/metabox/nivoslider-metabox.php:56
+#: includes/admin/metabox/bxslider-metabox.php:101
+msgid "Start Slide"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:166
+msgid "Start slider on a random slide"
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:74
+#: includes/admin/metabox/bxslider-metabox.php:133
+msgid "Start slider on a random slide."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:138
+msgid "Starting slide index (zero-based). eg. 3"
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:110
+msgid "Starting slide index. eg. 3"
+msgstr ""
+
+#: includes/admin/metabox/3dslider-metabox.php:148
+msgid "Stretch"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:127
+msgid "Style 1"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:128
+msgid "Style 2"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:129
+msgid "Style 3"
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:130
+msgid "Style 4"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:208
+msgid "Swiper Slider"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:32
+msgid "Swiper Slider Parameters"
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:185
+msgid "Swiper Slider Thumbnail Parameters"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:157
+msgid "Thank you for choosing"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:47
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%s\" target=\"_blank\">%s</a>. Please <a "
+"href=\"%s\" target=\"_blank\">rate us</a>. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:78
+msgid ""
+"The largest Slider bundle for WordPress with 10 slider with shortcode. All "
+"Slider are totally unique, Developed with passion, Use individually to fit "
+"your website."
+msgstr ""
+
+#: includes/admin/metabox/owlslider-metabox.php:47
+msgid "The number of slides to be shown."
+msgstr ""
+
+#: includes/admin/metabox/swiperslider-metabox.php:212
+msgid "Thumbnail Per View"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:77
+#: includes/admin/metabox/swiperslider-metabox.php:201
+msgid "Thumbnail Position"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:139
+msgid "Ticker"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:154
+msgid "Ticker Pause on Mouse Hover"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:163
+msgid "Ticker will pause when mouse hovers over slider."
+msgstr ""
+
+#: includes/admin/metabox/slider-parameters-metabox.php:189
+msgid "Title"
+msgstr ""
+
+#: includes/admin/metabox/shortcode-metabox.php:16
+msgid "To display shortcode, add the following shortcode to your page or post."
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:81
+#: includes/admin/metabox/swiperslider-metabox.php:205
+msgid "Top"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:69
+#: includes/admin/metabox/flexslider-metabox.php:147
+#: includes/admin/metabox/flexslider-metabox.php:161
+#: includes/admin/metabox/flexslider-metabox.php:175
+#: includes/admin/metabox/unslider-metabox.php:48
+#: includes/admin/metabox/slidesjs-metabox.php:57
+#: includes/admin/metabox/fancybox-metabox.php:20
+#: includes/admin/metabox/wp-post-metabox.php:52
+#: includes/admin/metabox/wp-post-metabox.php:66
+#: includes/admin/metabox/wp-post-metabox.php:80
+#: includes/admin/metabox/wp-post-metabox.php:94
+#: includes/admin/metabox/wp-post-metabox.php:116
+#: includes/admin/metabox/wp-post-metabox.php:127
+#: includes/admin/metabox/3dslider-metabox.php:85
+#: includes/admin/metabox/3dslider-metabox.php:99
+#: includes/admin/metabox/owlslider-metabox.php:119
+#: includes/admin/metabox/owlslider-metabox.php:133
+#: includes/admin/metabox/owlslider-metabox.php:147
+#: includes/admin/metabox/owlslider-metabox.php:161
+#: includes/admin/metabox/owlslider-metabox.php:175
+#: includes/admin/metabox/swiperslider-metabox.php:76
+#: includes/admin/metabox/swiperslider-metabox.php:86
+#: includes/admin/metabox/swiperslider-metabox.php:99
+#: includes/admin/metabox/swiperslider-metabox.php:122
+#: includes/admin/metabox/swiperslider-metabox.php:156
+#: includes/admin/metabox/swiperslider-metabox.php:170
+#: includes/admin/metabox/swiperslider-metabox.php:193
+#: includes/admin/metabox/swiperslider-metabox.php:233
+#: includes/admin/metabox/nivoslider-metabox.php:69
+#: includes/admin/metabox/nivoslider-metabox.php:83
+#: includes/admin/metabox/slider-parameters-metabox.php:86
+#: includes/admin/metabox/slider-parameters-metabox.php:113
+#: includes/admin/metabox/slider-parameters-metabox.php:142
+#: includes/admin/metabox/slider-parameters-metabox.php:175
+#: includes/admin/metabox/slider-parameters-metabox.php:192
+#: includes/admin/metabox/slider-parameters-metabox.php:204
+#: includes/admin/metabox/slider-parameters-metabox.php:240
+#: includes/admin/metabox/slider-parameters-metabox.php:262
+#: includes/admin/metabox/bxslider-metabox.php:114
+#: includes/admin/metabox/bxslider-metabox.php:128
+#: includes/admin/metabox/bxslider-metabox.php:143
+#: includes/admin/metabox/bxslider-metabox.php:158
+msgid "True"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:47
+msgid "Tube"
+msgstr ""
+
+#: includes/admin/metabox/unslider-metabox.php:23
+msgid "Un Slider Parameters"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:211
+msgid "Unslider"
+msgstr ""
+
+#: includes/admin/metabox/flexslider-metabox.php:46
+#: includes/admin/metabox/slider-type-metabox.php:45
+#: includes/admin/metabox/fancybox-metabox.php:52
+#: includes/admin/metabox/wp-post-metabox.php:119
+#: includes/admin/metabox/wp-post-metabox.php:130
+#: includes/admin/metabox/3dslider-metabox.php:143
+#: includes/admin/metabox/3dslider-metabox.php:153
+#: includes/admin/metabox/swiperslider-metabox.php:78
+#: includes/admin/metabox/swiperslider-metabox.php:90
+#: includes/admin/metabox/swiperslider-metabox.php:114
+#: includes/admin/metabox/swiperslider-metabox.php:126
+#: includes/admin/metabox/swiperslider-metabox.php:235
+#: includes/admin/metabox/slider-parameters-metabox.php:104
+#: includes/admin/metabox/slider-parameters-metabox.php:133
+#: includes/admin/metabox/slider-parameters-metabox.php:195
+#: includes/admin/metabox/slider-parameters-metabox.php:243
+#: includes/admin/metabox/slider-parameters-metabox.php:253
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\" target=\"_blank\">Premium Version</a> to get this "
+"option."
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:25
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:25
+msgid "Upgrade to PRO - SlidersPack"
+msgstr ""
+
+#: includes/admin/metabox/bxslider-metabox.php:148
+msgid "Use slider in ticker mode (similar to a news ticker)."
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:51
+msgid "Version"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:284 includes/wp-spaios-functions.php:313
+#: includes/wp-spaios-functions.php:332
+#: includes/admin/metabox/flexslider-metabox.php:43
+msgid "Vertical"
+msgstr ""
+
+#: includes/wp-spaios-post-types.php:28
+msgid "View Slider"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:210
+msgid "Wallop Slider"
+msgstr ""
+
+#: includes/admin/metabox/wallopslider-metabox.php:21
+msgid "Wallop Slider Parameters"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:45
+msgid "Welcome to"
+msgstr ""
+
+#: includes/admin/wp-spaios-about.php:37
+msgid "What's New"
+msgstr ""
+
+#: includes/admin/metabox/nivoslider-metabox.php:47
+msgid "Width"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:42
+msgid "WordPress Post"
+msgstr ""
+
+#: includes/admin/metabox/wp-post-metabox.php:34
+msgid "WordPress Post Parameters"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:93
+msgid "WordPress Posts"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport, Essential Plugin"
+msgstr ""
+
+#: includes/admin/class-wp-spaios-admin.php:504
+msgid "Your changes saved successfully."
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:31
+msgid "Zoom"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:48
+msgid "Zoom-In-Out"
+msgstr ""
+
+#: includes/admin/metabox/fancybox-metabox.php:33
+msgid "Zoom-in-Out"
+msgstr ""

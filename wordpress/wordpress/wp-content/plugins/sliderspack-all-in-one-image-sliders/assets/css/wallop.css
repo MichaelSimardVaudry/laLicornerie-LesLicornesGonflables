@@ -1,0 +1,910 @@
+/**
+ * wallop.css
+ *
+ * @fileoverview Default styles for wallop – recommended
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+/*
+	This is the top-level selector
+
+	It should be relative positioned
+	to allow the children to be positioned absolutely
+	relative to this
+ */
+.Wallop {
+	position: relative;
+}
+
+/*
+	This element groups all the items, but not the buttons
+
+	It's a recommendation but it's very likely
+	you'll want to hide any overflow from the items
+	Especially when doing animations such as scale
+ */
+.Wallop-list {
+	position: relative;
+	overflow: hidden;
+}
+
+/*
+	This is the item element
+
+	By default, they are all hidden and
+	positioned absolute
+	I recommend always having .Wallop-item--current
+	in your markup by default (bably on the first element)
+ */
+.Wallop-item {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/*
+	This is the current item element
+
+	All we do here, is make it visible again reset
+	the position to static. Could also be relative
+ */
+.Wallop-item--current {
+	visibility: visible;
+	position: relative;
+}
+
+/**
+ * wallop--fade.css
+ *
+ * @fileoverview Fade animation for wallop
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+ .Wallop--fade .Wallop-item--hidePrevious,
+ .Wallop--fade .Wallop-item--hideNext {
+	visibility: visible;
+	-webkit-animation: fadeOut 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-moz-animation: fadeOut 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-ms-animation: fadeOut 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	animation: fadeOut 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+/*
+	In order to fade out perly we need to make sure
+	that the item that is going to be the previous one
+	has a higer z-index that the next one
+ */
+.Wallop--fade .Wallop-item--hidePrevious,
+.Wallop--fade .Wallop-item--hideNext { z-index: 2; }
+.Wallop--fade .Wallop-item--showPrevious,
+.Wallop--fade .Wallop-item--showNext { z-index: 1; }
+
+ /*==========  FADE ANIMATIONS  ==========*/
+@-webkit-keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+@-moz-keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+@-ms-keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+@keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+/**
+ * wallop--fold.css
+ *
+ * @fileoverview Fold animation for wallop
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+.Wallop--fold .Wallop-list {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
+
+.Wallop--fold .Wallop-item--showPrevious,
+.Wallop--fold .Wallop-item--showNext {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.Wallop--fold .Wallop-item--showPrevious {
+	-webkit-transform-origin: center left;
+	-moz-transform-origin: center left;
+	-ms-transform-origin: center left;
+	transform-origin: center left;
+	-webkit-animation: foldFromLeft 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	-moz-animation: foldFromLeft 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	-ms-animation: foldFromLeft 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	animation: foldFromLeft 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	z-index: 2;
+}
+
+.Wallop--fold .Wallop-item--showNext {
+	-webkit-transform-origin: center right;
+	-moz-transform-origin: center right;
+	-ms-transform-origin: center right;
+	transform-origin: center right;
+	-webkit-animation: foldFromRight 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	-moz-animation: foldFromRight 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	-ms-animation: foldFromRight 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	animation: foldFromRight 550ms cubic-bezier(0.65, 0.05, 0.36, 1) both;
+	z-index: 1;
+}
+
+.Wallop--fold .Wallop-item--hidePrevious,
+.Wallop--fold .Wallop-item--hideNext {
+	visibility: visible;
+}
+
+@-webkit-keyframes foldFromLeft {
+	0% {
+		-webkit-transform: rotateY(-90deg);
+		-moz-transform: rotateY(-90deg);
+		-ms-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+	}
+}
+
+@-moz-keyframes foldFromLeft {
+	0% {
+		-webkit-transform: rotateY(-90deg);
+		-moz-transform: rotateY(-90deg);
+		-ms-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+	}
+}
+
+@-ms-keyframes foldFromLeft {
+	0% {
+		-webkit-transform: rotateY(-90deg);
+		-moz-transform: rotateY(-90deg);
+		-ms-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+	}
+}
+
+@keyframes foldFromLeft {
+	0% {
+		-webkit-transform: rotateY(-90deg);
+		-moz-transform: rotateY(-90deg);
+		-ms-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+	}
+}
+
+@-webkit-keyframes foldFromRight {
+	0% {
+		-webkit-transform: rotateY(90deg);
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+	}
+}
+
+@-moz-keyframes foldFromRight {
+	0% {
+		-webkit-transform: rotateY(90deg);
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+	}
+}
+
+@-ms-keyframes foldFromRight {
+	0% {
+		-webkit-transform: rotateY(90deg);
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+	}
+}
+
+@keyframes foldFromRight {
+	0% {
+		-webkit-transform: rotateY(90deg);
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+	}
+}
+/**
+ * wallop--rotate.css
+ *
+ * @fileoverview Rotate animation for wallop
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+.Wallop--rotate .Wallop-item--hidePrevious,
+.Wallop--rotate .Wallop-item--hideNext {
+	visibility: visible;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.Wallop--rotate .Wallop-item--hidePrevious {
+	-webkit-animation: rotateToLeft 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-moz-animation: rotateToLeft 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-ms-animation: rotateToLeft 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	animation: rotateToLeft 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+.Wallop--rotate .Wallop-item--hideNext {
+	-webkit-animation: rotateToRight 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-moz-animation: rotateToRight 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-ms-animation: rotateToRight 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	animation: rotateToRight 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+.Wallop--rotate .Wallop-item--hidePrevious,
+.Wallop--rotate .Wallop-item--hideNext { z-index: 2; }
+.Wallop--rotate .Wallop-item--showPrevious,
+.Wallop--rotate .Wallop-item--showNext { z-index: 1; }
+
+@-webkit-keyframes rotateToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-moz-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-ms-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		transform: translate3d(-100%, 0, 0) rotate(90deg);
+	}
+}
+
+@-moz-keyframes rotateToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-moz-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-ms-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		transform: translate3d(-100%, 0, 0) rotate(90deg);
+	}
+}
+
+@-ms-keyframes rotateToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-moz-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-ms-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		transform: translate3d(-100%, 0, 0) rotate(90deg);
+	}
+}
+
+@keyframes rotateToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-moz-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		-ms-transform: translate3d(-100%, 0, 0) rotate(90deg);
+		transform: translate3d(-100%, 0, 0) rotate(90deg);
+	}
+}
+
+@-webkit-keyframes rotateToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-moz-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-ms-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		transform: translate3d(100%, 0, 0) rotate(-90deg);
+	}
+}
+
+@-moz-keyframes rotateToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-moz-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-ms-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		transform: translate3d(100%, 0, 0) rotate(-90deg);
+	}
+}
+
+@-ms-keyframes rotateToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-moz-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-ms-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		transform: translate3d(100%, 0, 0) rotate(-90deg);
+	}
+}
+
+@keyframes rotateToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-moz-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		-ms-transform: translate3d(100%, 0, 0) rotate(-90deg);
+		transform: translate3d(100%, 0, 0) rotate(-90deg);
+	}
+}
+/**
+ * wallop--scale.css
+ *
+ * @fileoverview Scale animation for wallop
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+.Wallop--scale .Wallop-item--hidePrevious,
+.Wallop--scale .Wallop-item--hideNext {
+	visibility: visible;
+	-webkit-animation: scaleOut 350ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+	-moz-animation: scaleOut 350ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+	-ms-animation: scaleOut 350ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+	animation: scaleOut 350ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+}
+
+/*
+	In order to scale out perly we need to make sure
+	that the item that is going to be the previous one
+	has a higer z-index that the next one
+ */
+ .Wallop--scale .Wallop-item--hidePrevious,
+ .Wallop--scale .Wallop-item--hideNext { z-index: 2; }
+ .Wallop--scale .Wallop-item--showPrevious,
+ .Wallop--scale .Wallop-item--showNext { z-index: 1; }
+
+/*==========  SCALE ANIMATIONS  ==========*/
+@-webkit-keyframes scaleOut {
+	100% {
+		-webkit-transform: scale(1.6);
+		-moz-transform: scale(1.6);
+		-ms-transform: scale(1.6);
+		transform: scale(1.6);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes scaleOut {
+	100% {
+		-webkit-transform: scale(1.6);
+		-moz-transform: scale(1.6);
+		-ms-transform: scale(1.6);
+		transform: scale(1.6);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes scaleOut {
+	100% {
+		-webkit-transform: scale(1.6);
+		-moz-transform: scale(1.6);
+		-ms-transform: scale(1.6);
+		transform: scale(1.6);
+		opacity: 0;
+	}
+}
+
+@keyframes scaleOut {
+	100% {
+		-webkit-transform: scale(1.6);
+		-moz-transform: scale(1.6);
+		-ms-transform: scale(1.6);
+		transform: scale(1.6);
+		opacity: 0;
+	}
+}
+/**
+ * wallop--slide.css
+ *
+ * @fileoverview Slide animation for wallop
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+/* the 10ms animation-delay fixed some weird rendering issues with iPhone */
+.Wallop--slide .Wallop-item--showPrevious {
+	-webkit-animation: slideFromLeft 350ms 10ms linear both;
+	-moz-animation: slideFromLeft 350ms 10ms linear both;
+	-ms-animation: slideFromLeft 350ms 10ms linear both;
+	animation: slideFromLeft 350ms 10ms linear both;
+}
+
+.Wallop--slide .Wallop-item--showNext {
+	-webkit-animation: slideFromRight 350ms 10ms linear both;
+	-moz-animation: slideFromRight 350ms 10ms linear both;
+	-ms-animation: slideFromRight 350ms 10ms linear both;
+	animation: slideFromRight 350ms 10ms linear both;
+}
+
+.Wallop--slide .Wallop-item--hidePrevious,
+.Wallop--slide .Wallop-item--hideNext {
+	visibility: visible;
+}
+
+.Wallop--slide .Wallop-item--hidePrevious {
+	-webkit-animation: slideToLeft 350ms 10ms linear both;
+	-moz-animation: slideToLeft 350ms 10ms linear both;
+	-ms-animation: slideToLeft 350ms 10ms linear both;
+	animation: slideToLeft 350ms 10ms linear both;
+}
+
+.Wallop--slide .Wallop-item--hideNext {
+	-webkit-animation: slideToRight 350ms 10ms linear both;
+	-moz-animation: slideToRight 350ms 10ms linear both;
+	-ms-animation: slideToRight 350ms 10ms linear both;
+	animation: slideToRight 350ms 10ms linear both;
+}
+
+@-webkit-keyframes slideFromLeft {
+	0% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-moz-keyframes slideFromLeft {
+	0% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-ms-keyframes slideFromLeft {
+	0% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@keyframes slideFromLeft {
+	0% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-webkit-keyframes slideFromRight {
+	0% {
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@-moz-keyframes slideFromRight {
+	0% {
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@-ms-keyframes slideFromRight {
+	0% {
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@keyframes slideFromRight {
+	0% {
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@-webkit-keyframes slideToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-moz-keyframes slideToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-ms-keyframes slideToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@keyframes slideToLeft {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-100%, 0, 0);
+		-moz-transform: translate3d(-100%, 0, 0);
+		-ms-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+@-webkit-keyframes slideToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@-moz-keyframes slideToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@-ms-keyframes slideToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+@keyframes slideToRight {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		-moz-transform: translate3d(100%, 0, 0);
+		-ms-transform: translate3d(100%, 0, 0);
+		transform: translate3d(100%, 0, 0);
+	}
+}
+/**
+ * wallop--vertical-slide.css
+ *
+ * @fileoverview Verical slide animation for wallop
+ *
+ * @author Pedro Duarte
+ * @author http://pedroduarte.me/wallop
+ */
+
+/* the 10ms animation-delay fixed some weird rendering issues with iPhone */
+.Wallop--vertical-slide .Wallop-list {
+	position: relative;
+	overflow: hidden;
+}
+
+.Wallop--vertical-slide .Wallop-item--showNext {
+	-webkit-animation: slideFromTop 350ms 10ms linear both;
+	-moz-animation: slideFromTop 350ms 10ms linear both;
+	-ms-animation: slideFromTop 350ms 10ms linear both;
+	animation: slideFromTop 350ms 10ms linear both;
+}
+
+.Wallop--vertical-slide .Wallop-item--showPrevious {
+	-webkit-animation: slideFromBottom 350ms 10ms linear both;
+	-moz-animation: slideFromBottom 350ms 10ms linear both;
+	-ms-animation: slideFromBottom 350ms 10ms linear both;
+	animation: slideFromBottom 350ms 10ms linear both;
+}
+
+.Wallop--vertical-slide .Wallop-item--hidePrevious,
+.Wallop--vertical-slide .Wallop-item--hideNext {
+	visibility: visible;
+}
+
+.Wallop--vertical-slide .Wallop-item--hidePrevious {
+	-webkit-animation: slideToBottom 350ms 10ms linear both;
+	-moz-animation: slideToBottom 350ms 10ms linear both;
+	-ms-animation: slideToBottom 350ms 10ms linear both;
+	animation: slideToBottom 350ms 10ms linear both;
+}
+
+.Wallop--vertical-slide .Wallop-item--hideNext {
+	-webkit-animation: slideToTop 350ms 10ms linear both;
+	-moz-animation: slideToTop 350ms 10ms linear both;
+	-ms-animation: slideToTop 350ms 10ms linear both;
+	animation: slideToTop 350ms 10ms linear both;
+}
+
+@-webkit-keyframes slideFromTop {
+	0% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@-moz-keyframes slideFromTop {
+	0% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@-ms-keyframes slideFromTop {
+	0% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@keyframes slideFromTop {
+	0% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@-webkit-keyframes slideFromBottom {
+	0% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+@-moz-keyframes slideFromBottom {
+	0% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+@-ms-keyframes slideFromBottom {
+	0% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+@keyframes slideFromBottom {
+	0% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+@-webkit-keyframes slideToTop {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes slideToTop {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes slideToTop {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+		opacity: 0;
+	}
+}
+
+@keyframes slideToTop {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		-moz-transform: translate3d(0, -100%, 0);
+		-ms-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes slideToBottom {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes slideToBottom {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes slideToBottom {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+		opacity: 0;
+	}
+}
+
+@keyframes slideToBottom {
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+		opacity: 0;
+	}
+}
