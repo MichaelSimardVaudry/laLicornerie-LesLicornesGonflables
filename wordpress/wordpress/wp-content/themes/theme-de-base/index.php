@@ -87,7 +87,7 @@ get_header(); // Affiche header.php
                         <div class="card-body">
                             <h5 class="card-title">item-licorne</h5>
                             <p class="card-text">mini description</p>
-                            <a href="pages/page_produit/produit.html" class="btn btn-primary">Voir</a>
+                            <a href="article" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>
