@@ -11,57 +11,19 @@ get_header(); // Affiche header.php
 ?>
 <main>
     <section class="main-hero">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6">
+        
                     <h1>La Licornerie</h1>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <div class="hero-swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img class="header-img" src="../../medias/boutique/13-kevin_2.jpg" alt="logo" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="header-img" src="../../medias/boutique/13-kevin.jpg" alt="logo" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="header-img" src="../../medias/boutique/13-kevin_3.jpg" alt="logo" />
-                            </div>
-                        </div>
-                        <div class="hero-swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <?php xo_slider( 44 ); ?>
     </section>
 
     <section class="main-categorie">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6">
+       
                     <H2>Magasinez Par Catégories</H2>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="categorie-swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img class="cercle" src="../../medias/boutique/1-sirop_emeraude.png" alt="logo" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="cercle" src="../../medias/boutique/11-mirroir.jpg" alt="logo" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="cercle" src="../../medias/boutique/4-collier_licorne.jpg" alt="logo" />
-                            </div>
-                        </div>
-                        <div class="categorie-swiper-pagination"></div>
-                        <div class="categorie-swiper-button-prev"></div>
-                        <div class="categorie-swiper-button-next"></div>
-                    </div>
-                </div>
+                <?php xo_slider( 108 ); ?>
+                     
     </section>
     <section class="main-vedette">
         <div class="container">
