@@ -22,6 +22,7 @@
 	 Supprimer cette fonction briserait vos extensions et diverses fonctionnalités WordPress. 
 	 Vous pouvez la déplacer si désiré, mais garder là. */
 ?>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -51,18 +52,18 @@
                 </button>
 
                 <div id="mainNav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" >
                         <li class="nav-item">
-                            <a href="boutique" class="nav-link">Boutique</a>
+                            <a href="boutique" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Boutique</a>
                         </li>
                         <li class="nav-item">
-                            <a href="evenement" class="nav-link">Évènements</a>
+                            <a href="evenement" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Évènements</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact" class="nav-link">Contact</a>
+                            <a href="contact" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="nouvelle" class="nav-link">Nouvelles</a>
+                            <a href="nouvelle" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Nouvelles</a>
                         </li>
                         <li class="nav-item">
                             <form>

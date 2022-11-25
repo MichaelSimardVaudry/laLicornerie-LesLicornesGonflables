@@ -7,10 +7,11 @@ Version: 1.0
 -------------------------------------------------------------- */
 
 .navbar {
-  background-color: #fd95e3;
+  background: linear-gradient(45deg, lightblue, lightgreen, rgb(255, 255, 147), lightcoral);
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .navbar img {
   width: 100px;
 }
@@ -46,7 +47,7 @@ Version: 1.0
   }
 }
 .footer {
-  background-color: #fd95e3;
+  background: linear-gradient(45deg, lightblue, lightgreen, rgb(255, 255, 147), lightcoral);
   height: 20vh;
 }
 .footer .logo {
@@ -58,6 +59,8 @@ Version: 1.0
 
 main {
   text-align: center;
+ 
+  
 }
 main section {
   margin-top: 50px;
