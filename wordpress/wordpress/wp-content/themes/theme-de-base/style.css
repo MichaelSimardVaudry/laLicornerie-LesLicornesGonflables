@@ -117,12 +117,6 @@ ul{
   list-style-type:none;
   }
 
-  
-html,
-body {
-  display: flex;
-  justify-content: center;
-}
 
 .searchingBoutique {
   margin-top: 30px;
