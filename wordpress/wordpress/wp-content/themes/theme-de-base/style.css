@@ -187,3 +187,6 @@ body {
   height: 250px;
   border-radius: 50vh;
 }
+.slide-content{
+  height: 50%;
+}

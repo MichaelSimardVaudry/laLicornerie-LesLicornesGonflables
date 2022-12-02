@@ -29,16 +29,25 @@ get_header(); // Affiche header.php
                         <img class="catego-1"
                             src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
                             alt="">
+                        <p>Jouets</p>
                     </div>
                     <div class="col-3">
                         <img class="catego-1"
                             src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
                             alt="">
+                        <p>Bijoux</p>
                     </div>
                     <div class="col-3">
                         <img class="catego-1"
                             src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
                             alt="">
+                        <p>Accessoires</p>
+                    </div>
+                    <div class="col-3">
+                        <img class="catego-1"
+                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
+                            alt="">
+                        <p>Comestibles</p>
                     </div>
                 </div>
             </div>
