@@ -47,8 +47,8 @@
             <a class="navbar-brand" href="../wordpress/"><img class="header__logo__img" src="../../medias/logo.png"
                     alt="imgage licorne rainbow" />
             </a>
-            <div class="container">
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            
+                <button class="navbar-toggler navbar-light" data-bs-toggle="collapse" data-bs-target="#mainNav"
                     aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -68,7 +68,7 @@
                             <a href="nouvelle" class="nav-link">Nouvelles</a>
                         </li>
                     </ul>
-                </div>
+               
             </div>
         </nav>
     </header>
