@@ -21,17 +21,17 @@ Version: 1.0
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:white; 
-  border-radius:35px; 
-  padding: 0vh 3vh; 
-  margin: 8px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgba(255, 255, 255, 0.397);
+  border-radius: 15px;
+  margin: 5px;
 }
 .navbar .nav-link {
   color:black;
 }
 
 .navbar .nav-link:hover {
-  color:lightcoral;
+  color:rgb(63, 199, 163);
 }
 .navbar .navbar-collapse {
   margin-left: 15px;
@@ -53,10 +53,14 @@ Version: 1.0
   height: 20vh;
 }
 .footer .logo {
-  height: 20vh;
+  height: 18vh;
 }
 .footer .reseau {
   height: 5vh;
+}
+
+.footer .social {
+  display: flex;
 }
 
 main {
@@ -108,3 +112,9 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+ul{
+  list-style-type:none;
+  }
+
+  

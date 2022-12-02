@@ -14,7 +14,7 @@
                     <img src="../../medias/logo.png" class="logo ">
                 </a>
             </div>
-            <div class="col-2">
+            <div class="col-2" id="social">
                 <ul>
                     <li>
                         <a href="#" class="btn ">Adresse</a>
@@ -27,7 +27,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-2">
+           <div class="col-2" id="social">
                 <ul>
                     <li>
                         <a class="reseau facebook" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="2em"
