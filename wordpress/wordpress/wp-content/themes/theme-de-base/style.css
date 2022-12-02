@@ -134,6 +134,8 @@ ul{
     grid-template-columns: 50%;
     gap: 15px;
     margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
   }
   .lesProduits .produit {
     position: relative;
