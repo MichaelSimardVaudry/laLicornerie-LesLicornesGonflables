@@ -56,16 +56,16 @@
                 <div id="mainNav" class="collapse navbar-collapse">
                     <ul class="navbar-nav" >
                         <li class="nav-item">
-                            <a href="boutique" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Boutique</a>
+                            <a href="boutique" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Boutique</a>
                         </li>
                         <li class="nav-item">
-                            <a href="evenement" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Évènements</a>
+                            <a href="evenement" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Évènements</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Contact</a>
+                            <a href="contact" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="nouvelle" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Nouvelles</a>
+                            <a href="nouvelle" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Nouvelles</a>
                         </li>
                     </ul>
                 </div>
