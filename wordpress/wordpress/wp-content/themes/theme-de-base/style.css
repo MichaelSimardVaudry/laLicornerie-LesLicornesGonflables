@@ -112,7 +112,6 @@ body {
 .searchingBoutique{
   margin: 10px;
 }
-<<<<<<< Updated upstream
 
 // SMOLL SCREENS MAX 767
 @media screen and (max-width:767px) { 
@@ -186,15 +185,14 @@ body {
         }
     }
 }}
-=======
 #xo-slider-108{
   width: 50vh;
   display: flex;
-  align-items: center;
+  justify-content: center;
+
 }
 .catego-1{
   background-color: aqua;
   height: 250px;
   border-radius: 50vh;
 }
->>>>>>> Stashed changes
