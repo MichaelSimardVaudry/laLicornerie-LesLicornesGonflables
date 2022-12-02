@@ -108,19 +108,65 @@ body {
   overflow-x: hidden;
 }
 
+// BOUTIQUE SECTION //
+// SMOLL SCREENS MAX 767
+@media screen and (max-width:767px) { 
+  .lesProduits {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      gap: 15px;
+  
+      .produit {
+          position: relative;
+          padding: 5px;
+          margin: 0;
+          background-color: #6a6a6a;
+          text-align: center;
+  
+          .imgProduit {
+              margin: 0;
+              height: 100px;
+              width: 100px;
+          }
+      }
+  }}
+
+// MEDIUM SCREENS 768 TO 1200 
+@media screen and (min-width: 768px) and (max-width:1199px) { 
+  .lesProduits {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 15px;
+  
+      .produit {
+          position: relative;
+          padding: 7.5px;
+          background-color: #6a6a6a;
+          text-align: center;
+  
+          .imgProduit {
+              height: 150px;
+              width: 150px;
+          }
+      }
+  }}
+
+// BIG SCREENS 1200 + 
+@media screen and (min-width: 1200px) { 
 .lesProduits {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 15px;
-}
-.lesProduits .produit {
-  position: relative;
-  padding: 10px;
-  background-color: #6a6a6a;
-  text-align: center;
-}
-.lesProduits .produit .imgProduit {
-  height: 200px;
-  width: 200px;
-}
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+
+    .produit {
+        position: relative;
+        padding: 10px;
+        background-color: #6a6a6a;
+        text-align: center;
+
+        .imgProduit {
+            height: 200px;
+            width: 200px;
+        }
+    }
+}}
