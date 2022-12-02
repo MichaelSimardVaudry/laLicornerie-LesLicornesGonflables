@@ -107,3 +107,20 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+.lesProduits {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+}
+.lesProduits .produit {
+  position: relative;
+  padding: 10px;
+  background-color: #6a6a6a;
+  text-align: center;
+}
+.lesProduits .produit .imgProduit {
+  height: 200px;
+  width: 200px;
+}
