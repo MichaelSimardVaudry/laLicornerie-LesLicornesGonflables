@@ -108,84 +108,73 @@ body {
   overflow-x: hidden;
 }
 
-// BOUTIQUE SECTION
-.searchingBoutique{
+.searchingBoutique {
   margin: 10px;
 }
-<<<<<<< Updated upstream
 
-// SMOLL SCREENS MAX 767
-@media screen and (max-width:767px) { 
+@media screen and (max-width: 767px) {
   .produitGeneralInfo {
     font-size: 15px;
   }
-
   .lesProduits {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      gap: 15px;
-  
-      .produit {
-          position: relative;
-          padding: 5px;
-          margin: 0;
-          background-color: #6a6a6a;
-          text-align: center;
-  
-          .imgProduit {
-              margin: 0;
-              height: 125px;
-              width: 125px;
-              padding-bottom: 5px;
-          }
-      }
-  }}
-
-// MEDIUM SCREENS 768 TO 1200 
-@media screen and (min-width: 768px) and (max-width:1199px) { 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+  }
+  .lesProduits .produit {
+    position: relative;
+    padding: 5px;
+    margin: 0;
+    background-color: #6a6a6a;
+    text-align: center;
+  }
+  .lesProduits .produit .imgProduit {
+    margin: 0;
+    height: 125px;
+    width: 125px;
+    padding-bottom: 5px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .produitGeneralInfo {
     font-size: 17px;
   }
   .lesProduits {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      gap: 15px;
-  
-      .produit {
-          position: relative;
-          padding: 7.5px;
-          background-color: #6a6a6a;
-          text-align: center;
-  
-          .imgProduit {
-              height: 150px;
-              width: 150px;
-          }
-      }
-  }}
-
-// BIG SCREENS 1200 + 
-@media screen and (min-width: 1200px) { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+  }
+  .lesProduits .produit {
+    position: relative;
+    padding: 7.5px;
+    background-color: #6a6a6a;
+    text-align: center;
+  }
+  .lesProduits .produit .imgProduit {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .produitGeneralInfo {
     font-size: 20px;
   }
-.lesProduits {
+  .lesProduits {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 15px;
-
-    .produit {
-        position: relative;
-        padding: 10px;
-        background-color: #6a6a6a;
-        text-align: center;
-
-        .imgProduit {
-            height: 200px;
-            width: 200px;
-        }
-    }
-}}
+  }
+  .lesProduits .produit {
+    position: relative;
+    padding: 10px;
+    background-color: #6a6a6a;
+    text-align: center;
+  }
+  .lesProduits .produit .imgProduit {
+    height: 200px;
+    width: 200px;
+  }
+}
 =======
 #xo-slider-108{
   width: 50vh;
