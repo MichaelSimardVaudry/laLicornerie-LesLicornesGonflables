@@ -8,6 +8,7 @@ get_header();
 ?>
 
 <main>
+    <div class='searchingBoutique'>
     <label>
       Age:
       <select name='Age:'>
@@ -27,7 +28,6 @@ get_header();
         <option value="decroissant">Prix décroissant</option>
       </select>
     </label>
-     <p>Value: <span id="demo"></span></p>
   </div>
     
     <div class='lesProduits'>
@@ -35,85 +35,85 @@ get_header();
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+          <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+            <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
       <div class='produit'>
         <img class='imgProduit'
           src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-        <p>Item numero 1</p>
-        <p>Prix</p>
+          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
+          <div class='prixProduit produitGeneralInfo'>Prix</div>
       </div>
 
     </div>

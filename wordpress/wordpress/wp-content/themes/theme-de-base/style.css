@@ -118,3 +118,90 @@ ul{
   }
 
   
+html,
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.searchingBoutique {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .produitGeneralInfo {
+    font-size: 15px;
+  }
+  .lesProduits {
+    display: grid;
+    grid-template-columns: 50%;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .lesProduits .produit {
+    position: relative;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+  }
+  .lesProduits .produit .imgProduit {
+    margin: 0;
+    height: 125px;
+    width: 125px;
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .produitGeneralInfo {
+    font-size: 17px;
+  }
+  .lesProduits {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+  }
+  .lesProduits .produit {
+    position: relative;
+    padding: 7.5px;
+    text-align: center;
+  }
+  .lesProduits .produit .imgProduit {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .produitGeneralInfo {
+    font-size: 20px;
+  }
+  .lesProduits {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+  }
+  .lesProduits .produit {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+  }
+  .lesProduits .produit .imgProduit {
+    height: 200px;
+    width: 200px;
+  }
+}/*# sourceMappingURL=bStyles.css.map */
+
+#xo-slider-108{
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+
+}
+.catego-1{
+  background-color: aqua;
+  height: 250px;
+  border-radius: 50vh;
+}
+.slide-content{
+  height: 50%;
+}
