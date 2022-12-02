@@ -108,9 +108,17 @@ body {
   overflow-x: hidden;
 }
 
-// BOUTIQUE SECTION //
+// BOUTIQUE SECTION
+.searchingBoutique{
+  margin: 10px;
+}
+
 // SMOLL SCREENS MAX 767
 @media screen and (max-width:767px) { 
+  .produitGeneralInfo {
+    font-size: 15px;
+  }
+
   .lesProduits {
       display: grid;
       grid-template-columns: 50% 50%;
@@ -125,14 +133,18 @@ body {
   
           .imgProduit {
               margin: 0;
-              height: 100px;
-              width: 100px;
+              height: 125px;
+              width: 125px;
+              padding-bottom: 5px;
           }
       }
   }}
 
 // MEDIUM SCREENS 768 TO 1200 
 @media screen and (min-width: 768px) and (max-width:1199px) { 
+  .produitGeneralInfo {
+    font-size: 17px;
+  }
   .lesProduits {
       display: grid;
       grid-template-columns: auto auto auto;
@@ -153,6 +165,9 @@ body {
 
 // BIG SCREENS 1200 + 
 @media screen and (min-width: 1200px) { 
+  .produitGeneralInfo {
+    font-size: 20px;
+  }
 .lesProduits {
     display: grid;
     grid-template-columns: auto auto auto auto;
