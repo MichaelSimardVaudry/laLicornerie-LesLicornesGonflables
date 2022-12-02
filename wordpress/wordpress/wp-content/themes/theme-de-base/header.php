@@ -67,12 +67,6 @@
                         <li class="nav-item">
                             <a href="nouvelle" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 0 3vh; margin:5px">Nouvelles</a>
                         </li>
-                        <li class="nav-item">
-                            <form>
-                                <input type="text" name="text" class="navbar__recherche" placeholder="Recherche" />
-                                <button class="my-button" aria-label="Smile"></button>
-                            </form>
-                        </li>
                     </ul>
                 </div>
             </div>
