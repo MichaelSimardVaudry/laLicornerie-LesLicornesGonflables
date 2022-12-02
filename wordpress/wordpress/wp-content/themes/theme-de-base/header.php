@@ -43,7 +43,7 @@
 	?>>
 
     <header>
-        <nav class="navbar navbar-light navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="../wordpress/"><img class="header__logo__img" src="../../medias/logo.png"
                     alt="imgage licorne rainbow" />
             </a>
@@ -56,16 +56,16 @@
                 <div id="mainNav" class="collapse navbar-collapse">
                     <ul class="navbar-nav" >
                         <li class="nav-item">
-                            <a href="boutique" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Boutique</a>
+                            <a href="boutique" class="nav-link" >Boutique</a>
                         </li>
                         <li class="nav-item">
-                            <a href="evenement" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Évènements</a>
+                            <a href="evenement" class="nav-link">Évènements</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Contact</a>
+                            <a href="contact" class="nav-link">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="nouvelle" class="nav-link" style="color:black; background-color:white; border-radius:35px; padding: 1vh 3vh; margin:5px">Nouvelles</a>
+                            <a href="nouvelle" class="nav-link">Nouvelles</a>
                         </li>
                     </ul>
                 </div>
