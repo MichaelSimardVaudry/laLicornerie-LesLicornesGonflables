@@ -11,19 +11,39 @@ get_header(); // Affiche header.php
 ?>
 <main>
     <section class="main-hero">
-        
-                    <h1>La Licornerie</h1>
-                </div>
-            </div>
-            <?php xo_slider( 44 ); ?>
+
+        <h1>La Licornerie</h1>
+        </div>
+        </div>
+        <?php xo_slider( 44 ); ?>
     </section>
 
     <section class="main-categorie">
-       
-                    <H2>Magasinez Par Catégories</H2>
+
+        <H2>Magasinez Par Catégories</H2>
+        </div>
+        <a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="catego-1"
+                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-3">
+                        <img class="catego-1"
+                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-3">
+                        <img class="catego-1"
+                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
+                            alt="">
+                    </div>
                 </div>
-                <?php xo_slider( 108 ); ?>
-                     
+            </div>
+        </a>
+
     </section>
     <section class="main-vedette">
         <div class="container">
