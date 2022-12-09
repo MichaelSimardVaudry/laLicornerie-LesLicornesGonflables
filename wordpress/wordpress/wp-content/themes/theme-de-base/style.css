@@ -148,6 +148,7 @@ ul{
     height: 125px;
     width: 125px;
     padding-bottom: 5px;
+    border-radius: 20%;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -167,6 +168,7 @@ ul{
   .lesProduits .produit .imgProduit {
     height: 150px;
     width: 150px;
+    border-radius: 20%;
   }
 }
 @media (min-width: 1200px) {
@@ -186,6 +188,7 @@ ul{
   .lesProduits .produit .imgProduit {
     height: 200px;
     width: 200px;
+    border-radius: 20%;
   }
 }/*# sourceMappingURL=bStyles.css.map */
 
