@@ -1,7 +1,6 @@
 <?php 
 /**
  * 	Template Name: Boutique
- *  Template Post Type: comestible, jouet, bijoux, accessoir
  */
 get_header();
 
@@ -23,7 +22,5 @@ while($products->have_posts()) : $products->the_post();
 </main>
 
 <?php 
-else : get_template_part( 'partials/404' ); 
-endif;
 get_footer();
 ?>
