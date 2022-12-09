@@ -13,6 +13,7 @@
         <?php bloginfo('name'); // Affiche le nom du blog ?> |
         <?php is_front_page() ? bloginfo('description') : wp_title(''); // si nous sommes sur la page d'accueil, affichez la description à partir des paramètres du site - sinon, affichez le titre du post ou de la page. ?>
     </title>
+	<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <?php 
 	// Tous les .css et .js sont chargés dans le fichier functions.php
 ?>
