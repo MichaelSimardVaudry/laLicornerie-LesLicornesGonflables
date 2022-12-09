@@ -1,7 +1,7 @@
 <?php 
 /**
  * 	Template Name: Boutique
- *  Template Post Type: comestibles, jouet, bijoux, accessoires
+ *  Template Post Type: comestible, jouet, bijoux, accessoir
  */
 
 $jouet = new WP_Query('post_type=jouet');
