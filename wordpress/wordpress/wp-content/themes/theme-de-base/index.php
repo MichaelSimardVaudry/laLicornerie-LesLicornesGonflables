@@ -153,39 +153,30 @@ get_header(); // Affiche header.php
                 </div>
             </div>
             <div class="row">
+                <?php
+                $arguments = array(
+                    'post_type' => 'avis',
+                    'posts_per_page' => 3
+                );
+                $avis = new WP_Query($arguments);
+                while ($avis->have_posts()) : $avis->the_post(); 
+            
+            ?>
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <div class="col-5">
-                            <img src="../../medias/image_fake_humain.png" class="img-fluid">
+                            <img src="<?php the_field('photo'); ?>" class="img-fluid">
                         </div>
                         <div class="col-7">
-                            <h5 class="card-title">Brendon Chad</h5>
-                            <div class="card-body">Wow vraiment magique!</div>
+                            <h5 class="card-title"><?php the_field('nom'); ?></h5>
+                            <div class="card-body"><?php the_field('commentaire'); ?></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="col-5">
-                            <img src="../../medias/image_fake_humain.png" class="img-fluid">
-                        </div>
-                        <div class="col-7">
-                            <h5 class="card-title">Brendon Chad</h5>
-                            <div class="card-body">Wow vraiment magique!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="col-5">
-                            <img src="../../medias/image_fake_humain.png" class="img-fluid">
-                        </div>
-                        <div class="col-7">
-                            <h5 class="card-title">Brendon Chad</h5>
-                            <div class="card-body">Wow vraiment magique!</div>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                    endwhile; 
+                    wp_reset_postdata(); 
+                ?>
 
             </div>
         </div>
