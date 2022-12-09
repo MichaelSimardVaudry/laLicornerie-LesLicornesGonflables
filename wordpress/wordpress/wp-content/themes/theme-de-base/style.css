@@ -167,6 +167,19 @@ ul{
     padding-bottom: 5px;
     border-radius: 20%;
   }
+  .lesProduits .produit .BoutiqueBouton {
+    color: black;
+    border: none;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 5px;
+    transition:0.6s;
+  }
+
+  .lesProduits .produit .BoutiqueBouton:hover {
+    background-color: lightgreen;
+    transition:0.6s;
+  }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .produitGeneralInfo {
