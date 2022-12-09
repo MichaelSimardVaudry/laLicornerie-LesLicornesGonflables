@@ -21,7 +21,7 @@ get_header();
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <p>Disponibilité</p>
+                            <h2>Disponibilité</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -40,11 +40,15 @@ get_header();
                         <div class="col-12">
                             <form action="info">
                                 <p>Information pour la réservation</p>
+                                <div>
                                 <label for="date">Date: </label>
                                 <input type="date" id="date" name="date">
+                                </div>
                                 <br>
+                                <div>
                                 <label for="nom">Nom: </label>
                                 <input type="text" id="name" name="name">
+                                </div>
                                 <br>
                                 <p>Description de l’évènement</p>
                                 <label for="description"></label>
