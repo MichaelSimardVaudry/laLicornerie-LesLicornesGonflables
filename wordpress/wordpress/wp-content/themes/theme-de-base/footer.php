@@ -15,7 +15,7 @@ $logo = new WP_Query($arguments);
     <div class="container">
         <div class="row">
             <div class="col-1">
-                <a class="navbar-brand" href="../wordpress/">
+                <a class="navbar-brand" href="http://localhost/laLicornerie-LesLicornesGonflables/wordpress/wordpress/">
                     <img src="<?php the_field('logo'); ?>" class="logo">
                 </a>
                 <?php
