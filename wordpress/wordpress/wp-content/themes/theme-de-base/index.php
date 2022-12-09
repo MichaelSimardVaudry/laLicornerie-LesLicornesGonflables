@@ -32,30 +32,23 @@ get_header(); // Affiche header.php
         <a>
             <div class="container">
                 <div class="row">
+                    <?php
+                $arguments = array(
+                    'post_type' => 'jouet',
+                    'posts_per_page' => 1
+                );
+                $jouet = new WP_Query($arguments);
+                while ($jouet->have_posts()) : $jouet->the_post(); 
+            
+            ?>
                     <div class="col-3">
-                        <img class="catego-1"
-                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
-                            alt="">
+                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                         <p>Jouets</p>
                     </div>
-                    <div class="col-3">
-                        <img class="catego-1"
-                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
-                            alt="">
-                        <p>Bijoux</p>
-                    </div>
-                    <div class="col-3">
-                        <img class="catego-1"
-                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
-                            alt="">
-                        <p>Accessoires</p>
-                    </div>
-                    <div class="col-3">
-                        <img class="catego-1"
-                            src="http://localhost/laLicornerie-LesLicornesGonflables/medias/boutique/9-Emma_licorne_sorbet.jpg"
-                            alt="">
-                        <p>Comestibles</p>
-                    </div>
+                    <?php
+                    endwhile; 
+                    wp_reset_postdata(); 
+                ?>
                 </div>
             </div>
         </a>
