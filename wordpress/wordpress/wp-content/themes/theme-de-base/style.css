@@ -59,6 +59,7 @@ background-color: white;
 }
 .logo {
   height: 20vh;
+  padding:5px;
 }
 .footer .reseau {
   height: 5vh;
