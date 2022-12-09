@@ -6,8 +6,8 @@
 get_header();
 
 $arguments = array('post_type' => 'comestible','jouet','bijoux','accessoir');
-$comestible = new WP_Query($arguments);
-while($comestible->have_posts()) : $comestible->the_post();
+$products = new WP_Query($arguments);
+while($products->have_posts()) : $products->the_post();
 ?>
 
 <main>
