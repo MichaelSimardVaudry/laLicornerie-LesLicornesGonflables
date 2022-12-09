@@ -33,22 +33,53 @@ get_header(); // Affiche header.php
             <div class="container">
                 <div class="row">
                     <?php
-                $arguments = array(
-                    'post_type' => 'jouet',
-                    'posts_per_page' => 1
-                );
-                $jouet = new WP_Query($arguments);
-                while ($jouet->have_posts()) : $jouet->the_post(); 
-            
-            ?>
+                        $arguments = array(
+                        'post_type' => 'jouet',
+                        'posts_per_page' => 1
+                        );
+                        $jouet = new WP_Query($arguments);
+                        while ($jouet->have_posts()) : $jouet->the_post(); 
+                    ?>
                     <div class="col-3">
                         <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                         <p>Jouets</p>
                     </div>
                     <?php
-                    endwhile; 
-                    wp_reset_postdata(); 
-                ?>
+                        endwhile; 
+                        wp_reset_postdata(); 
+                    ?>
+                    <?php
+                        $arguments = array(
+                        'post_type' => 'bijoux',
+                        'posts_per_page' => 1
+                        );
+                        $bijoux = new WP_Query($arguments);
+                        while ($bijoux->have_posts()) : $bijoux->the_post(); 
+                    ?>
+                    <div class="col-3">
+                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                        <p>Bijoux</p>
+                    </div>
+                    <?php
+                        endwhile; 
+                        wp_reset_postdata(); 
+                    ?>
+                    <?php
+                        $arguments = array(
+                        'post_type' => 'accessoires',
+                        'posts_per_page' => 1
+                        );
+                        $accesoir = new WP_Query($arguments);
+                        while ($accesoir->have_posts()) : $accesoir->the_post(); 
+                    ?>
+                    <div class="col-3">
+                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                        <p>Accesoirs</p>
+                    </div>
+                    <?php
+                        endwhile; 
+                        wp_reset_postdata(); 
+                    ?>
                 </div>
             </div>
         </a>
