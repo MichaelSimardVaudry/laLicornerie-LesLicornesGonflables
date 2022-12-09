@@ -4,13 +4,10 @@
  */
 get_header();
 
-$food = array('post_type' => 'comestible');
-$toy = array('post_type' => 'jouet');
-$jewlery = array('post_type' => 'bijoux');
-$other = array('post_type' => 'accessoir');
+$products = array('post_type' => array('jouet', 'bijoux', 'accessoir', 'comestible');
 
-$products = new WP_Query($food, $toy, $jewlery, $other);
-while($products->have_posts()) : $products->the_post();
+$query = new WP_Query($products);
+while($query->have_posts()) : $query->the_post();
 ?>
 
 <main>
