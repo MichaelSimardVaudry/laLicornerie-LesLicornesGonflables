@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-1">
                 <a class="navbar-brand">
-                    <img href="../wordpress/" src="../../medias/logo.png" class="logo ">
+                    <img href="../wordpress/" src="../../medias/logo.png" class="logo">
                 </a>
             </div>
             <div class="col-7" id="social">
