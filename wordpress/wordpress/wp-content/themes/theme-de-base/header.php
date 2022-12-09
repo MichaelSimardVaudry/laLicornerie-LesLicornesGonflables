@@ -13,7 +13,7 @@
         <?php bloginfo('name'); // Affiche le nom du blog ?> |
         <?php is_front_page() ? bloginfo('description') : wp_title(''); // si nous sommes sur la page d'accueil, affichez la description à partir des paramètres du site - sinon, affichez le titre du post ou de la page. ?>
     </title>
-	<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <?php 
 	// Tous les .css et .js sont chargés dans le fichier functions.php
 ?>
@@ -41,13 +41,18 @@
 		 ex: sur la page d'accueil vous aurez la classe "home"
 		 sur un article, "single postid-{ID}"
 		 etc. */
-         $head_et_foot = new WP_Query('post_type=head_et_foot');
+                $arguments = array(
+                    'post_type' => 'head_et_foot',
+                    'posts_per_page' => 1
+                );
+         $logo = new WP_Query($arguments);
+                while ($logo->have_posts()) : $logo->the_post(); 
 	?>>
 
     <header>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="../wordpress/"><img class="header__logo__img"
-                    src="<?php the_field('logo'); ?>" alt="imgage licorne rainbow" />
+                    src="<?php the_field('logo'); ?>" alt="image licorne rainbow" />
             </a>
 
             <button class="navbar-toggler navbar-light" data-bs-toggle="collapse" data-bs-target="#mainNav"
@@ -74,6 +79,10 @@
             </div>
         </nav>
     </header>
-
+    <?php
+                    endwhile; 
+                    wp_reset_postdata(); 
+                ?>
     <main>
+
         <!-- Débute le contenu principal de notre site -->

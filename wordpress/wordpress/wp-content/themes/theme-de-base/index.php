@@ -88,9 +88,6 @@ get_header(); // Affiche header.php
                             <a href="#" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
-                    <?php
-                            _print_r($test);
-                            ?>
                 </div>
 
                 <?php
@@ -117,9 +114,6 @@ get_header(); // Affiche header.php
                                 <a href="#" class="btn btn-primary">Voir</a>
                             </div>
                         </div>
-                        <?php
-                            _print_r($test);
-                            ?>
                     </div>
 
                     <?php
@@ -146,9 +140,6 @@ get_header(); // Affiche header.php
                                     <a href="#" class="btn btn-primary">Voir</a>
                                 </div>
                             </div>
-                            <?php
-                            _print_r($test);
-                            ?>
                         </div>
 
                         <?php
@@ -202,6 +193,6 @@ get_header(); // Affiche header.php
     </section>
 
 </main>
-<?
+<?php
 get_footer(); // Affiche footer.php 
 ?>
