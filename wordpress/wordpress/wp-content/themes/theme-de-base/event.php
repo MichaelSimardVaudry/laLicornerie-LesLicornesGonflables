@@ -70,9 +70,11 @@ get_header();
                     Tous nos produits affichés en ligne sont stockés en boutique à Brossard, QC. C'est ici que votre
                     commande sera préparée avec amour, parfumée et expédiée dans un joli emballage-cadeau prêt à offrir.
                     <br>
+                    </br>
                     C'est ici que votre commande sera préparée avec amour, parfumée et expédiée dans un joli
                     emballage-cadeau prêt à offrir.
                     <br>
+                    </br>
                     <b>Détails et délais de livraison:</b><br>
                     La livraison est gratuite au Canada pour les commandes de 100$ et plus.
                     Région de Montréal : 2 jours ouvrables.
@@ -81,10 +83,12 @@ get_header();
                     Partout ailleurs dans le monde : Sélectionner l'option de livraison internationale. Nous vous
                     contacterons avec les options d'expédition pour ces produits.
                     <br>
+                    </br>
                     La 'date requise' est un indicateur pour notre équipe, elle ne constitue pas une garantie. Nous vous
                     contacterons rapidement (24-48h après avoir reçu votre commande) si quelque chose nous empêche de
                     livrer le tout à temps.
                     <br>
+                    </br>
                     <b>Ramassage en magasin:</b><br>
                     Nous demandons un certain délai pour s'assurer que votre commande soit disponible et mise de côté à
                     la succursale de votre choix. Si votre commande entière n'est pas déjà sur place, les produits
