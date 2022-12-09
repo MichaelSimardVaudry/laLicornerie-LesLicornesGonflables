@@ -4,8 +4,11 @@
  */
 
 get_header();
-if ( have_posts() ) : 
-	while ( have_posts() ) : the_post(); 
+
+ $produits = get_field('info_produit');
+ $url = $produits['image_produit'];
+ $prix = $produits['prix'];
+ $nom = $produits['titre'];
 ?>
 
 <main>
@@ -35,9 +38,9 @@ if ( have_posts() ) :
 
       <div class='produit'>
         <img class='imgProduit'
-          src='<?php the_field('image_produit'); ?>'>
-          <div class='nomProduit produitGeneralInfo'><?php the_field('titre'); ?></div>
-            <div class='prixProduit produitGeneralInfo'><?php the_field('prix'); ?></div>
+          src='<?php echo $image_produit ; ?>'>
+          <div class='nomProduit produitGeneralInfo'><?php echo $titre ; ?></div>
+            <div class='prixProduit produitGeneralInfo'><?php echo $prix ; ?></div>
       </div>
 
       <div class='produit'>
