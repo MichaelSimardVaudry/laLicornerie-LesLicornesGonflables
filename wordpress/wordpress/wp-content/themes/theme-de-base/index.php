@@ -86,7 +86,7 @@ get_header(); // Affiche header.php
                     'posts_per_page' => 1
                         );
                         $comestible = new WP_Query($arguments);
-                        while ($comestible->have_posts()) : $comestible->the_post('sirop-de-licorne-rose'); 
+                        while ($comestible->have_posts()) : $comestible->the_post(); 
             
                     ?>
                     <div class="col-3">
@@ -115,7 +115,7 @@ get_header(); // Affiche header.php
                     'posts_per_page' => 1
                 );
                 $comestible = new WP_Query($arguments);
-                while ($comestible->have_posts()) : $comestible->the_post('sirop-de-licorne-rose'); 
+                while ($comestible->have_posts()) : $comestible->the_post(); 
             
             ?>
 
@@ -141,7 +141,7 @@ get_header(); // Affiche header.php
                     'posts_per_page' => 1
                 );
                 $jouet = new WP_Query($arguments);
-                while ($jouet->have_posts()) : $jouet->the_post('toutou-meowchi'); 
+                while ($jouet->have_posts()) : $jouet->the_post(); 
             
             ?>
                 <div class="col-4 vedette">
@@ -165,7 +165,7 @@ get_header(); // Affiche header.php
                     'posts_per_page' => 1
                 );
                 $bijou = new WP_Query($arguments);
-                while ($bijou->have_posts()) : $bijou->the_post('collier-quartz'); 
+                while ($bijou->have_posts()) : $bijou->the_post(); 
             
             ?>
                 <div class="col-4 vedette">

@@ -7,8 +7,14 @@ Version: 1.0
 -------------------------------------------------------------- */
 
 .navbar {
-  font-family: 'Salsa', cursive;
-  background: linear-gradient(45deg, lightblue, lightgreen, rgb(255, 255, 147), lightcoral);
+  font-family: "Salsa", cursive;
+  background: linear-gradient(
+    45deg,
+    lightblue,
+    lightgreen,
+    rgb(255, 255, 147),
+    lightcoral
+  );
   padding-left: 10%;
   padding-right: 5%;
   font-size: 18px;
@@ -27,18 +33,17 @@ Version: 1.0
   margin: 5px;
 }
 .navbar .nav-link {
-  color:black;
+  color: black;
 }
 .navbar .nav-item:hover {
-background-color: white;
+  background-color: white;
 }
 .navbar .nav-link:hover {
-  color:rgb(63, 199, 163);
+  color: rgb(63, 199, 163);
 }
 .navbar .navbar-collapse {
   margin-left: 15px;
   justify-content: flex-end;
-  
 }
 .navbar .navbar-nav {
   display: flex;
@@ -52,14 +57,19 @@ background-color: white;
 }
 
 .footer {
-  font-family: 'Salsa', cursive;
-  background: linear-gradient(45deg, lightblue, lightgreen, rgb(255, 255, 147), lightcoral);
+  font-family: "Salsa", cursive;
+  background: linear-gradient(
+    45deg,
+    lightblue,
+    lightgreen,
+    rgb(255, 255, 147),
+    lightcoral
+  );
   height: 20vh;
- 
 }
 .logo {
   height: 20vh;
-  padding:5px;
+  padding: 5px;
 }
 .footer .reseau {
   height: 5vh;
@@ -70,7 +80,6 @@ background-color: white;
   align-items: flex-end;
   justify-content: center;
   flex-direction: column-reverse;
-  
 }
 #social a {
   text-decoration: none;
@@ -79,7 +88,7 @@ background-color: white;
 
 #social a:hover {
   text-decoration: none;
-  color:rgb(63, 199, 163);
+  color: rgb(63, 199, 163);
 }
 #social2 {
   display: flex;
@@ -90,9 +99,7 @@ background-color: white;
 
 main {
   text-align: center;
-  font-family: 'Salsa', cursive;
-
-  
+  font-family: "Salsa", cursive;
 }
 main section {
   margin-top: 50px;
@@ -138,9 +145,9 @@ body {
   overflow-x: hidden;
 }
 
-ul{
-  list-style-type:none;
-  }
+ul {
+  list-style-type: none;
+}
 
 @media (max-width: 767px) {
   .produitGeneralInfo {
@@ -207,19 +214,19 @@ ul{
     width: 200px;
     border-radius: 20%;
   }
-}/*# sourceMappingURL=bStyles.css.map */
+} /*# sourceMappingURL=bStyles.css.map */
 
-#xo-slider-108{
+#xo-slider-108 {
   width: 50vh;
   display: flex;
   justify-content: center;
-
 }
-.catego-1{
+.catego-1 {
   background-color: aqua;
   height: 250px;
   border-radius: 50vh;
+  border: 3px solid rgba(255, 113, 182, 0.94);
 }
-.slide-content{
+.slide-content {
   height: 50%;
 }
