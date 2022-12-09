@@ -1,7 +1,7 @@
 <?php 
 /**
  * 	Template Name: Boutique
-    Template Post Type: comestibles, jouets, bijoux, accessoires
+ *  Template Post Type: comestibles, jouets, bijoux, accessoires
  */
 
 $jouets = new WP_Query('post_type=jouets');
@@ -32,7 +32,7 @@ get_header();
     </label>
   </div>
     
-    <div class='lesProduits'>
+    <article class='lesProduits'>
         <?php if ($jouets->have_posts()) : while($jouets->have_posts()) : $jouets->the_post(); ?>
       <div class='produit'>
         <img class='imgProduit'
@@ -40,8 +40,8 @@ get_header();
           <div class='nomProduit produitGeneralInfo'><?php the_field('titre') ; ?></div>
             <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
        </div>
-     </div>
-    endwhile; wp_reset_postdata(); 
+         endwhile; wp_reset_postdata(); 
+     </article>
 </main>
 
 <?php 
