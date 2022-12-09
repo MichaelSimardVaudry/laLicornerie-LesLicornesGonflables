@@ -15,8 +15,8 @@ $logo = new WP_Query($arguments);
     <div class="container">
         <div class="row">
             <div class="col-1">
-                <a class="navbar-brand">
-                    <img href="../wordpress/" src="<?php the_field('logo'); ?>" class="logo">
+                <a class="navbar-brand" href="../wordpress/">
+                    <img src="<?php the_field('logo'); ?>" class="logo">
                 </a>
                 <?php
                     endwhile; 
