@@ -5,6 +5,11 @@
  */
 
 get_header(); // Affiche header.php
+$comestible = new WP_Query('post_type=comestible');
+$jouet = new WP_Query('post_type=jouet');
+$bijoux = new WP_Query('post_type=bijoux');
+$accessoir = new WP_Query('post_type=accessoir');
+$Nouvelle = new WP_Query('post_type=Nouvelle');
 
 // Est-ce que nous avons des posts qui correspondent à notre requête ?
 // Dans le cas de la page d'accueil, les billets les plus récents serons affichés
@@ -64,10 +69,10 @@ get_header(); // Affiche header.php
             <div class="row">
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="../../medias/boutique/7-unicorn_poop.jpg" class="card-img-top" alt="poop">
+                        <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
                         <div class="card-body">
-                            <h5 class="card-title">item-licorne</h5>
-                            <p class="card-text">mini description</p>
+                            <h5 class="card-title"><?php the_field('titre'); ?></h5>
+                            <p class="card-text"><?php the_field('description'); ?></p>
                             <a href="#" class="btn btn-primary">Voir</a>
                         </div>
                     </div>

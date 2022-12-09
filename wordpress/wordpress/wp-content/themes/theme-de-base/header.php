@@ -22,9 +22,9 @@
 	 Supprimer cette fonction briserait vos extensions et diverses fonctionnalités WordPress. 
 	 Vous pouvez la déplacer si désiré, mais garder là. */
 ?>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
-</style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -40,35 +40,36 @@
 		 ex: sur la page d'accueil vous aurez la classe "home"
 		 sur un article, "single postid-{ID}"
 		 etc. */
+         $head_et_foot = new WP_Query('post_type=head_et_foot');
 	?>>
 
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="../wordpress/"><img class="header__logo__img" src="../../medias/logo.png"
-                    alt="imgage licorne rainbow" />
+            <a class="navbar-brand" href="../wordpress/"><img class="header__logo__img"
+                    src="<?php the_field('logo'); ?>" alt="imgage licorne rainbow" />
             </a>
-            
-                <button class="navbar-toggler navbar-light" data-bs-toggle="collapse" data-bs-target="#mainNav"
-                    aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div id="mainNav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav" >
-                        <li class="nav-item">
-                            <a href="boutique" class="nav-link" >Boutique</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="evenement" class="nav-link">Évènements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact" class="nav-link">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="nouvelle" class="nav-link">Nouvelles</a>
-                        </li>
-                    </ul>
-               
+            <button class="navbar-toggler navbar-light" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="mainNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="boutique" class="nav-link">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="evenement" class="nav-link">Évènements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nouvelle" class="nav-link">Nouvelles</a>
+                    </li>
+                </ul>
+
             </div>
         </nav>
     </header>
