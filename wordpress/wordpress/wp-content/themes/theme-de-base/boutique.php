@@ -22,5 +22,4 @@ while($query->have_posts()) : $query->the_post();
      </article>
 </main>
 
-<div>
-<?php get_footer();?></div>
+<?php get_footer(); ?>
