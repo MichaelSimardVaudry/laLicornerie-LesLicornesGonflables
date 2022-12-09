@@ -66,15 +66,32 @@ get_header(); // Affiche header.php
                     ?>
                     <?php
                         $arguments = array(
-                        'post_type' => 'accessoires',
+                        'post_type' => 'accessoir',
                         'posts_per_page' => 1
                         );
-                        $accesoir = new WP_Query($arguments);
-                        while ($accesoir->have_posts()) : $accesoir->the_post(); 
+                        $accessoir = new WP_Query($arguments);
+                        while ($accessoir->have_posts()) : $accessoir->the_post(); 
                     ?>
                     <div class="col-3">
                         <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
-                        <p>Accesoirs</p>
+                        <p>Accessoires</p>
+                    </div>
+                    <?php
+                        endwhile; 
+                        wp_reset_postdata(); 
+                    ?>
+                    <?php
+                     $arguments = array(
+                    'post_type' => 'comestible',
+                    'posts_per_page' => 1
+                        );
+                        $comestible = new WP_Query($arguments);
+                        while ($comestible->have_posts()) : $comestible->the_post('sirop-de-licorne-rose'); 
+            
+                    ?>
+                    <div class="col-3">
+                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                        <p>Accessoires</p>
                     </div>
                     <?php
                         endwhile; 
