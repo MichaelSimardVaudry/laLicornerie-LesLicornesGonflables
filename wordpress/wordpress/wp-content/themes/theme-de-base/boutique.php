@@ -4,7 +4,7 @@
  */
 get_header();
 
-$products = array('post_type' => array('jouet', 'bijoux', 'accessoir', 'comestible');
+$products = array('post_type' => array('jouet', 'bijoux', 'accessoir', 'comestible'));
 
 $query = new WP_Query($products);
 while($query->have_posts()) : $query->the_post();
@@ -22,5 +22,4 @@ while($query->have_posts()) : $query->the_post();
      </article>
 </main>
 
-<div>
-<?php get_footer();?></div>
+<?php get_footer(); ?>
