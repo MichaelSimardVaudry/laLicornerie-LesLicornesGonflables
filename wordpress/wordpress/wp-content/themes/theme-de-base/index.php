@@ -5,15 +5,17 @@
  */
 
 get_header(); // Affiche header.php
-$comestible = new WP_Query('post_type=comestible');
-$jouet = new WP_Query('post_type=jouet');
-$bijoux = new WP_Query('post_type=bijoux');
-$accessoir = new WP_Query('post_type=accessoir');
-$Nouvelle = new WP_Query('post_type=Nouvelle');
+//$comestible = new WP_Query('post_type=comestible');
+//$jouet = new WP_Query('post_type=jouet');
+//$bijoux = new WP_Query('post_type=bijoux');
+//$accessoir = new WP_Query('post_type=accessoir');
+//$Nouvelle = new WP_Query('post_type=Nouvelle');
 
 // Est-ce que nous avons des posts qui correspondent à notre requête ?
 // Dans le cas de la page d'accueil, les billets les plus récents serons affichés
 ?>
+<!-- <pre><?php print_r($jouet); ?></pre>-->
+
 <main>
     <section class="main-hero">
 
@@ -66,17 +68,30 @@ $Nouvelle = new WP_Query('post_type=Nouvelle');
                     <H2>Produits Vedettes</H2>
                 </div>
             </div>
+            <?php
+            $arguments = array( // 👈 Tableau d'arguments
+                'post_type' => 'jouet',
+                'posts_per_page' => 1
+            );
+            $jouet = new WP_Query($arguments); // 👈 Utilisation
+            while ($jouet->have_posts()) : $jouet->the_post(); 
+            ?>
+
             <div class="row">
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
-                        <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
+                        <img src="<?php get_field('image_produit'); ?>" class="card-img-top" alt="poop">
                         <div class="card-body">
-                            <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                            <p class="card-text"><?php the_field('description'); ?></p>
+                            <h5 class="card-title"><?php get_field('titre'); ?></h5>
+                            <p class="card-text"><?php get_field('description'); ?></p>
                             <a href="#" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>
+                <?php
+                endwhile; 
+                wp_reset_postdata(); 
+                ?>
                 <div class="col-4 vedette">
                     <div class="card" style="width: 18rem;">
                         <img src="../../medias/boutique/9-Emma_licorne_sorbet.jpg" class="card-img-top" alt="poop">
@@ -100,38 +115,7 @@ $Nouvelle = new WP_Query('post_type=Nouvelle');
 
             </div>
             <div class="row">
-                <div class="col-4 vedette">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../../medias/boutique/12-thermos.jpg" class="card-img-top" alt="poop">
-                        <div class="card-body">
-                            <h5 class="card-title">item-licorne</h5>
-                            <p class="card-text">mini description</p>
-                            <a href="#" class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 vedette">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../../medias/boutique/1-sirop_licorne.jpg" class="card-img-top" alt="poop">
-                        <div class="card-body">
-                            <h5 class="card-title">item-licorne</h5>
-                            <p class="card-text">mini description</p>
-                            <a href="article" class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 vedette">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../../medias/boutique/15-meowchi.jpg" class="card-img-top" alt="poop">
-                        <div class="card-body">
-                            <h5 class="card-title">item-licorne</h5>
-                            <p class="card-text">mini description</p>
-                            <a href="#" class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
     </section>
     <section class="main-temoignage">
         <div class="container">
