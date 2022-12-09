@@ -180,12 +180,12 @@ ul {
     background-color: lightblue;
     border-radius: 15px;
     padding: 5px;
-    transition:0.6s;
+    transition: 0.6s;
   }
 
   .lesProduits .produit .BoutiqueBouton:hover {
     background-color: lightgreen;
-    transition:0.6s;
+    transition: 0.6s;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -235,7 +235,6 @@ ul {
   justify-content: center;
 }
 .catego-1 {
-  background-color: aqua;
   height: 250px;
   border-radius: 50vh;
   border: 3px solid rgba(255, 113, 182, 0.94);

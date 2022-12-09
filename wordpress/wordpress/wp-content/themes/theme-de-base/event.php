@@ -21,7 +21,9 @@ get_header();
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Disponibilité</h2>
+                            <h2>Disponibilité:</h2>
+                            <h3>Mardi -> dimanche</h3>
+                            <h3>10h00 Am -> 20h30 Pm</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -41,13 +43,13 @@ get_header();
                             <form action="info">
                                 <p>Information pour la réservation</p>
                                 <div>
-                                <label for="date">Date: </label>
-                                <input type="date" id="date" name="date">
+                                    <label for="date">Date: </label>
+                                    <input type="date" id="date" name="date">
                                 </div>
                                 <br>
                                 <div>
-                                <label for="nom">Nom: </label>
-                                <input type="text" id="name" name="name">
+                                    <label for="nom">Nom: </label>
+                                    <input type="text" id="name" name="name">
                                 </div>
                                 <br>
                                 <p>Description de l’évènement</p>
@@ -63,7 +65,7 @@ get_header();
             <div class="Col-12">
                 <h2>Info</h2>
             </div>
-            <div class="Col-12 info_event">
+            <div class="Col-12 info_event" style="text-align: left;">
 
                 <p>
                     <b>Toutes ces licornes sont déjà près de vous!</b><br>

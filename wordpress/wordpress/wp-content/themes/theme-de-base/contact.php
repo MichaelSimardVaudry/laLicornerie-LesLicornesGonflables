@@ -83,7 +83,7 @@ get_header();
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12" style="text-align: left;">
                                 <p>À moins d'une minute à pied de la Station Mont-Royal.
                                     <br>
                                     Autobus 11, 30, 97 et 427 passent à moins d'une minute à pied. Les autobus 14 et 55
@@ -166,7 +166,7 @@ get_header();
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12" style="text-align: left;">
                                 <p>Près de La Baie, aire de restauration (Porte 8)
                                     <br>
                                     Stationnement disponible.
@@ -268,7 +268,7 @@ get_header();
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12" style="text-align: left;">
                                 <p>Près de l'Étoile, du Ardène
                                     <br>
                                     Stationnement sous-terrain disponible.
@@ -346,7 +346,7 @@ get_header();
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12" style="text-align: left;">
                                 <p>Au 2e étage, dans le corridor entre le MegaParc/Simons et le Ardenne.
                                     <br>
                                     Entrée du terminus d'autobus, du Dollarama ou du Simons.
