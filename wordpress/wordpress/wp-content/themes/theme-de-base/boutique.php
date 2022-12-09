@@ -3,15 +3,15 @@
  * 	Template Name: Boutique
  *  Template Post Type: comestible, jouet, bijoux, accessoir
  */
-
-$jouet = new WP_Query('post_type=jouet');
-
 get_header();
+
+$arguments = array('post_type' => 'comestible','jouet','bijoux','accessoir');
+$comestible = new WP_Query($arguments);
+while($comestible->have_posts()) : $comestible->the_post();
 ?>
 
 <main>
     <article class='lesProduits'>
-        <?php if ($jouet->have_posts()) : while($jouet->have_posts()) : $jouet->the_post(); ?>
       <div class='produit'>
         <img class='imgProduit'
           src='<?php the_field('image_produit') ; ?>'>
