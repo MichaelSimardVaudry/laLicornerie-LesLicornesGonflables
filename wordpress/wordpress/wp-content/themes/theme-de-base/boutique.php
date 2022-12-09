@@ -4,7 +4,8 @@
  */
 
 get_header();
-
+if ( have_posts() ) : 
+	while ( have_posts() ) : the_post(); 
 ?>
 
 <main>
@@ -34,9 +35,9 @@ get_header();
 
       <div class='produit'>
         <img class='imgProduit'
-          src='https://th.bing.com/th/id/R.9fe1988f83eeae24d16db131475d31b2?rik=Eq0UEK5i3b%2bfgg&riu=http%3a%2f%2fcohenwoodworking.com%2fwp-content%2fuploads%2f2016%2f09%2fimage-placeholder-500x500.jpg&ehk=6xxwN2hsF1pbhTTWWflHnkIka8Rxe3PZahhFfRQJIrY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'>
-          <div class='nomProduit produitGeneralInfo'>Item numero 1</div>
-            <div class='prixProduit produitGeneralInfo'>Prix</div>
+          src='<?php the_field('image_produit'); ?>'>
+          <div class='nomProduit produitGeneralInfo'><?php the_field('titre'); ?></div>
+            <div class='prixProduit produitGeneralInfo'><?php the_field('prix'); ?></div>
       </div>
 
       <div class='produit'>
@@ -120,8 +121,9 @@ get_header();
 </main>
 
 <?php 
-
-
+endwhile; wp_reset_postdata(); 
+else : get_template_part( 'partials/404' ); 
+endif;
 get_footer();
 
 ?>
