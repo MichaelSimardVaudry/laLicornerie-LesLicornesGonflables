@@ -4,8 +4,13 @@
     Template Post Type: comestibles, jouets, bijoux, accessoires
  */
 
+$comestibles = new WP_Query('post_type=comestibles');
+$jouets = new WP_Query('post_type=jouets');
+$bijoux = new WP_Query('post_type=bijoux');
+$accessoires = new WP_Query('post_type=accessoires');
+
 get_header();
-if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+if ($jouets->have_posts()) : $jouets->the_post();
  $produits = get_field('info_produit');
  $url = $produits['image_produit'];
  $prix = $produits['prix'];
