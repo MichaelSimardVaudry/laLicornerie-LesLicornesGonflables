@@ -27,11 +27,9 @@ while($products4->have_posts()) : $products4->the_post();
           <div class='nomProduit produitGeneralInfo'><?php the_field('titre') ; ?></div>
             <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
        </div>
-         endwhile; wp_reset_postdata(); 
+        <?php  endwhile; wp_reset_postdata(); ?>
      </article>
 </main>
 
 <div>
-<?php 
-get_footer();
-    ?></div>
+<?php get_footer();?></div>
