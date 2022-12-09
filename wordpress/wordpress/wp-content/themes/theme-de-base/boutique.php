@@ -4,17 +4,9 @@
     Template Post Type: comestibles, jouets, bijoux, accessoires
  */
 
-$comestibles = new WP_Query('post_type=comestibles');
 $jouets = new WP_Query('post_type=jouets');
-$bijoux = new WP_Query('post_type=bijoux');
-$accessoires = new WP_Query('post_type=accessoires');
 
 get_header();
-if ($jouets->have_posts()) : $jouets->the_post();
- $produits = get_field('info_produit');
- $url = $produits['image_produit'];
- $prix = $produits['prix'];
- $nom = $produits['titre'];
 ?>
 
 <main>
@@ -41,19 +33,19 @@ if ($jouets->have_posts()) : $jouets->the_post();
   </div>
     
     <div class='lesProduits'>
+        <?php if ($jouets->have_posts()) : while($jouets->have_posts()) : $jouets->the_post(); ?>
       <div class='produit'>
         <img class='imgProduit'
-          src='<?php echo $image_produit ; ?>'>
-          <div class='nomProduit produitGeneralInfo'><?php echo $titre ; ?></div>
-            <div class='prixProduit produitGeneralInfo'><?php echo $prix ; ?></div>
+          src='<?php the_field('image_produit') ; ?>'>
+          <div class='nomProduit produitGeneralInfo'><?php the_field('titre') ; ?></div>
+            <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
        </div>
      </div>
+    endwhile; wp_reset_postdata(); 
 </main>
 
 <?php 
-endwhile; wp_reset_postdata(); 
 else : get_template_part( 'partials/404' ); 
 endif;
 get_footer();
-
 ?>
