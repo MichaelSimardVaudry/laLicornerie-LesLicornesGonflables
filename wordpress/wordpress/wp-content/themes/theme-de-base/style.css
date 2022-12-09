@@ -52,12 +52,13 @@ background-color: white;
 }
 
 .footer {
+  font-family: 'Salsa', cursive;
   background: linear-gradient(45deg, lightblue, lightgreen, rgb(255, 255, 147), lightcoral);
   height: 20vh;
  
 }
 .logo {
-  height: 18vh;
+  height: 20vh;
 }
 .footer .reseau {
   height: 5vh;
@@ -65,13 +66,25 @@ background-color: white;
 
 #social {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column-reverse;
+  
+}
+#social a {
+  text-decoration: none;
+  color: black;
+}
+
+#social a:hover {
+  text-decoration: none;
+  color:rgb(63, 199, 163);
 }
 #social2 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 main {
