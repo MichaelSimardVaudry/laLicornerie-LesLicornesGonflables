@@ -141,12 +141,6 @@ ul{
   list-style-type:none;
   }
 
-
-.searchingBoutique {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 @media (max-width: 767px) {
   .produitGeneralInfo {
     font-size: 15px;
