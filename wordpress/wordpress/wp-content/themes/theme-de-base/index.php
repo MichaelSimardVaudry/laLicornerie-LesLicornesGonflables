@@ -103,24 +103,22 @@ get_header(); // Affiche header.php
                 while ($jouet->have_posts()) : $jouet->the_post('toutou-meowchi'); 
             
             ?>
+                <div class="col-4 vedette">
+                    <div class="card" style="width: 18rem;">
+                        <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
 
-                <div class="row">
-                    <div class="col-4 vedette">
-                        <div class="card" style="width: 18rem;">
-                            <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
-
-                            <div class="card-body">
-                                <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                                <a href="#" class="btn btn-primary">Voir</a>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><?php the_field('titre'); ?></h5>
+                            <a href="#" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
+                </div>
 
-                    <?php
+                <?php
                     endwhile; 
                     wp_reset_postdata(); 
                 ?>
-                    <?php
+                <?php
                 $arguments = array(
                     'post_type' => 'bijoux',
                     'posts_per_page' => 1
@@ -129,30 +127,31 @@ get_header(); // Affiche header.php
                 while ($bijou->have_posts()) : $bijou->the_post('collier-quartz'); 
             
             ?>
+                <div class="col-4 vedette">
+                    <div class="card" style="width: 18rem;">
+                        <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
 
-                    <div class="row">
-                        <div class="col-4 vedette">
-                            <div class="card" style="width: 18rem;">
-                                <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
-
-                                <div class="card-body">
-                                    <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                                    <a href="#" class="btn btn-primary">Voir</a>
-                                </div>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><?php the_field('titre'); ?></h5>
+                            <a href="#" class="btn btn-primary">Voir</a>
                         </div>
+                    </div>
+                </div>
 
-                        <?php
+                <?php
                     endwhile; 
                     wp_reset_postdata(); 
                 ?>
 
-                    </div>
-                    <div class="row">
-                    </div>
+            </div>
     </section>
     <section class="main-temoignage">
         <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <H2>Avis</H2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
