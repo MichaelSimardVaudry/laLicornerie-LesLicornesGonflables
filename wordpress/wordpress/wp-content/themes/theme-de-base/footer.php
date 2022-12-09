@@ -65,9 +65,9 @@ $logo = new WP_Query($arguments);
             </div>
         </div>
     </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.8);">
         © 2022 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">Yas.org</a>
+        <a class="text-light" href="https://mdbootstrap.com/">Yas.org</a>
     </div>
 
 </footer>
