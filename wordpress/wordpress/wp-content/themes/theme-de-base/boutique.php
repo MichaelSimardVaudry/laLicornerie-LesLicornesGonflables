@@ -4,19 +4,13 @@
  */
 get_header();
 
-$arguments = array('post_type' => 'comestible');
-$arguments2 = array('post_type' => 'jouet');
-$arguments3 = array('post_type' => 'bijoux');
-$arguments4 = array('post_type' => 'accessoir');
+$food = array('post_type' => 'comestible');
+$toy = array('post_type' => 'jouet');
+$jewlery = array('post_type' => 'bijoux');
+$other = array('post_type' => 'accessoir');
 
-$products = new WP_Query($arguments);
+$products = new WP_Query($food, $toy, $jewlery, $other);
 while($products->have_posts()) : $products->the_post();
-$products2 = new WP_Query($arguments2);
-while($products2->have_posts()) : $products2->the_post();
-$products3 = new WP_Query($arguments3);
-while($products3->have_posts()) : $products3->the_post();
-$products4 = new WP_Query($arguments4);
-while($products4->have_posts()) : $products4->the_post();
 ?>
 
 <main>
