@@ -15,7 +15,7 @@ get_header();
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h1>Sirops de Licorne avec paillettes comestibles</h1>
+                    <h1><?php the_title(); ?></h1>
                     <p>Faits à base de fruits locaux et de paillettes comestibles, les sirops de licorne sont des sirops
                         simples
                         pour aromatiser et décorer vos mocktails, cocktails, eau pétillante, ou tout autre liquide qui

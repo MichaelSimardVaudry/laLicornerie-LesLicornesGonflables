@@ -64,3 +64,7 @@ function add_style_and_js()  {
 
 /* Appel de la fonction ajoutant les styles et scripts */
 add_action('wp_enqueue_scripts', 'add_style_and_js'); 
+
+function _print_r($data){
+	echo '<pre>'.print_r($data, true).'</pre>';
+}
