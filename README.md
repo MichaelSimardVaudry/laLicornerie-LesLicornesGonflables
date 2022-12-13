@@ -1,6 +1,6 @@
 # La Licornerie
 
-## Les Licornes Gonglables
+## Les Licornes Gonflables
 
 Membre de l'équipe
 <ul>
