@@ -51,7 +51,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="../wordpress/"><img class="header__logo__img"
+            <a class="navbar-brand" href="http://localhost/laLicornerie-LesLicornesGonflables/wordpress/wordpress/"><img class="header__logo__img"
                     src="<?php the_field('logo'); ?>" alt="image licorne rainbow" />
             </a>
 
