@@ -126,6 +126,10 @@ main .main-vedette {
   align-items: center;
   justify-content: center;
 }
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
 main .main-vedette .card {
   border-radius: 20px;
 }
@@ -307,7 +311,12 @@ ul {
   height: 250px;
   border-radius: 50vh;
   border: 1px solid rgba(255, 113, 182, 0.94);
+  text-decoration: none;
 }
 .catego-1:hover {
   border: 3px solid rgba(255, 0, 123, 0.94);
+}
+a,
+a:hover {
+  text-decoration: none;
 }

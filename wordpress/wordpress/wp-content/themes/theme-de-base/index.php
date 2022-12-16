@@ -41,7 +41,7 @@ get_header(); // Affiche header.php
                         while ($jouet->have_posts()) : $jouet->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <a href="archive-comestible">
+                        <a class="link" href="archive-comestible">
                             <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                             <p>Jouets</p>
                         </a>
@@ -59,7 +59,7 @@ get_header(); // Affiche header.php
                         while ($bijoux->have_posts()) : $bijoux->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <a href="article">
+                        <a class="link" href="article">
                             <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                             <p>Bijoux</p>
                         </a>
@@ -77,7 +77,7 @@ get_header(); // Affiche header.php
                         while ($accessoir->have_posts()) : $accessoir->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <a href="article">
+                        <a class="link" href="article">
                             <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                             <p>Accessoires</p>
                         </a>
@@ -97,7 +97,7 @@ get_header(); // Affiche header.php
                     ?>
 
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <a href="article">
+                        <a class="link" href="article">
                             <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                             <p>Comestibles</p>
                         </a>
@@ -130,7 +130,7 @@ get_header(); // Affiche header.php
             ?>
 
             <div class="row">
-                <div class="ccol-12 col-md-6 col-lg-4  vedette">
+                <div class="col-12 col-md-6 col-lg-4  vedette">
                     <div class="card" style="width: 18rem;">
                         <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
 
@@ -178,7 +178,7 @@ get_header(); // Affiche header.php
                 while ($bijou->have_posts()) : $bijou->the_post(); 
             
             ?>
-                <div class="ccol-12 col-md-6 col-lg-4 vedette">
+                <div class="col-12 col-md-6 col-lg-4 vedette">
                     <div class="card" style="width: 18rem;">
                         <img src="<?php the_field('image_produit'); ?>" class="card-img-top" alt="poop">
 
