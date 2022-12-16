@@ -1,5 +1,4 @@
 let category = document.querySelector("#boutiqueCategory");
-let sort = document.querySelector("#boutiqueSort");
 let produitsContainer = document.querySelector(".lesProduits");
 
 if (category.value === "toy"){

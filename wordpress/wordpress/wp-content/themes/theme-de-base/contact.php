@@ -380,6 +380,44 @@ get_header();
             </div>
         </div>
     </div>
+    <section class="main-temoignage">
+        <div class="col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <H2>Équipe derrière le site:</H2>
+                    </div>
+                </div>
+                <div class="row">
+                    <?php
+                $arguments = array(
+                    'post_type' => 'equipe',
+                    'posts_per_page' => 3
+                );
+                $equipe = new WP_Query($arguments);
+                while ($equipe->have_posts()) : $equipe->the_post(); 
+            
+                ?>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="col-5">
+                                <img src="<?php the_field('portrait'); ?>" class="img-fluid">
+                            </div>
+                            <div class="col-7">
+                                <h5 class="card-title"><?php the_field('nom'); ?></h5>
+                                <div class="card-body"><?php the_field('position'); ?></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                    endwhile; 
+                    wp_reset_postdata(); 
+                ?>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php 

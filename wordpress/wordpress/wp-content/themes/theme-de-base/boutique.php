@@ -13,7 +13,7 @@ $comestibles = array('post_type' => array('comestible'));
 ?>
 
 <main>
-<div class='searchingBoutique'>
+  <div class='searchingBoutique'>
     <label>
       Catégories:
       <select name='category' id='boutiqueCategory'>
