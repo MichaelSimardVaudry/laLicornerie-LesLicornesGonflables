@@ -366,3 +366,14 @@ a:hover {
 .link:hover {
   color: rgb(255, 113, 182, 0.94);
 }
+
+.cart-btn {
+  padding: 5px 10px 5px 10px;
+  background-color: lightblue;
+  border-radius: 15px;
+  color:black;
+  text-decoration:none;
+}
+.cart-btn:hover {
+  color:rgb(63, 199, 163)
+}
