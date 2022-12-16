@@ -252,7 +252,35 @@ ul {
     width: 200px;
     border-radius: 20%;
   }
-} /*# sourceMappingURL=bStyles.css.map */
+} 
+
+.erreurTexte{
+  font-size: 100px;
+  color: grey;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.dessinLicorne{
+  left: 75%;
+  position: absolute;
+}
+
+.etoile { 
+  position: absolute;
+  width: 50px;
+  top: -50px;
+  opacity: 50%;
+}
+
+.e1{left: 5%;}
+.e2{left: 20%;}
+.e3{left: 30%;}
+.e4{left: 45%;}
+.e5{left: 55%;}
+.e6{left: 70%;}
+.e7{left: 80%;}
+.e8{left: 95%;}
 
 #xo-slider-108 {
   width: 50vh;
