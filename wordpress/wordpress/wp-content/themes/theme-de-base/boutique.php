@@ -9,6 +9,13 @@ $products = array('post_type' => array('jouet', 'bijoux', 'accessoir', 'comestib
 ?>
 
 <main>
+    <div class="categories">
+    <button type="button" class='boutiqueBouton' href="default">Jouets</button>
+    <button type="button" class='boutiqueBouton' href="default">Bijoux</button>
+    <button type="button" class='boutiqueBouton' href="default">Accessoires</button>
+    <button type="button" class='boutiqueBouton' href="default">Somestibles</button>
+    </div>
+
     <article class='lesProduits'>
         <?php $query = new WP_Query($products);
         while($query->have_posts()) : $query->the_post(); ?>
