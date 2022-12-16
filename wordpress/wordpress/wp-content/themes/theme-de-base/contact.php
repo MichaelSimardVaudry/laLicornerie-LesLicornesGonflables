@@ -50,7 +50,7 @@ get_header();
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="mapouter">
+                                <div class="mapouter hover">
                                     <div class="gmap_canvas"><iframe
                                             src="https://maps.google.com/maps?q=408%20Avenue%20du%20Mont-Royal%20Est,%20%20Montr%C3%A9al%20(Qu%C3%A9bec)%20H2J%201W1&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
                                             id="gmap_canvas" frameborder="0" scrolling="no"
@@ -129,7 +129,7 @@ get_header();
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="mapouter">
+                                <div class="mapouter hover">
                                     <div class="gmap_canvas">
                                         <div class="mapouter">
                                             <div class="gmap_canvas"><iframe
@@ -235,7 +235,7 @@ get_header();
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="mapouter">
+                                <div class="mapouter hover">
                                     <div class="gmap_canvas"><iframe
                                             src="https://maps.google.com/maps?q=9415%20Boulevard%20Leduc,%20suite%2030%20%20Brossard,%20QC%20J4Y%200A5&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
                                             id="gmap_canvas" frameborder="0" scrolling="no"
@@ -309,7 +309,7 @@ get_header();
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="mapouter">
+                                <div class="mapouter hover">
                                     <div class="gmap_canvas">
                                         <div class="mapouter">
                                             <div class="gmap_canvas"><iframe
