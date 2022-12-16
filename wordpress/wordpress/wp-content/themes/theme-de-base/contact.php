@@ -34,7 +34,7 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 overflow-hidden img_event">
+                <div class="col-4 d-none d-md-block overflow-hidden img_event">
                     <blockquote class="tiktok-embed"
                         cite="https://www.tiktok.com/@licorneriemontreal/video/7149687795580259590"
                         data-video-id="7149687795580259590" data-embed-from="oembed"
@@ -46,7 +46,7 @@ get_header();
                     </blockquote>
                     <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
-                <div class="col-8">
+                <div class="col-8 ">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -107,7 +107,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <svg width="1349" height="5" viewBox="0 0 1349 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="70vh" height="5" viewBox="0 0 70vh 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 2.5H1346.5" stroke="#FD95E3" stroke-width="5" stroke-linecap="round" />
         </svg>
         <div class="container">
@@ -181,7 +181,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="col-4 overflow-hidden img_event">
+                <div class="col-4 d-none d-md-block overflow-hidden img_event">
                     <blockquote class="tiktok-embed"
                         cite="https://www.tiktok.com/@licorneriemontreal/video/7150293176094379270"
                         data-video-id="7150293176094379270" data-embed-from="oembed"
@@ -198,7 +198,7 @@ get_header();
 
             </div>
         </div>
-        <svg width="1349" height="5" viewBox="0 0 1349 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="70vh" height="5" viewBox="0 0 70vh 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 2.5H1346.5" stroke="#FD95E3" stroke-width="5" stroke-linecap="round" />
         </svg>
         <div class="container">
@@ -216,7 +216,7 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 overflow-hidden img_event">
+                <div class="col-4 d-none d-md-block overflow-hidden img_event">
                     <blockquote class="tiktok-embed"
                         cite="https://www.tiktok.com/@licorneriemontreal/video/6925808794941295878"
                         data-video-id="6925808794941295878" data-embed-from="oembed"
@@ -287,7 +287,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <svg width="1349" height="5" viewBox="0 0 1349 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="70vh" height="5" viewBox="0 0 70vh 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 2.5H1346.5" stroke="#FD95E3" stroke-width="5" stroke-linecap="round" />
         </svg>
         <div class="container">
@@ -305,7 +305,7 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-8">
+                <div class="col-8 ">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -364,7 +364,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="col-4 overflow-hidden img_event">
+                <div class="col-4 d-none d-md-block overflow-hidden img_event">
                     <blockquote class="tiktok-embed"
                         cite="https://www.tiktok.com/@licorneriemontreal/video/6960756319460625670"
                         data-video-id="6960756319460625670" data-embed-from="oembed"

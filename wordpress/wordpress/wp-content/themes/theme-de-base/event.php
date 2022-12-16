@@ -14,10 +14,10 @@ get_header();
             </div>
         </div>
         <div class="row">
-            <div class="col-7 overflow-hidden img_event">
+            <div class="col-12 col-lg-7 overflow-hidden img_event">
                 <img src="../../../medias\img_salle_1.jpg" alt="salle avec un theme de licorne">
             </div>
-            <div class="col-5">
+            <div class="col-12 col-lg-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -32,7 +32,7 @@ get_header();
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <svg width="423" height="5" viewBox="0 0 423 5" fill="none"
+                            <svg width="25vw" height="5" viewBox="0 0 25vw 5" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="423" height="5" rx="2.5" fill="#fd95e3" />
                             </svg>
