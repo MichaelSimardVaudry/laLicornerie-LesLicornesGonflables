@@ -39,7 +39,8 @@ $last = array(
         <div class=" hover">
             <div class="row news">
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <a href="<?php the_field('link'); ?>"><img src="<?php the_field('image'); ?>" class="img-fluid"></a>
+                    <a href="<?php the_field('link'); ?>"><img src="<?php the_field('image'); ?>"
+                            class="img-fluid news_img"></a>
                 </div>
                 <div class="col-7">
                     <h3 class="card-title"><?php the_field('nom') ; ?></h3>
