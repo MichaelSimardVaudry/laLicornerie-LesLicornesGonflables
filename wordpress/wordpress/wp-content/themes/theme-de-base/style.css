@@ -210,6 +210,10 @@ ul {
   border-radius: 20px;
 }
 
+.page_404 {
+  height: 70vh;
+}
+
 .boutiqueCategory:hover {
   background-color: lightgreen;
   transition: 0.6s;
