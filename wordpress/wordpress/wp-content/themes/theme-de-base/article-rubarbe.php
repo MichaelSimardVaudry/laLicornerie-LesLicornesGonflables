@@ -31,7 +31,7 @@ get_header();
                         <div class="quantity">
                             <input type="number" min="1" max="9" step="1" value="1">
                         </div>
-
+            </br>
                         <span>C$<?php the_field('prix'); ?></span>
                         <a href="#" class="cart-btn">Ajouter au panier</a>
                     </div>
