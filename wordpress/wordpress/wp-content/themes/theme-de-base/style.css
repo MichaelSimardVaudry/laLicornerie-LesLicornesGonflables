@@ -282,20 +282,8 @@ ul {
 .e7{left: 80%;}
 .e8{left: 95%;}
 
-#xo-slider-108 {
-  width: 50vh;
-  display: flex;
-  justify-content: center;
-}
-.catego-1 {
-  height: 250px;
-  border-radius: 50vh;
-  border: 1px solid rgba(255, 113, 182, 0.94);
-}
-.catego-1:hover {
-  border: 3px solid rgba(255, 0, 123, 0.94);
-}
-
-.slide-content {
-  height: 50%;
+.imgNouvelle{
+width:100%;
+height: 100%;
+padding: 50px;
 }
