@@ -192,26 +192,15 @@ ul {
     padding: 5px;
     margin: 0;
     text-align: center;
+    width: 125px;
+    border-radius: 20%;
+    background-color: #e6e6e6;
   }
   .lesProduits .produit .imgProduit {
     margin: 0;
     height: 125px;
     width: 125px;
     padding-bottom: 5px;
-    border-radius: 20%;
-  }
-  .lesProduits .produit .BoutiqueBouton {
-    color: black;
-    border: none;
-    background-color: lightblue;
-    border-radius: 15px;
-    padding: 5px;
-    transition: 0.6s;
-  }
-
-  .lesProduits .produit .BoutiqueBouton:hover {
-    background-color: lightgreen;
-    transition: 0.6s;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -227,12 +216,13 @@ ul {
     position: relative;
     padding: 7.5px;
     text-align: center;
-    border: 2px
+    width: 150px;
+    border-radius: 20%;
+    background-color: #e6e6e6;
   }
   .lesProduits .produit .imgProduit {
     height: 150px;
     width: 150px;
-    border-radius: 20%;
   }
 }
 @media (min-width: 1200px) {
@@ -249,12 +239,12 @@ ul {
     padding: 10px;
     text-align: center;
     width: 200px;
+    border-radius: 20%;
+    background-color: #e6e6e6;
   }
   .lesProduits .produit .imgProduit {
     height: 200px;
     width: 200px;
-    border-radius: 20%;
-    border: 3px solid light-grey;
   }
 }
 
