@@ -169,6 +169,7 @@ ul {
   border-radius: 15px;
   padding: 5px;
   transition: 0.6s;
+  align-self: flex-end;
 }
 .lesProduits .produit .boutiqueBouton:hover {
   background-color: lightgreen;
