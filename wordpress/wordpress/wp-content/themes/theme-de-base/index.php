@@ -40,7 +40,7 @@ get_header(); // Affiche header.php
                         while ($jouet->have_posts()) : $jouet->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <a class="link" href="jouet">
+                        <a class="link" href="jouets">
                             <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
                             <p>Jouets</p>
                         </a>

@@ -9,11 +9,11 @@ $products = array('post_type' => array('jouet', 'bijoux', 'accessoir', 'comestib
 ?>
 
 <main>
-    <div class="categories">
-    <button type="button" class='boutiqueBouton' href="default">Jouets</button>
-    <button type="button" class='boutiqueBouton' href="default">Bijoux</button>
-    <button type="button" class='boutiqueBouton' href="default">Accessoires</button>
-    <button type="button" class='boutiqueBouton' href="default">Somestibles</button>
+    <div class="categories" style="padding: 20px;">
+        <a class='boutiqueBouton' href="jouet">Jouets</a>
+        <a class='boutiqueBouton' href="bijoux">Bijoux</a>
+        <a class='boutiqueBouton' href="accesoir">Accessoires</a>
+        <a class='boutiqueBouton' href="comestible">Comestibles</a>
     </div>
 
     <article class='lesProduits'>
