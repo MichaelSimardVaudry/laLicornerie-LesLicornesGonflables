@@ -10,7 +10,7 @@ get_header();
     <div class="container fond_rose">
         <div class="row">
             <div class="Col-12">
-                <h1>Réserver nos service pour un évènement!</h1>
+                <h1>Réservez nos services pour un évènement!</h1>
             </div>
         </div>
         <div class="row">
