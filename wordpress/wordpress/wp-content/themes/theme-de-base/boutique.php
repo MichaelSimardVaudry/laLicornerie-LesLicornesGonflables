@@ -27,6 +27,15 @@ $comestibles = array('post_type' => array('comestible'));
   </div>
     
     <article class='lesProduits'>
+    <?php $query = new WP_Query($products);
+        while($query->have_posts()) : $query->the_post(); ?>
+        <div class='produit'>
+            <img class='imgProduit' src='<?php the_field('image_produit') ; ?>'>
+            <div class='nomProduit produitGeneralInfo'><?php the_field('titre') ; ?></div>
+            <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
+            <button type="button" class='boutiqueBouton'>Ajouter au Panier</button>
+        </div>
+        <?php  endwhile; wp_reset_postdata(); ?>
         
     </article>
 </main>
