@@ -10,7 +10,7 @@ $products = array('post_type' => array('jouet', 'bijoux', 'accessoir', 'comestib
 
 <main>
     <div class="categories" style="padding: 20px;">
-        <a class='boutiqueBouton' href="jouet">Jouets</a>
+        <a class='boutiqueBouton' href="jouets">Jouets</a>
         <a class='boutiqueBouton' href="bijoux">Bijoux</a>
         <a class='boutiqueBouton' href="accesoir">Accessoires</a>
         <a class='boutiqueBouton' href="comestible">Comestibles</a>
