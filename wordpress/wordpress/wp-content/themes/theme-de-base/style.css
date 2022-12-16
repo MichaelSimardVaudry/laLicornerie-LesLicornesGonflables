@@ -192,7 +192,7 @@ ul {
     padding: 5px;
     margin: 10px;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 5%;
     max-width: 145px;
     background-color: #e6e6e6;
   }
@@ -218,7 +218,7 @@ ul {
     padding: 7.5px;
     margin: 10px;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 5%;
     max-width: 170px;
     background-color: #e6e6e6;
   }
@@ -243,7 +243,7 @@ ul {
     margin: 10px;
     text-align: center;
     max-width: 220px;
-    border-radius: 20%;
+    border-radius: 5%;
     background-color: #e6e6e6;
   }
   .lesProduits .produit .imgProduit {
