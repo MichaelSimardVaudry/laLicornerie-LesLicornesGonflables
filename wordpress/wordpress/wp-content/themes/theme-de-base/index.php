@@ -20,8 +20,7 @@ get_header(); // Affiche header.php
     <section class="main-hero">
 
         <h1>La Licornerie</h1>
-        </div>
-        </div>
+    
         <?php xo_slider( 44 ); ?>
     </section>
 
