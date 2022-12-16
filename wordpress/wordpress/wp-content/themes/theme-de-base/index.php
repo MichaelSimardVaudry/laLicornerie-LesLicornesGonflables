@@ -20,7 +20,7 @@ get_header(); // Affiche header.php
     <section class="main-hero">
 
         <h1>La Licornerie</h1>
-    
+
         <?php xo_slider( 44 ); ?>
     </section>
 
@@ -135,7 +135,7 @@ get_header(); // Affiche header.php
 
                         <div class="card-body">
                             <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                            <a href="http://localhost/laLicornerie-LesLicornesGonflables/wordpress/wordpress/article/" class="btn btn-primary">Voir</a>
+                            <a href="rubarbe" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@ get_header(); // Affiche header.php
 
                         <div class="card-body">
                             <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                            <a href="#" class="btn btn-primary">Voir</a>
+                            <a href="plushi" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@ get_header(); // Affiche header.php
 
                         <div class="card-body">
                             <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                            <a href="#" class="btn btn-primary">Voir</a>
+                            <a href="quartz" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name: rubarbe
+ * 	Template Name: toutou
  */
 
 get_header();
@@ -16,7 +16,7 @@ get_header();
             <div class="col-md-8">
                 <?php 
                 $arguments = array(
-                    'post_type' => 'comestible',
+                    'post_type' => 'jouet',
                     'posts_per_page' => 1
                 );
                 $logo = new WP_Query($arguments);
