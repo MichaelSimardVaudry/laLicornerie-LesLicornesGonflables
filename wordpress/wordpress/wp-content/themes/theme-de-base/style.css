@@ -67,6 +67,11 @@ Version: 1.0
   height: 20vh;
   padding: 5px;
 }
+
+.partenaires {
+  height: 10vh;
+  padding: 5px;
+}
 .footer .reseau {
   height: 5vh;
 }

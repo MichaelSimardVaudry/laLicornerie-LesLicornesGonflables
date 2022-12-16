@@ -17,6 +17,9 @@ $logo = new WP_Query($arguments);
             <div class="col-1">
                 <a class="navbar-brand" href="http://localhost/laLicornerie-LesLicornesGonflables/wordpress/wordpress/">
                     <img src="<?php the_field('logo'); ?>" class="logo">
+                    <img src="../../medias/tide.png" class="partenaires">
+                    <img src="../../medias/hyundai.png" class="partenaires">
+                    <img src="../../medias/paramount.png" class="partenaires">
                 </a>
                 <?php
                     endwhile; 
