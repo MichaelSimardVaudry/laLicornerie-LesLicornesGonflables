@@ -21,7 +21,7 @@ $news = array('post_type' => array('Nouvelle'));
                     wp_reset_postdata(); 
                 ?>
 </div>
-</div>
+
 
 
 <?php 
