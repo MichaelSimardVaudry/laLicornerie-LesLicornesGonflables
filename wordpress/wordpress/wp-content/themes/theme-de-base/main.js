@@ -3,7 +3,7 @@ let sort = document.querySelector("#boutiqueSort");
 let produitsContainer = document.querySelector(".lesProduits");
 
 if (category.value === toy){
-    produitsContainers = `
+    produitsContainers += `
     <?php $query = new WP_Query($jouets);
         while($query->have_posts()) : $query->the_post(); ?>
         <div class='produit'>
@@ -14,7 +14,7 @@ if (category.value === toy){
         </div>
         <?php  endwhile; wp_reset_postdata(); ?>`;
 } else if (category.value === jewlery) {
-    produitsContainers = `
+    produitsContainers += `
     <?php $query = new WP_Query($bijoux);
         while($query->have_posts()) : $query->the_post(); ?>
         <div class='produit'>
@@ -25,7 +25,7 @@ if (category.value === toy){
         </div>
         <?php  endwhile; wp_reset_postdata(); ?>`
   } else if (category.value === other) {
-    produitsContainers = `
+    produitsContainers += `
     <?php $query = new WP_Query($accessoires);
         while($query->have_posts()) : $query->the_post(); ?>
         <div class='produit'>
@@ -36,7 +36,7 @@ if (category.value === toy){
         </div>
         <?php  endwhile; wp_reset_postdata(); ?>`
   } else if (category.value === food) {
-    produitsContainers = `
+    produitsContainers += `
     <?php $query = new WP_Query($comestibles);
         while($query->have_posts()) : $query->the_post(); ?>
         <div class='produit'>
@@ -47,7 +47,7 @@ if (category.value === toy){
         </div>
         <?php  endwhile; wp_reset_postdata(); ?>`
   } else {
-    produitsContainers = `
+    produitsContainers += `
     <?php $query = new WP_Query($products);
         while($query->have_posts()) : $query->the_post(); ?>
         <div class='produit'>
