@@ -126,6 +126,10 @@ main .main-vedette {
   align-items: center;
   justify-content: center;
 }
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
 main .main-vedette .card {
   border-radius: 20px;
 }
@@ -252,38 +256,87 @@ ul {
     width: 200px;
     border-radius: 20%;
   }
-} 
+}
 
-.erreurTexte{
+.erreurTexte {
   font-size: 100px;
   color: grey;
   text-align: center;
   margin-top: 150px;
 }
 
-.dessinLicorne{
+.dessinLicorne {
   left: 75%;
   position: absolute;
 }
 
-.etoile { 
+.etoile {
   position: absolute;
   width: 50px;
   top: -50px;
   opacity: 50%;
 }
 
-.e1{left: 5%;}
-.e2{left: 20%;}
-.e3{left: 30%;}
-.e4{left: 45%;}
-.e5{left: 55%;}
-.e6{left: 70%;}
-.e7{left: 80%;}
-.e8{left: 95%;}
-
-.imgNouvelle{
-width:100%;
-height: 100%;
-padding: 50px;
+.e1 {
+  left: 5%;
 }
+.e2 {
+  left: 20%;
+}
+.e3 {
+  left: 30%;
+}
+.e4 {
+  left: 45%;
+}
+.e5 {
+  left: 55%;
+}
+.e6 {
+  left: 70%;
+}
+.e7 {
+  left: 80%;
+}
+.e8 {
+  left: 95%;
+}
+
+.imgNouvelle {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+.catego-1 {
+  height: 250px;
+  border-radius: 50vh;
+  border: 1px solid rgba(255, 113, 182, 0.94);
+  text-decoration: none;
+}
+.catego-1:hover {
+  border: 3px solid rgba(255, 0, 123, 0.94);
+}
+.nouvelles_titre{
+  margin: 15px;
+}
+
+.card {
+  margin:15px;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: rgb(255, 113, 182, 0.94)
+}
+
