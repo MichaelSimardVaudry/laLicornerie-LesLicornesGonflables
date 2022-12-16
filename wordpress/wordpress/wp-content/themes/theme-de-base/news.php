@@ -15,7 +15,7 @@ $news = array('post_type' => array('Nouvelle'));
 
 <div class="card">
   <div class="row">
-    <div class="col-5">
+    <div class="col-12 col-sm-6 col-lg-3">
     <a href="<?php the_field('link'); ?>"><img src="<?php the_field('image'); ?>" class="img-fluid"></a>
     </div>
     <div class="col-7">
