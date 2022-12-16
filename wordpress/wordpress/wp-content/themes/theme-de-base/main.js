@@ -23,7 +23,7 @@ if (category.value === "toy"){
             <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
             <button type="button" class='boutiqueBouton'>Ajouter au Panier</button>
         </div>
-        <?php  endwhile; wp_reset_postdata(); ?>`
+        <?php  endwhile; wp_reset_postdata(); ?>`;
   } else if (category.value === "other") {
     produitsContainers = `
     <?php $query = new WP_Query($accessoires);
@@ -34,7 +34,7 @@ if (category.value === "toy"){
             <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
             <button type="button" class='boutiqueBouton'>Ajouter au Panier</button>
         </div>
-        <?php  endwhile; wp_reset_postdata(); ?>`
+        <?php  endwhile; wp_reset_postdata(); ?>`;
   } else if (category.value === "food") {
     produitsContainers = `
     <?php $query = new WP_Query($comestibles);
@@ -45,7 +45,7 @@ if (category.value === "toy"){
             <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
             <button type="button" class='boutiqueBouton'>Ajouter au Panier</button>
         </div>
-        <?php  endwhile; wp_reset_postdata(); ?>`
+        <?php  endwhile; wp_reset_postdata(); ?>`;
   } else {
     produitsContainers = `
     <?php $query = new WP_Query($products);
@@ -56,5 +56,5 @@ if (category.value === "toy"){
             <div class='prixProduit produitGeneralInfo'><?php the_field('prix') ; ?></div>
             <button type="button" class='boutiqueBouton'>Ajouter au Panier</button>
         </div>
-        <?php  endwhile; wp_reset_postdata(); ?>`
+        <?php  endwhile; wp_reset_postdata(); ?>`;
   }
