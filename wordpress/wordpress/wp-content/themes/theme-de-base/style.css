@@ -310,4 +310,12 @@ ul {
 }
 .catego-1:hover {
   border: 3px solid rgba(255, 0, 123, 0.94);
+.nouvelles_titre{
+  margin: 15px;
 }
+
+.card {
+  margin:15px;
+}
+
+
