@@ -227,6 +227,7 @@ ul {
     position: relative;
     padding: 7.5px;
     text-align: center;
+    border: 2px
   }
   .lesProduits .produit .imgProduit {
     height: 150px;
@@ -247,11 +248,13 @@ ul {
     position: relative;
     padding: 10px;
     text-align: center;
+    width: 200px;
   }
   .lesProduits .produit .imgProduit {
     height: 200px;
     width: 200px;
     border-radius: 20%;
+    border: 3px solid light-grey;
   }
 }
 
