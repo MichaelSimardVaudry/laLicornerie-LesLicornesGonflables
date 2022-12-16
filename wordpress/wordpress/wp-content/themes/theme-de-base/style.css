@@ -331,5 +331,12 @@ a,
 a:hover {
   text-decoration: none;
 }
+.link {
+  text-decoration: none;
+  color: black;
+}
 
+.link:hover {
+  color: rgb(255, 113, 182, 0.94)
+}
 
