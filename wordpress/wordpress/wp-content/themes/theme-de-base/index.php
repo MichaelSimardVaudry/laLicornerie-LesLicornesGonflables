@@ -136,7 +136,7 @@ get_header(); // Affiche header.php
 
                         <div class="card-body">
                             <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                            <a href="#" class="btn btn-primary">Voir</a>
+                            <a href="http://localhost/laLicornerie-LesLicornesGonflables/wordpress/wordpress/article/" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@ get_header(); // Affiche header.php
 
                         <div class="card-body">
                             <h5 class="card-title"><?php the_field('titre'); ?></h5>
-                            <a href="http://localhost/laLicornerie-LesLicornesGonflables/wordpress/wordpress/article/" class="btn btn-primary">Voir</a>
+                            <a href="#" class="btn btn-primary">Voir</a>
                         </div>
                     </div>
                 </div>
