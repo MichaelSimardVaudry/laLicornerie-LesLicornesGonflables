@@ -41,8 +41,10 @@ get_header(); // Affiche header.php
                         while ($jouet->have_posts()) : $jouet->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
-                        <p>Jouets</p>
+                        <a href="archive-comestible">
+                            <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                            <p>Jouets</p>
+                        </a>
                     </div>
                     <?php
                         endwhile; 
@@ -57,8 +59,10 @@ get_header(); // Affiche header.php
                         while ($bijoux->have_posts()) : $bijoux->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
-                        <p>Bijoux</p>
+                        <a href="article">
+                            <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                            <p>Bijoux</p>
+                        </a>
                     </div>
                     <?php
                         endwhile; 
@@ -73,8 +77,10 @@ get_header(); // Affiche header.php
                         while ($accessoir->have_posts()) : $accessoir->the_post(); 
                     ?>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
-                        <p>Accessoires</p>
+                        <a href="article">
+                            <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                            <p>Accessoires</p>
+                        </a>
                     </div>
                     <?php
                         endwhile; 
@@ -89,10 +95,14 @@ get_header(); // Affiche header.php
                         while ($comestible->have_posts()) : $comestible->the_post(); 
             
                     ?>
+
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
-                        <p>Accessoires</p>
+                        <a href="article">
+                            <img class="catego-1" src="<?php the_field('image_produit'); ?>" alt="">
+                            <p>Comestibles</p>
+                        </a>
                     </div>
+
                     <?php
                         endwhile; 
                         wp_reset_postdata(); 

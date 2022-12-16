@@ -252,38 +252,62 @@ ul {
     width: 200px;
     border-radius: 20%;
   }
-} 
+}
 
-.erreurTexte{
+.erreurTexte {
   font-size: 100px;
   color: grey;
   text-align: center;
   margin-top: 150px;
 }
 
-.dessinLicorne{
+.dessinLicorne {
   left: 75%;
   position: absolute;
 }
 
-.etoile { 
+.etoile {
   position: absolute;
   width: 50px;
   top: -50px;
   opacity: 50%;
 }
 
-.e1{left: 5%;}
-.e2{left: 20%;}
-.e3{left: 30%;}
-.e4{left: 45%;}
-.e5{left: 55%;}
-.e6{left: 70%;}
-.e7{left: 80%;}
-.e8{left: 95%;}
+.e1 {
+  left: 5%;
+}
+.e2 {
+  left: 20%;
+}
+.e3 {
+  left: 30%;
+}
+.e4 {
+  left: 45%;
+}
+.e5 {
+  left: 55%;
+}
+.e6 {
+  left: 70%;
+}
+.e7 {
+  left: 80%;
+}
+.e8 {
+  left: 95%;
+}
 
-.imgNouvelle{
-width:100%;
-height: 100%;
-padding: 50px;
+.imgNouvelle {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+.catego-1 {
+  height: 250px;
+  border-radius: 50vh;
+  border: 1px solid rgba(255, 113, 182, 0.94);
+}
+.catego-1:hover {
+  border: 3px solid rgba(255, 0, 123, 0.94);
 }
