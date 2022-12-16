@@ -159,6 +159,8 @@ body {
 }
 
 .last_news {
+  display: flex;
+  justify-content: center;
   background-color: rgb(255, 214, 248);
   border: solid 1px rgb(242, 146, 255);
   border-radius: 20px;
@@ -166,6 +168,8 @@ body {
   text-align: center;
 }
 .news {
+  display: flex;
+  justify-content: center;
   background-color: rgb(255, 243, 253);
   border: solid 1px rgb(248, 191, 255);
   border-radius: 20px;
