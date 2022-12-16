@@ -10,11 +10,7 @@ get_header();
 <main class="container">
     <div class="card mb-3">
         <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="../../../medias/boutique/1-sirop_classique.png" style="width:100%">
-            </div>
-            <div class="col-md-8">
-                <?php 
+            <?php 
                 $arguments = array(
                     'post_type' => 'comestible',
                     'posts_per_page' => 1
@@ -22,6 +18,11 @@ get_header();
                 $logo = new WP_Query($arguments);
                 while ($logo->have_posts()) : $logo->the_post();
                 ?>
+            <div class="col-md-4">
+                <img src="<?php the_field('image_produit'); ?>" style="width:100%">
+            </div>
+            <div class="col-md-8">
+
                 <div class="card-body">
                     <h1><?php the_field('titre'); ?></h1>
                     <p><?php the_field('description'); ?></p>
