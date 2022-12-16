@@ -69,8 +69,12 @@ Version: 1.0
 }
 
 .partenaires {
-  height: 10vh;
+  height: 5vh;
   padding: 5px;
+  width: auto;
+}
+#partenaire {
+  text-align: center;
 }
 .footer .reseau {
   height: 5vh;
@@ -294,6 +298,4 @@ ul {
 
 .slide-content {
   height: 50%;
-}
-.partenaire {
 }
