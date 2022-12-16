@@ -162,7 +162,7 @@ ul {
   list-style-type: none;
 }
 
-.lesProduits .produit .BoutiqueBouton {
+.lesProduits .produit .boutiqueBouton {
   color: black;
   border: none;
   background-color: lightblue;
@@ -170,7 +170,7 @@ ul {
   padding: 5px;
   transition: 0.6s;
 }
-.lesProduits .produit .BoutiqueBouton:hover {
+.lesProduits .produit .boutiqueBouton:hover {
   background-color: lightgreen;
   transition: 0.6s;
 }
