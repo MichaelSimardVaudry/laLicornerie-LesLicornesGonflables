@@ -8,8 +8,8 @@ $news = array('post_type' => array('Nouvelle'));
 
 ?>
 
-    <h1 class="nouvelles_titre">Nouvelles</h1>
-    <div>
+<h1 class="nouvelles_titre">Nouvelles</h1>
+<div class="container">
     <?php $query = new WP_Query($news);
         while($query->have_posts()) : $query->the_post(); ?>
 
